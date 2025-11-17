@@ -1,0 +1,121 @@
+﻿
+
+aquitan = { 
+	language = aquitan_dialect
+	
+	color = map_aquitan
+	
+	tags = { occitan_gfx french_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		tolosan = kindred
+		alvernhatz = kindred
+		tarragones = kindred
+		ligur = kindred
+		torines = kindred
+	}
+	
+	culture_groups = {
+		oc_group
+	}
+}
+
+tolosan = { 
+	language = tolosan_dialect
+	
+	color = map_tolosan
+	
+	tags = { occitan_gfx french_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		aquitan = kindred
+		alvernhatz = kindred
+		tarragones = kindred
+		ligur = kindred
+		torines = kindred
+	}
+	
+	culture_groups = {
+		oc_group
+	}
+}
+
+alvernhatz = { 
+	language = alvernhatz_dialect
+	
+	color = map_alvernhatz
+	
+	tags = { occitan_gfx french_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		aquitan = kindred
+		tolosan = kindred
+		tarragones = kindred
+		ligur = kindred
+		torines = kindred
+	}
+	
+	culture_groups = {
+		oc_group
+	}
+}
+
+tarragones = { 
+	language = tarragones_dialect
+	
+	color = map_tarragones
+	
+	tags = { occitan_gfx french_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		aquitan = kindred
+		tolosan = kindred
+		alvernhatz = kindred
+		ligur = kindred
+		torines = kindred
+	}
+	
+	culture_groups = {
+		oc_group
+	}
+}
+
+ligur = { 
+	language = ligur_dialect
+	
+	color = map_ligur
+	
+	tags = { occitan_gfx french_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		aquitan = kindred
+		tolosan = kindred
+		alvernhatz = kindred
+		tarragones = kindred
+		torines = kindred
+	}
+	
+	culture_groups = {
+		oc_group
+	}
+}
+
+torines = { 
+	language = torines_dialect
+	
+	color = map_torines
+	
+	tags = { occitan_gfx french_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		aquitan = kindred
+		tolosan = kindred
+		alvernhatz = kindred
+		tarragones = kindred
+		ligur = kindred
+	}
+	
+	culture_groups = {
+		oc_group
+	}
+}

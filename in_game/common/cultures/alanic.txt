@@ -1,0 +1,51 @@
+﻿
+
+alan_culture = {
+	language = alanic_language
+	
+	color = map_ALN
+	
+	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+
+	}		
+}
+
+jasz_culture = { #https://en.wikipedia.org/wiki/Jasz_people
+	language = jasz_dialect
+	
+	color = map_jasz
+	
+	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+
+	}	
+}
+
+akvitadzyte = {
+	language = akvitadzyte_dialect
+	
+	color = map_akvitadzyte
+	
+	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		ronadzyte = kindred
+		rochelaes = kindred
+	}	
+}
+
+ronadzyte = {
+	language = ronadzyte_dialect
+	
+	color = map_ronadzyte
+	
+	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		ronadzyte = kindred
+		daufines = kindred
+	}	
+}
