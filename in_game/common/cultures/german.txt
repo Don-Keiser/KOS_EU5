@@ -1,46 +1,5 @@
 ﻿#Low German
 
-angrian = { 
-	language = low_german_dialect
-	
-	color = map_PDB
-	
-	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
-	
-	opinions = {
-		brandenburgish = positive
-		eastern_pomeranian = positive
-		eastphalian = positive
-		holsatian = positive
-		lower_saxon = positive
-		markish = positive
-		prussian = positive
-		western_pomeranian = positive
-		westphalian = positive
-		east_franconian = positive
-		low_franconian = positive
-		german_carpathian = positive
-		german_silesian = positive
-		german_transylvanian = positive
-		moselle_franconian = positive
-		rhine_franconian = positive
-		ripuarian_franconian = positive
-		saxon = positive
-		danube_bavarian = positive
-		high_alemannic = positive
-		rhine_alemannic = positive
-		southern_bavarian = positive
-		swabian = positive
-		upper_palatine = positive
-		frisian = positive
-		walloon = positive
-	}	
-	
-	culture_groups = {
-		german_group
-	}
-}
-
 brandenburgish = { 
 	language = low_german_dialect
 	
@@ -49,7 +8,6 @@ brandenburgish = {
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
 		holsatian = positive
@@ -90,7 +48,6 @@ eastern_pomeranian = {
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastphalian = positive
 		holsatian = positive
@@ -130,7 +87,7 @@ eastphalian = {
 	
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
-	opinions = {angrian = positive
+	opinions = {
 	brandenburgish = positive
 	eastern_pomeranian = positive
 	holsatian = positive
@@ -187,7 +144,6 @@ holsatian = {
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -228,7 +184,6 @@ lower_saxon = {
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -269,7 +224,6 @@ markish = {
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -310,7 +264,6 @@ prussian = {
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -351,7 +304,6 @@ western_pomeranian = {
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -392,7 +344,6 @@ westphalian = {
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -436,7 +387,6 @@ east_franconian = {
 	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -477,7 +427,6 @@ german_carpathian = { #https://en.wikipedia.org/wiki/Carpathian_Germans
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -519,7 +468,6 @@ german_silesian = {
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -560,7 +508,6 @@ german_transylvanian = { #https://en.wikipedia.org/wiki/Transylvanian_Saxons
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -602,7 +549,6 @@ low_franconian = {
 	tags = { dutch_gfx north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -644,7 +590,6 @@ moselle_franconian = {
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -685,7 +630,6 @@ rhine_franconian = {
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -726,7 +670,6 @@ ripuarian_franconian = {
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -768,7 +711,6 @@ saxon = {
 	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -811,7 +753,6 @@ danube_bavarian = {
 	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -852,7 +793,6 @@ high_alemannic = {	#Swiss, non-Swabian Baden
 	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -894,7 +834,6 @@ rhine_alemannic = {
 	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -935,7 +874,6 @@ southern_bavarian = {
 	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -976,7 +914,6 @@ swabian = {
 	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive
@@ -1017,7 +954,6 @@ upper_palatine = {
 	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		angrian = positive
 		brandenburgish = positive
 		eastern_pomeranian = positive
 		eastphalian = positive

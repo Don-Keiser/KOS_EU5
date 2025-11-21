@@ -12,83 +12,61 @@ international_organization_manager = {
 
 		map_color = hsv360 { 40 50 70 }
 
-		members = { FRA BRG AQN LRC PRO UBV TNT KOL MAI AAC SLZ LUX FRN NAV }
+		members = { FRA AQN LRC PRO TNT MAI LUX NAV ORA VLN DAU LYO BRI BUR BAR VDU TUL MTZ PAV LOR MTB MUL HAG ALS SAA ZWE LDA PAL BDE SYE SPO PSZ WIE
+	 				PIE GEN CRR ATI ASD AOS NUA MLO BRS MAN VER BCH STG KNZ MBZ MFA MSP SYN	}
 		leader = FRA
 		regions = { france_region }
 		areas = { 
 			#North Germany
 			brabant_area friesland_area holland_area wallonia_area holstein_area brandenburg_area rhineland_area
 			hesse_area westphalia_area lower_saxony_area upper_saxony_area mecklenburg_area
+			#South Germany
+			upper_rhine_area swabia_area bavaria_area franconia_area tirol_area
 			#France
-			alsace_area franche_comte_area savoy_area
+			alsace_area franche_comte_area savoy_area flanders_area
 			#Italy
-			liguria_area lombardy_area piemonte_area  
-			#Poland
-			silesia_area
+			liguria_area lombardy_area piemonte_area veneto_area tuscany_area
+			#Others
+			eastern_switzerland_area central_switzerland_area western_switzerland_area catalonia_area navarre_area
 		}
-		provinces = { 
-			#Burgundy
-			bresse_province
+		provinces = {
 			#Emilia Romagna
 			piacenza_province parma_province reggioem_province modena_province
-			#Lorraine
-			pays_messin_province pays_nancy_province sarregueminois_province verdunois_province vosges_province
-			#Pomerania
-			schwerin_province vorpommern_province stettin_province koslin_province pyritz_province stolp_province
-			#Provence
-			aquisextain_province dignois_province dracenois_province nice_province
-			#Tuscany
-			florence_province grosseto_province lucca_province pisa_province siena_province
-			#Veneto
-			belluno_province friuli_province verona_province vicenza_province
 			#Slovenia
-			lower_styria_province lower_carniola_province upper_carniola_province 
+			lower_styria_province lower_carniola_province upper_carniola_province
+			#Bohemia
+			chebsko_province plzensko_province prachensko_province zatacko_province prague_province bechinsko_province
 		}
 		locations = { 
-			aalst hulst sint_niklaas
-			cambrai 
-			mouzon
-			clermont_en_argonne saint_mihiel 
-			auxonne louhans
-			trevoux villars
-			apt forcalquier orange
-			arezzo cortona
-			modigliana
-			padova este monselice
-			pazin 
-			rijeka
-			oswiecim zywiec
-			rawicz
-			slawno slupsk miastko nowoszczecin drawsko choszczno
-			tolmin gorizia 
+			ascolipiceno teramo atri csantangelo chieti sulmona najera logrono arnedo
 		}
 		emperor = { FRA }
 		elector = { 
 				# The Electors
-				BRG	# Burgundy
-				UBV # Bavaria
+				BUR	# Burgundy
+				LOR # Bavaria
 				AQN # Aquitaine
 				NAV
 		}
 		archbishop_elector = {
 				# The 3 bishops
 				TNT	# Trent
-				KOL # Cologne
+				ALS # Alsace
 				MAI # Mainz
 		}
 		free_city = {
-			AAC
+			PAV MUL HAG LDA SYE SPO PSZ ATI NUA MAN KNZ
 			#Should be but can't because they only have "rural settlements"
 			# MLH BIB NHS OFB SWH WDB WEI SLT TUL
 		}
 		imperial_peasant_republic = {
-			FRN
+			STG
 		}
 		imperial_prelate = { 
-			SLZ
+			ORA VDU TUL MTZ BCH
 		}
 		imperial_prince = {
-			LUX
+			LUX VLN DAU LYO BRI MTB SAA ZWE PAL BDE WIE PIE GEN CRR ASD AOS MLO BRS VER MBZ MFA MSP SYN
 		}
 		
 		laws = {

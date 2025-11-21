@@ -1,0 +1,55 @@
+﻿
+
+galetzian = { 
+	language = galetzian_dialect
+	
+	color = map_rochelaes
+	
+	tags = { castilian_gfx iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		asturian = kindred
+		vacchaian = kindred
+	}
+	
+	culture_groups = {
+		ita_group
+		iberian_group
+	}
+}
+
+asturian = { 
+	language = asturian_dialect
+	
+	color = map_asturian
+	
+	tags = { castilian_gfx iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		galetzian = kindred
+		vacchaian = kindred
+	}
+	
+	culture_groups = {
+		ita_group
+		iberian_group
+	}
+}
+
+vacchaian = { 
+	language = vacchaian_dialect
+	
+	color = map_vacchaian
+	
+	tags = { castilian_gfx iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		asturian = kindred
+		galetzian = kindred
+	}
+	
+	culture_groups = {
+		ita_group
+		iberian_group
+	}
+}

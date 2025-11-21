@@ -1,7 +1,7 @@
 ﻿
 
 rochelaes = { 
-	language = rochelaes_language
+	language = rochelaes_dialect
 	
 	color = map_rochelaes
 	
@@ -16,7 +16,6 @@ rochelaes = {
 	}
 	
 	culture_groups = {
-		french_group
 		transitional_group
 	}
 }
@@ -36,7 +35,6 @@ creissent = {
 	}
 	
 	culture_groups = {
-		french_group
 		transitional_group
 	}
 }
@@ -56,7 +54,7 @@ daufines = {
 	}
 	
 	culture_groups = {
-		french_group
 		transitional_group
+		alpine_group
 	}
 }

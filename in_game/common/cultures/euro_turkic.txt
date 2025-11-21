@@ -1,0 +1,69 @@
+﻿
+
+kuvirakun = { 
+	language = kuvirakun_language
+	
+	color = map_kuvirakun
+	
+	tags = { hungarian_gfx turkic_gfx persianate_gfx central_asian_gfx middle_east_gfx }
+
+	opinions = {
+		hungarian = kindred
+	}
+	
+	culture_groups = {
+		turkic_group
+		hungarian_group
+	}
+}
+
+gemek = { 
+	language = gemek_language
+	
+	color = map_gemek
+	
+	tags = { greek_gfx turkic_gfx persianate_gfx central_asian_gfx middle_east_gfx }
+
+	opinions = {
+		patzinak = kindred
+	}
+	
+	culture_groups = {
+		turkic_group
+		greek_group
+	}
+}
+
+patzinak = { 
+	language = patzinak_language
+	
+	color = map_patzinak
+	
+	tags = { greek_gfx turkic_gfx persianate_gfx central_asian_gfx middle_east_gfx }
+
+	opinions = {
+		gemek = kindred
+	}
+	
+	culture_groups = {
+		turkic_group
+		greek_group
+	}
+}
+
+bechensk = { 
+	language = bechensk_dialect
+	
+	color = map_bechensk
+	
+	tags = { frisian_gfx turkic_gfx persianate_gfx central_asian_gfx middle_east_gfx }
+
+	opinions = {
+		frisian = positive
+	}
+	
+	culture_groups = {
+		turkic_group
+		netherlandish_group
+	}
+}

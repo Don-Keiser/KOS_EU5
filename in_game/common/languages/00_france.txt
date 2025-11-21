@@ -420,7 +420,7 @@ rochelaes_language = {
 	first_name_conjoiner = "-" # to hyphenate compound names like "name_john.name_lucas" as "Jean-Luc" instead of the default "Jean Luc"
 
 	dialects = {
-		rochelaes_language = {
+		rochelaes_dialect = {
 			default = yes
 		}
 		creissent_dialect = {}

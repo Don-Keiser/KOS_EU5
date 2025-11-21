@@ -141,7 +141,7 @@ MAI = {
 }
 
 SAA = {
-	color = rgb { 75 110 102 }
+	color = rgb { 248 242 154 }
 	
 	culture_definition = rhine_franconian
 	religion_definition = catholic
@@ -532,7 +532,7 @@ SYE = {
 }
 
 ZWE = {
-	color = rgb { 251 187 0 }
+	color = rgb { 121 184 223 }
 
 	culture_definition = rhine_franconian
 	religion_definition = catholic

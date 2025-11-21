@@ -34,7 +34,11 @@ akvitadzyte = {
 	opinions = {
 		ronadzyte = kindred
 		rochelaes = kindred
-	}	
+	}
+	
+	culture_groups = {
+		western_alan
+	}
 }
 
 ronadzyte = {
@@ -47,5 +51,9 @@ ronadzyte = {
 	opinions = {
 		ronadzyte = kindred
 		daufines = kindred
-	}	
+	}
+
+	culture_groups = {
+		western_alan
+	}
 }

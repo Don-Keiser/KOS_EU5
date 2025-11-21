@@ -386,7 +386,7 @@ ULM = {
 }
 
 KNZ = {
-	color = rgb { 255 133 59 }
+	color = rgb { 196 32 72 }
 	
 	culture_definition = high_alemannic
 	religion_definition = catholic
@@ -421,7 +421,7 @@ HBR = {
 }
 
 BDE = {
-	color = rgb { 117 161 67 }
+	color = rgb { 158 43 34 }
 	
 	culture_definition = rhine_franconian
 	religion_definition = catholic
@@ -528,8 +528,8 @@ SGL = {
 }
 
 AOS = {
-    color = rgb { 150 100 90 }
-    culture_definition = arpitan
+    color = rgb { 119 63 73 }
+    culture_definition = burgundian
     religion_definition = catholic
 }
 
@@ -547,7 +547,7 @@ MDS = {
 }
 
 LDA = {
-    color = rgb { 200 150 80 }
+    color = rgb { 145 114 160 }
     culture_definition = rhine_franconian
     religion_definition = catholic
 }
@@ -571,7 +571,7 @@ TGG = {
 }
 
 PSZ = {
-    color = rgb { 210 150 90 }
+    color = rgb { 108 144 44 }
     culture_definition = rhine_franconian
     religion_definition = catholic
 }
@@ -602,13 +602,13 @@ MUR = {
 }
 
 HAG = {
-    color = rgb { 175 140 120 }
+    color = rgb { 120 120 10 }
     culture_definition = rhine_alemannic
     religion_definition = catholic
 }
 
 MUL = {
-    color = rgb { 190 150 130 }
+    color = rgb { 188 95 88 }
     culture_definition = rhine_alemannic
     religion_definition = catholic
 }

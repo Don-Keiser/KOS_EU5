@@ -580,6 +580,10 @@ german_language = {
 			fallback = upper_german_dialect
 		}
 
+		burgundian_german_dialect = {
+			fallback = upper_german_dialect
+		}
+
 		yiddish_dialect ={
 
 			male_names = {
@@ -619,7 +623,7 @@ german_language = {
 
 
 frisian_language = {
-	color = map_FRI
+	color = map_frisian
 	family = germanic_language_family
 
 	male_names = {
@@ -665,6 +669,11 @@ frisian_language = {
 	
 	lowborn = {
 	}
+
+	flaamsk_dialect = { }
+	little_frisian_dialect = { }
+	angrian_dialect = { }
+	jutsk_dialect = { }
 		
 	location_prefix = "location_prefix_frisian"
 

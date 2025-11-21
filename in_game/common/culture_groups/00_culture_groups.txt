@@ -69,6 +69,9 @@ transitional_group = {
 oc_group = {
 }
 
+western_alan = {
+}
+
 german_group = {
 }
 
@@ -88,6 +91,18 @@ hungarian_group = {
 }
 
 iberian_group = {
+}
+
+ita_group = {
+}
+
+eia_group = {
+}
+
+alpine_group = {
+}
+
+cisalpine_group = {
 }
 
 indian_group = {

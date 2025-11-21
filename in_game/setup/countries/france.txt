@@ -2,7 +2,7 @@
 	color = map_BRI
 	color2 = rgb { 16 41 202 }
 
-	culture_definition = gallo
+	culture_definition = breton
 	religion_definition = catholic
 }
 
@@ -112,9 +112,9 @@ CHP = {
 #Dauphine
 DAU = {
 	#color = map_FRA
-	color = rgb { 93 194 122 }
+	color = rgb { 178 60 129 }
 
-	culture_definition = arpitan
+	culture_definition = daufines
 	religion_definition = catholic
 }
 
@@ -204,16 +204,15 @@ PRO = {
 	color = map_PRO
 	color2 = rgb { 93 160 163 }
 
-	culture_definition = provencal
+	culture_definition = ligur
 	religion_definition = catholic
 }
 
 #Orange
 ORA = {
-	color = map_ORA
-	color2 = rgb { 255 128 0 }
+	color = rgb { 255 246 218 }
 
-	culture_definition = provencal
+	culture_definition = daufines
 	religion_definition = catholic
 }
 
@@ -247,7 +246,7 @@ LOR = {
 #Bar
 BAR = {
 	#color = map_FRA
-	color = rgb { 178 163 143 }
+	color = rgb { 162 204 187 }
 
 	culture_definition = lorrain
 	religion_definition = catholic
@@ -379,8 +378,15 @@ IJO = {
 #Valentinois
 VLN = {
 	#color = map_FRA
-	color = rgb { 107 142 246 }
-	culture_definition = vivaro_alpine
+	color = rgb { 91 45 80 }
+	culture_definition = ronadzyte
+	religion_definition = manichaeism
+}
+
+#Lyonais
+LYO = {
+	color = rgb { 221 133 110 }
+	culture_definition = creissent
 	religion_definition = catholic
 }
 
@@ -435,7 +441,7 @@ BSC = {
 #Strasbourg
 ALS = {
 	#color = map_FRA
-	color = rgb { 246 223 15 }
+	color = rgb { 190 50 40 }
 	culture_definition = rhine_alemannic
 	religion_definition = catholic
 }
@@ -443,25 +449,25 @@ ALS = {
 #Montbéliard
 MTB = {
 	#color = map_FRA
-	color = rgb { 250 38 38 }
-	culture_definition = franc_comtois
+	color = rgb { 112 128 96 }
+	culture_definition = burgundian
 	religion_definition = catholic
 }
 
 TUL = {
-	color = rgb { 233 78 78 }
+	color = rgb { 142 58 124 }
 	culture_definition = lorrain
 	religion_definition = catholic
 }
 
 VDU = {
-	color = rgb { 223 255 0 }
+	color = rgb { 204 131 89 }
 	culture_definition = lorrain
 	religion_definition = catholic
 }
 
 MTZ = {
-	color = rgb { 136 115 156 }
+	color = rgb { 240 192 160 }
 	culture_definition = lorrain
 	religion_definition = catholic
 }

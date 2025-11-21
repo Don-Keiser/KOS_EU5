@@ -109,7 +109,7 @@ UTR = {
 }
 
 FRI = {
-	color = rgb { 0 128 255 }
+	color = rgb { 165 89 27 }
 
 	culture_definition = frisian
 	religion_definition = catholic

@@ -47,9 +47,9 @@ religion_definition = catholic
 
 
 ASD	= { #alessandria
-color = rgb { 220 60 40 }
+color = rgb { 17 192 97 }
 
-culture_definition = piedmontese
+culture_definition = torines
 religion_definition = catholic
 
 
@@ -57,9 +57,9 @@ religion_definition = catholic
 
 
 ATI	= { #asti
-color = rgb { 138 140 212 }
+color = rgb { 56 16 89 }
 
-culture_definition = piedmontese
+culture_definition = torines
 religion_definition = catholic
 
 }
@@ -75,7 +75,15 @@ religion_definition = catholic
 
 
 BRS	= { #brescia
-color = rgb { 80 0 106 }
+color = rgb { 201 76 76 }
+
+culture_definition = lombard
+religion_definition = catholic
+
+}
+
+NUA	= { #Nuara
+color = rgb { 124 85 43 }
 
 culture_definition = lombard
 religion_definition = catholic
@@ -183,10 +191,10 @@ religion_definition = catholic
 }
 
 
-CRR	= { #Finale
-color = rgb { 238 191 23 }
+CRR	= { #Savounna
+color = rgb { 174 137 113 }
 
-culture_definition = piedmontese
+culture_definition = torines
 religion_definition = catholic
 
 }
@@ -258,9 +266,9 @@ GAL	= { #gallura
 
 
 GEN	= { #genoa
-	color = rgb { 218 215 56 }
+	color = rgb { 144 64 97 }
 
-	culture_definition = ligurian
+	culture_definition = ligur
 	religion_definition = catholic
 
 	description_category = administrative
@@ -297,7 +305,7 @@ religion_definition = catholic
 
 
 MAN	= { #mantua
-color = rgb { 191 83 101 }
+color = rgb { 113 161 188 }
 
 culture_definition = emilian
 religion_definition = catholic
@@ -305,17 +313,17 @@ religion_definition = catholic
 }
 
 
-MFA = { #montferrat
-color = rgb { 173 112 76 }
+MFA = { #Casale
+color = rgb { 79 102 117 }
 
-culture_definition = piedmontese
+culture_definition = torines
 religion_definition = catholic
 
 }
 
 
 MLO	= { #milan
-color = rgb { 137 98 195 }
+color = rgb { 91 140 125 }
 
 culture_definition = lombard
 religion_definition = catholic
@@ -430,10 +438,10 @@ religion_definition = catholic
 
 }
 
-PIE	= { #Piedmont
-color = rgb { 1 255 177 }
+PIE	= { #Susa
+color = rgb { 178 137 173 }
 
-culture_definition = piedmontese
+culture_definition = torines
 religion_definition = catholic
 
 

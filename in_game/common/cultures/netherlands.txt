@@ -1,37 +1,94 @@
 ﻿frisian = {
 	language = frisian_language
 	
-	color = map_FRI
+	color = map_frisian
 	
 	tags = { frisian_gfx dutch_gfx north_german_gfx german_gfx western_european_gfx european_gfx }
 
 	opinions = {
-		angrian = positive
-		brandenburgish = positive
-		eastern_pomeranian = positive
-		eastphalian = positive
-		holsatian = positive
-		lower_saxon = positive
-		markish = positive
-		prussian = positive
-		western_pomeranian = positive
-		westphalian = positive
-		east_franconian = positive
-		low_franconian = positive
-		german_carpathian = positive
-		german_silesian = positive
-		german_transylvanian = positive
-		moselle_franconian = positive
-		rhine_franconian = positive
-		ripuarian_franconian = positive
-		saxon = positive
-		danube_bavarian = positive
-		high_alemannic = positive
-		rhine_alemannic = positive
-		southern_bavarian = positive
-		swabian = positive
-		upper_palatine = positive
-		walloon = positive
+		angrian = kindred
+		flaamsk = kindred
+		little_frisian = kindred
+		jutsk = kindred
+	}
+	
+	culture_groups = {
+		netherlandish_group
+		german_group
+	}
+}
+
+angrian = { 
+	language = angrian_dialect
+	
+	color = map_angrian
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+		frisian = kindred
+		flaamsk = kindred
+		little_frisian = kindred
+		jutsk = kindred
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+flaamsk = {
+	language = flaamsk_dialect
+	
+	color = map_flaamsk
+	
+	tags = { frisian_gfx dutch_gfx north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		angrian = kindred
+		frisian = kindred
+		little_frisian = kindred
+		jutsk = kindred
+	}
+	
+	culture_groups = {
+		netherlandish_group
+		german_group
+	}
+}
+
+little_frisian = {
+	language = little_frisian_dialect
+	
+	color = map_little_frisian
+	
+	tags = { frisian_gfx dutch_gfx north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		angrian = kindred
+		flaamsk = kindred
+		frisian = kindred
+		jutsk = kindred
+	}
+	
+	culture_groups = {
+		netherlandish_group
+		german_group
+	}
+}
+
+jutsk = {
+	language = jutsk_dialect
+	
+	color = map_jutsk
+	
+	tags = { frisian_gfx dutch_gfx north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		angrian = kindred
+		flaamsk = kindred
+		little_frisian = kindred
+		frisian = kindred
 	}
 	
 	culture_groups = {

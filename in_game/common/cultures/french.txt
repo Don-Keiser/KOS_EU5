@@ -35,7 +35,7 @@ divreen = {
 breton = { 
 	language = breton_dialect
 	
-	color = map_BRI
+	color = map_breton
 	
 	tags = { breton_gfx french_gfx celtic_gfx western_european_gfx european_gfx }
 
@@ -47,7 +47,6 @@ breton = {
 	
 	culture_groups = {
 		celtic_group
-		french_group
 	}
 }
 
@@ -75,34 +74,27 @@ gallo = {
 	}
 	
 	culture_groups = {
+		celtic_group
 		french_group
 	}
 }
 
 burgundian = { 
-	language = burgundian_dialect
+	language = burgundian_german_dialect
 	
-	color = map_BUR
+	color = map_burgundian
 	
-	tags = { french_gfx western_european_gfx european_gfx }
+	tags = { french_gfx south_german_gfx german_gfx western_european_gfx european_gfx }
 
 	opinions = {
-		angevin = kindred
-		berrichon = kindred
-		champenais = kindred
-		franc_comtois = kindred
-		french = kindred
-		gallo = kindred
-		lorrain = kindred
-		norman = kindred
-		picard = kindred
-		poitevin = kindred
-		saintongeais = kindred
-		walloon = kindred
+		high_alemannic = kindred
+		rhine_alemannic = kindred
+		daufines = positive
 	}
 	
 	culture_groups = {
-		french_group
+		german_group
+		alpine_group
 	}
 }
 

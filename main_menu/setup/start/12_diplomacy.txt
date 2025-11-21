@@ -1,4 +1,6 @@
 diplomacy_manager = {
+    #-------France/HRE-------
+    dependency = { first = FRA second = PAV subject_type = fiefdom }
     #-------England-------
     #dependency = { first = SBL second = MNN subject_type = vassal }
     #dependency = { first = ENG second = SBL subject_type = vassal }

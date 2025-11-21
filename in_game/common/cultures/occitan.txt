@@ -17,6 +17,7 @@ aquitan = {
 	
 	culture_groups = {
 		oc_group
+		pyrenean_group
 	}
 }
 
@@ -77,6 +78,8 @@ tarragones = {
 	
 	culture_groups = {
 		oc_group
+		pyrenean_group
+		iberian_group
 	}
 }
 
@@ -117,5 +120,6 @@ torines = {
 	
 	culture_groups = {
 		oc_group
+		cisalpine_group
 	}
 }
