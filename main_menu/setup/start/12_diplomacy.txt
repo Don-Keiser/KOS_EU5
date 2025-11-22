@@ -3,6 +3,7 @@ diplomacy_manager = {
     dependency = { first = FRA second = PAV subject_type = fiefdom }
     dependency = { first = FRA second = FRE subject_type = fiefdom }
     dependency = { first = FRA second = ULM subject_type = fiefdom }
+    dependency = { first = FRA second = THU subject_type = fiefdom }
     #-------England-------
     #dependency = { first = SBL second = MNN subject_type = vassal }
     #dependency = { first = ENG second = SBL subject_type = vassal }
@@ -164,8 +165,6 @@ diplomacy_manager = {
     scripted_mutual = { first = RAV second = CES type = alliance }
     scripted_mutual = { first = RIM second = CES type = alliance }
 
-    dependency = { first = PAP second = FAE subject_type = vassal }
-
     dependency = { first = SAV second = CEV subject_type = vassal }
     dependency = { first = SAV second = AOS subject_type = fiefdom }
     dependency = { first = SAV second = GNV subject_type = vassal start_date = 1329.1.1 }
@@ -182,6 +181,11 @@ diplomacy_manager = {
 
     scripted_oneway = { first = PAP second = SIC type = guarantee }
     scripted_oneway = { first = ARA second = SIC type = guarantee }
+
+    #-------Papacy-------
+    dependency = { first = PAP second = AQU subject_type = vassal }
+    dependency = { first = PAP second = ANC subject_type = vassal }
+    dependency = { first = PAP second = BNV subject_type = vassal }
 
     #-------Iberia-------
     dependency = { first = ARA second = MLL subject_type = vassal start_date = 1279.1.20 } #Treaty of Perpignan, where James II of Mallorca acknowledged the overlordship of his elder brother, Peter IV of Aragon

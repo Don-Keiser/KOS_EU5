@@ -906,6 +906,19 @@
  swiss_election_specific_desc: "$swiss_election_desc$"
  vote_in_swiss_election: "Vote on $swiss_election$"
  vote_in_swiss_election_desc: "Decide who we shall become the new [international_organization_leader_short|e] of the [GetUniqueInternationalOrganization('swiss_confederation').GetName]."
+
+ #Frisian
+ frisian_confederation: "Swiss Confederation"
+ frisian_confederation_desc: "The $frisian_confederation$."
+ FRISIAN_CONFEDERATION_LEADER: "Sovereign"
+ FRISIAN_CONFEDERATION_LEADER_MALE: "$FRISIAN_CONFEDERATION_LEADER$"
+ FRISIAN_CONFEDERATION_LEADER_FEMALE: "$FRISIAN_CONFEDERATION_LEADER$"
+ frisian_election: "Frisian Election"
+ frisianelection_desc: "DEBUG"
+ frisian_election_specific: "$frisian_election$"
+ frisian_election_specific_desc: "$frisianelection_desc$"
+ vote_in_frisian_election: "Vote on $frisian_election$"
+ vote_in_frisian_election_desc: "Leader Choice"
  
  #independence, yeah
  independence_movement: "Independence Movement"

@@ -69,6 +69,27 @@ THU = {
 	religion_definition = catholic
 }
 
+OST = {
+	color = rgb { 116 147 116 }
+	
+	culture_definition = saxon
+	religion_definition = catholic
+}
+
+PRG = {
+	color = rgb { 69 139 183 }
+	
+	culture_definition = czech
+	religion_definition = catholic
+}
+
+VOG = {
+	color = rgb { 241 165 103 }
+	
+	culture_definition = czech
+	religion_definition = catholic
+}
+
 BRE = {
 	color = rgb { 33 101 137 }
 	
@@ -695,16 +716,16 @@ TCK = {
 }
 
 MUN = {
-	color = rgb { 205 103 80 }
+	color = rgb { 114 91 140 }
 
-	culture_definition = westphalian
+	culture_definition = angrian
 	religion_definition = catholic
 }
 
 LUN = {
-	color = rgb { 135 109 147 }
+	color = rgb { 82 71 94 }
 
-	culture_definition = lower_saxon
+	culture_definition = angrian
 	religion_definition = catholic
 }
 

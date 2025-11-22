@@ -204,6 +204,7 @@ locations={
 	toulouse = { rank = city 	town_setup = french_city }
 	tours = { rank = city 		town_setup = french_city }
 	troyes = { rank = city 		town_setup = french_city }
+	auxerre = { rank = city 		town_setup = french_city }
 	
 	agen = { rank = town 			town_setup = french_town }
 	aix_en_provence = { rank = town town_setup = french_town }

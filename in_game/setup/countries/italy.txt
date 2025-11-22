@@ -7,7 +7,7 @@ religion_definition = catholic
 }
 
 ANC	= { #ancona
-	color = rgb { 165 71 80 }
+	color = rgb { 201 188 147 }
 	culture_definition = median
 	religion_definition = catholic
 }
@@ -237,7 +237,7 @@ religion_definition = catholic
 
 
 FLO	= { #florence
-	color = rgb { 205 85 85 }
+	color = rgb { 147 172 147 }
 
 	culture_definition = tuscan
 	religion_definition = catholic
@@ -296,7 +296,7 @@ religion_definition = catholic
 
 
 LUC = { #lucca
-color = rgb { 160 60 30 }
+color = rgb { 101 181 132 }
 
 culture_definition = tuscan
 religion_definition = catholic
@@ -353,7 +353,7 @@ religion_definition = catholic
 
 
 MSP	= { #malaspina
-color = rgb { 245 215 0 }
+color = rgb { 165 209 235 }
 
 culture_definition = emilian
 religion_definition = catholic
@@ -383,16 +383,16 @@ NAP	= { #naples
 
 
 PAD	= { #padua
-color = rgb { 194 105 183 }
+	color = rgb { 194 105 183 }
 
-culture_definition = venetian
-religion_definition = catholic
+	culture_definition = venetian
+	religion_definition = catholic
 
 }
 
 
 PAP	= { #papalstates
-	color = rgb { 211 211 211 }
+	color = rgb { 161 167 189 }
 
 	culture_definition = median
 	religion_definition = catholic
@@ -404,28 +404,44 @@ PAP	= { #papalstates
 
 
 PAR	= { #parma
-color = rgb { 128 202 129 }
+	color = rgb { 128 202 129 }
 
-culture_definition = emilian
-religion_definition = catholic
+	culture_definition = emilian
+	religion_definition = catholic
 
 }
 
 
 PAV	= { #Pavia
-color = rgb { 79 68 137 }
+	color = rgb { 79 68 137 }
 
-culture_definition = lombard
-religion_definition = catholic
+	culture_definition = lombard
+	religion_definition = catholic
+
+}
+
+ATN	= { #Aterno
+	color = rgb { 65 109 162 }
+
+	culture_definition = neapolitan
+	religion_definition = catholic
+
+}
+
+BNV	= { #Beneviento
+	color = rgb { 173 162 162 }
+
+	culture_definition = neapolitan
+	religion_definition = catholic
 
 }
 
 
 PEA	= { #perugia
-color = rgb { 205 35 69 }
+	color = rgb { 205 35 69 }
 
-culture_definition = median
-religion_definition = catholic
+	culture_definition = median
+	religion_definition = catholic
 
 }
 
@@ -458,7 +474,7 @@ religion_definition = catholic
 
 
 PIS	= { #pisa
-color = rgb { 177 150 109 }
+color = rgb { 183 82 140 }
 
 culture_definition = tuscan
 religion_definition = catholic
@@ -551,7 +567,7 @@ religion_definition = catholic
 
 
 SIE	= { #siena
-color = rgb { 105 111 55 }
+color = rgb { 226 219 122 }
 
 culture_definition = tuscan
 religion_definition = catholic
@@ -673,7 +689,7 @@ religion_definition = catholic
 
 
 VLT	= { #volterra
-color = rgb { 249 203 30 }
+color = rgb { 191 137 168 }
 
 culture_definition = tuscan
 religion_definition = catholic
@@ -698,7 +714,7 @@ BRD = { #Bardi
 }
 
 PST = { # Pistoia
-    color = rgb { 180 120 80 }
+    color = rgb { 221 146 190 }
     culture_definition = tuscan
     religion_definition = catholic
 }

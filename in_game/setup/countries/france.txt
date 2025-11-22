@@ -51,7 +51,25 @@ ALE = {
 	#color = map_FRA
 	color = rgb { 162 116 225 }
 
-	culture_definition = norman
+	culture_definition = divreen
+	religion_definition = catholic
+}
+
+#Rennes
+RNN = {
+	#color = map_FRA
+	color = rgb { 92 101 119 }
+
+	culture_definition = breton
+	religion_definition = catholic
+}
+
+#Guise
+GUI = {
+	#color = map_FRA
+	color = rgb { 58 76 78 }
+
+	culture_definition = french
 	religion_definition = catholic
 }
 
@@ -87,7 +105,7 @@ AUV = {
 	color = map_AUV
 	color2 = rgb { 218 155 75 }
 
-	culture_definition = auvergnat
+	culture_definition = alvernhatz
 	religion_definition = catholic
 }
 
@@ -270,21 +288,12 @@ MRT = {
 	religion_definition = catholic
 }
 
-#Poitou
-POI = {
-	#color = map_FRA
-	color = rgb { 241 116 119 }
-
-	culture_definition = poitevin
-	religion_definition = catholic
-}
-
 #Anjou
 ANJ = {
 	#color = map_FRA
-	color = rgb { 197 50 53 }
+	color = rgb { 99 47 112 }
 
-	culture_definition = angevin
+	culture_definition = gallo
 	religion_definition = catholic
 }
 
@@ -536,7 +545,31 @@ MRC = {
 VNT = {
 	color = rgb { 211 21 22 }
 
-	culture_definition = limousin
+	culture_definition = alvernhatz
+	religion_definition = catholic
+}
+
+#Turenne
+TUE = {
+	color = rgb { 204 154 128 }
+
+	culture_definition = alvernhatz
+	religion_definition = catholic
+}
+
+#Tulle
+XTL = {
+	color = rgb { 173 135 173 }
+
+	culture_definition = alvernhatz
+	religion_definition = catholic
+}
+
+#Limoges
+LMG = {
+	color = rgb { 122 42 49 }
+
+	culture_definition = creissent
 	religion_definition = catholic
 }
 
@@ -544,7 +577,87 @@ VNT = {
 RCC = {
 	color = rgb { 87 13 135 }
 
-	culture_definition = limousin
+	culture_definition = creissent
+	religion_definition = catholic
+}
+
+#Brosse
+BSS = {
+	color = rgb { 198 195 109 }
+
+	culture_definition = creissent
+	religion_definition = catholic
+}
+
+#Brioude
+BIU = {
+	color = rgb { 129 99 142 }
+
+	culture_definition = alvernhatz
+	religion_definition = catholic
+}
+
+#Florac
+FLR = {
+	color = rgb { 120 160 188 }
+
+	culture_definition = tolosan
+	religion_definition = catholic
+}
+
+#Poitou
+POI = {
+	color = rgb { 115 217 204 }
+
+	culture_definition = rochelaes
+	religion_definition = catholic
+}
+
+#Thouars
+THR = {
+	color = rgb { 122 128 165 }
+
+	culture_definition = rochelaes
+	religion_definition = catholic
+}
+
+#Montaigu
+MTU = {
+	color = rgb { 133 158 188 }
+
+	culture_definition = rochelaes
+	religion_definition = catholic
+}
+
+#Talmont
+XTM = {
+	color = rgb { 86 132 188 }
+
+	culture_definition = rochelaes
+	religion_definition = catholic
+}
+
+#Loudun
+LOU = {
+	color = rgb { 86 170 132 }
+
+	culture_definition = rochelaes
+	religion_definition = catholic
+}
+
+#Retz
+RTZ = {
+	color = rgb { 175 137 82 }
+
+	culture_definition = rochelaes
+	religion_definition = catholic
+}
+
+#Nantes
+NTN = {
+	color = rgb { 85 137 82 }
+
+	culture_definition = breton
 	religion_definition = catholic
 }
 
@@ -560,7 +673,15 @@ CLT = {
 ANG = {
 	color = rgb { 156 65 224 }
 
-	culture_definition = saintongeais
+	culture_definition = rochelaes
+	religion_definition = catholic
+}
+
+#Lusignan
+LSN = {
+	color = rgb { 193 111 56 }
+
+	culture_definition = creissent
 	religion_definition = catholic
 }
 

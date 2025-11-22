@@ -311,7 +311,7 @@ colors = {
 	map_GAZ = rgb { 100 185 250 }
 
 	#Lowlands
-	map_FLA = rgb { 43 141 172 } #same as in EU4
+	map_FLA = rgb { 58 76 127 } #same as in EU4
 	
 	#Balkans
 	map_croatian = rgb { 174 227 95 } #same as in EU4

@@ -40,7 +40,7 @@ PSS = {
 }
 
 AUG = {
-	color = rgb { 20 188 118 }
+	color = rgb { 49 128 33 }
 	
 	culture_definition = swabian
 	religion_definition = catholic
@@ -54,7 +54,7 @@ AGC = {
 }
 
 UBV = {
-	color = rgb { 19 102 152 }
+	color = rgb { 45 90 119 }
 	
 	culture_definition = danube_bavarian
 	religion_definition = catholic
@@ -120,7 +120,7 @@ CRH = {
 }
 
 TIR = {
-	color = rgb { 170 43 21 }
+	color = rgb { 239 95 132 }
 	
 	culture_definition = southern_bavarian
 	religion_definition = catholic
@@ -323,14 +323,14 @@ FRE = {
 }
 
 EIC = {
-	color = rgb { 60 97 64 }
+	color = rgb { 189 198 119 }
 	
 	culture_definition = upper_palatine
 	religion_definition = catholic
 }
 
 WEI = {
-	color = rgb { 245 216 216 }
+	color = rgb { 255 206 112 }
 	
 	culture_definition = upper_palatine
 	religion_definition = catholic
@@ -372,14 +372,14 @@ UFF = {
 }
 
 ROT = {
-	color = rgb { 210 15 15 }
+	color = rgb { 170 255 247 }
 	
 	culture_definition = east_franconian
 	religion_definition = catholic
 }
 
 DNB = {
-	color = rgb { 101 143 66 }
+	color = rgb { 241 191 136 }
 	
 	culture_definition = east_franconian
 	religion_definition = catholic
@@ -421,7 +421,7 @@ WUR = {
 }
 
 OET = {
-	color = rgb { 154 79 103 }
+	color = rgb { 137 255 219 }
 	
 	culture_definition = swabian
 	religion_definition = catholic

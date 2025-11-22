@@ -31,7 +31,7 @@ FLA = {
 	color = map_FLA
 	color2 = rgb { 43 141 172 }
 
-	culture_definition = low_franconian
+	culture_definition = flaamsk
 	religion_definition = catholic
 
 	description_category = administrative
