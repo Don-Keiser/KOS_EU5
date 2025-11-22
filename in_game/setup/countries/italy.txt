@@ -412,8 +412,8 @@ religion_definition = catholic
 }
 
 
-PAV	= { #pavia
-color = rgb { 255 167 156 }
+PAV	= { #Pavia
+color = rgb { 79 68 137 }
 
 culture_definition = lombard
 religion_definition = catholic

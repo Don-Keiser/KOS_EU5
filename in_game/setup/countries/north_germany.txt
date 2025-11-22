@@ -555,7 +555,7 @@ SPO = {
 
 
 SYN = {
-	color = rgb { 7 137 48 }
+	color = rgb { 110 128 84 }
 
 	culture_definition = moselle_franconian
 	religion_definition = catholic
@@ -882,7 +882,7 @@ JEV = {
 }
 
 WIE = {
-    color = rgb { 160 130 110 }
+    color = rgb { 88 158 44 }
     culture_definition = moselle_franconian
     religion_definition = catholic
 }

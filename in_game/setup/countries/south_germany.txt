@@ -71,7 +71,28 @@ LBV = {
 }
 
 SLZ = {
-	color = rgb { 129 109 9 }
+	color = rgb { 193 127 191 }
+	
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+}
+
+MEE = {
+	color = rgb { 109 88 75 }
+	
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+}
+
+SCU = {
+	color = rgb { 241 153 179 }
+	
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+}
+
+SNE = {
+	color = rgb { 143 114 112 }
 	
 	culture_definition = danube_bavarian
 	religion_definition = catholic
@@ -134,7 +155,7 @@ BCH = {
 }
 
 STG = {
-	color = rgb { 115 104 76 }
+	color = rgb { 165 47 159 }
 	
 	culture_definition = high_alemannic
 	religion_definition = catholic
@@ -295,7 +316,7 @@ ANS = {
 }
 
 FRE = {
-	color = rgb { 242 255 140 }
+	color = rgb { 79 68 137 }
 	
 	culture_definition = danube_bavarian
 	religion_definition = catholic
@@ -365,21 +386,21 @@ DNB = {
 }
 
 MEM = {
-	color = rgb { 210 37 57 }
+	color = rgb { 144 193 114 }
 	
 	culture_definition = swabian
 	religion_definition = catholic
 }
 
 KMP = {
-	color = rgb { 212 235 111 }
+	color = rgb { 91 124 53 }
 	
 	culture_definition = swabian
 	religion_definition = catholic
 }
 
 ULM = {
-	color = rgb { 202 202 202 }
+	color = rgb { 79 68 137 }
 	
 	culture_definition = swabian
 	religion_definition = catholic
@@ -393,7 +414,7 @@ KNZ = {
 }
 
 WUR = {
-	color = rgb { 111 162 128 }
+	color = rgb { 165 138 91 }
 	
 	culture_definition = swabian
 	religion_definition = catholic
@@ -435,7 +456,7 @@ WDB = {
 }
 
 RVA = {
-	color = rgb { 108 139 228 }
+	color = rgb { 28 153 162 }
 	
 	culture_definition = high_alemannic
 	religion_definition = catholic
@@ -656,7 +677,7 @@ SAW = {
 }
 
 SAB = {
-    color = rgb { 180 140 90 }
+    color = rgb { 114 60 41 }
     culture_definition = high_alemannic
     religion_definition = catholic
 }

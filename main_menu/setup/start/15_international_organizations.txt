@@ -13,7 +13,7 @@ international_organization_manager = {
 		map_color = hsv360 { 40 50 70 }
 
 		members = { FRA AQN LRC PRO TNT MAI LUX NAV ORA VLN DAU LYO BRI BUR BAR VDU TUL MTZ PAV LOR MTB MUL HAG ALS SAA ZWE LDA PAL BDE SYE SPO PSZ WIE
-	 				PIE GEN CRR ATI ASD AOS NUA MLO BRS MAN VER BCH STG KNZ MBZ MFA MSP SYN	}
+	 				PIE GEN CRR ATI ASD AOS NUA MLO BRS MAN VER BCH STG KNZ MBZ MFA MSP SYN SAB KMP RVA MEM	}
 		leader = FRA
 		regions = { france_region }
 		areas = { 
@@ -55,7 +55,7 @@ international_organization_manager = {
 				MAI # Mainz
 		}
 		free_city = {
-			PAV MUL HAG LDA SYE SPO PSZ ATI NUA MAN KNZ
+			PAV MUL HAG LDA SYE SPO PSZ ATI NUA MAN KNZ KMP RVA MEM
 			#Should be but can't because they only have "rural settlements"
 			# MLH BIB NHS OFB SWH WDB WEI SLT TUL
 		}
@@ -66,7 +66,7 @@ international_organization_manager = {
 			ORA VDU TUL MTZ BCH
 		}
 		imperial_prince = {
-			LUX VLN DAU LYO BRI MTB SAA ZWE PAL BDE WIE PIE GEN CRR ASD AOS MLO BRS VER MBZ MFA MSP SYN
+			LUX VLN DAU LYO BRI MTB SAA ZWE PAL BDE WIE PIE GEN CRR ASD AOS MLO BRS VER MBZ MFA MSP SYN SAB
 		}
 		
 		laws = {

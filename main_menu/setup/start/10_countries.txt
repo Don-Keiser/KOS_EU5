@@ -607,36 +607,6 @@ countries = {
 	}
 
 	TEU = { #Teutonic Order
-		own_control_core = {
-			 balga   ostroda  dzierzgon elblag morag
-		}
-		own_control_integrated = {
-			ragnit tilsit mergentheim gumbinnen barten wegorzewo
-			gerdauen insterburg wehlau
-			labiau memel windenburg
-			elk nibork ryn_poland szczytno 
-			malbork
-			konigsberg brandenburg_prussia
-		}
-		
-		own_control_conquered = {
-			#Chełmno Land
-			brodnica grudziadz torun
-			#Pomerelia
-			gdansk gniew koscierzyna mirochowo puck tczew
-			tuchola bialobork czluchow nowe swiecie
-
-			bytow lebork
-		}
-		control = {
-			#Samogitia
-			palanga rietavas silale skuodas taurage
-			mazeikiai
-			##Dobrzyń Land
-			#dobrzyn lipno rypin
-			##Kujavia
-			#wloclawek bydgoszcz inowroclaw kowal radziejow
-		}
 
 		include = "catholic_military_order"
 		include = "expl_northern_europe"
@@ -962,17 +932,6 @@ countries = {
 	}
 
 	BRA = {	#Brandenburg
-		own_control_core = {
-			brandenburg berlin teltow potsdam freienwalde herzfelde templin
-			chojna soltyn
-			stendal osterburg salzwedel gardelegen
-			wittenberge pritzwalk treuenbrietzen
-			angermunde prenzlau
-		}
-
-		own_control_integrated = {
-			torzym swidwin choszczno drawsko czaplinek walcz czlopa santok gorzow
-		}
 
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
@@ -1099,9 +1058,6 @@ countries = {
 	}
 
 	ALL = {	#Saxony-Allstedt
-		own_control_core = {
-			sangerhausen
-		}
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
@@ -1138,10 +1094,6 @@ countries = {
 	}
 
 	LDB = { #Landsberg
-		own_control_core = {
-			weissenfels zwickau rochlitz grimma delitzsch
-			leipzig chemnitz altenburg
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
@@ -1185,10 +1137,6 @@ countries = {
 	}
 
 	MEI = { #Meissen
-		own_control_core = {
-			meissen sayda freiberg dresden
-			pirna annaburg
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
@@ -1231,10 +1179,6 @@ countries = {
 	}
 
 	MAG = {	#Magdeburg
-		own_control_core = {
-			magdeburg juterbog jerichow burg wolmirstedt
-			haldensleben calbe halle_an_der_saale
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -1254,9 +1198,6 @@ countries = {
 	}
 
 	THU = {	#Thuringia - PU under Meissen
-		own_control_core = {
-			eisenach gotha langensalza freyburg eisenberg apolda
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -1573,15 +1514,6 @@ countries = {
 	}
 
 	BOH = {	#Bohemia
-		own_control_core = {
-			prague slany rakovnik zatec tepla loket cheb tachov domazlice
-			klatovy plzen jachymov most husinec usti_nad_labem decin
-			litomerice beroun turnov frydlant prachen krumlov pisek
-			budejovice j_hradec benesov mlada_boleslav kourim kutna_hora
-			bechyne jicin podebrady caslav nachod nemecky_brod
-			chrudim hradec_kralove klodzko litomysl trebon
-			bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern
-		}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
@@ -1644,12 +1576,6 @@ countries = {
 	}
 
 	MVA = {	#Moravia
-		own_control_core = {
-			olomouc prostejov zabreh sumperk
-			brno pernstejn hodonin vyskov
-			znojmo bitov dacice jihlava
-			hradiste vizovice prerov pribor
-		}
 
 		government = {
 			type = monarchy
@@ -10678,7 +10604,7 @@ countries = {
 
 	TNT = {
 		own_control_core = {
-			cavalese cles trento breno bolzano merano silandro bormio riva
+			cavalese cles trento breno bolzano merano riva
 		}
 
 		government = {
@@ -12732,6 +12658,9 @@ countries = {
 			vianden st_vith bitburg prum daun schleiden trier wittlich birkenfeld lichtenberg_veldenz
 			castellaun cochem mayen ahrweiler bonn cologne bergheim duren dusseldorf
 			essen neuss solingen siegburg
+
+			#Westphalia
+			gummersbach attendorn brilon korbach 
 		}
 
 		own_control_conquered = {
@@ -29127,11 +29056,6 @@ countries = {
 	}
 
 	LBV = {
-		own_control_core = {
-			landshut scharding ried braunau traunstein griesbach kelheim eggenfelden
-			landau straubing bavaria_regen cham burghausen
-			erding rosenheim mallersdorf rottenburg
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -29193,8 +29117,8 @@ countries = {
 
 	UBV = {	#Upper Bavaria
 		own_control_core = {
-			munich ebersberg tolz andechs weilheim schongau landsberg indersdorf wasserburg parsberg
-			pfaffenhofen friedberg ingolstadt neuburg_an_der_donau kitzbuhel kufstein burglengenfeld
+			munich ebersberg tolz weilheim schongau landsberg wasserburg parsberg
+			pfaffenhofen ingolstadt neuburg_an_der_donau kitzbuhel burglengenfeld
 		}
 
 		starting_technology_level = 3
@@ -29284,11 +29208,6 @@ countries = {
 	}
 
 	HNB = {	#Henneberg
-		own_control_core = {
-			meiningen schleusingen schmalkalden
-			aschach
-			coburg hildburghausen #Lordship of Coburg
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -29314,7 +29233,7 @@ countries = {
 
 	WBG = {	#W�rzburg
 		own_control_core = {
-			wurzburg hassfurt karlstadt mellrichstadt konigshofen schweinfurt bruckenau
+			schweinfurt hassfurt aschach
 		}
 
 		starting_technology_level = 3
@@ -29337,13 +29256,10 @@ countries = {
 		}
 
 		country_rank = rank_county
-		capital = wurzburg
+		capital = schweinfurt
 	}
 
 	RIE = {	#Rieneck
-		own_control_core = {
-			lohr
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -29365,7 +29281,7 @@ countries = {
 
 	AUG = {	#Augsburg
 		own_control_core = {
-			dillingen oberdorf sonthofen
+			augsburg dillingen oberdorf wertingen krumbach illereichen
 		}
 
 		starting_technology_level = 3
@@ -29385,13 +29301,10 @@ countries = {
 		}
 
 		country_rank = rank_county
-		capital = dillingen
+		capital = augsburg
 	}
 
 	AGC = {	#Free Imperial City of Augsburg
-		own_control_core = {
-			augsburg
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -29410,10 +29323,6 @@ countries = {
 	}
 
 	BXN = {	#Brixen
-		own_control_core = {
-			brixen bled
-		}
-
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_german_bishopric_no_coast"
@@ -29439,8 +29348,8 @@ countries = {
 	TIR = {	#Tirol
 		own_control_core = {
 			schwaz innsbruck
-			imst reutte landeck
-			sterzing villandro
+			imst reutte
+			sterzing
 		}
 
 		starting_technology_level = 3
@@ -29495,7 +29404,7 @@ countries = {
 
 	MBZ = { #Bregenz
 		own_control_core = {
-			bregenz immenstadt
+			bregenz
 		}
 
 		starting_technology_level = 3
@@ -29557,9 +29466,6 @@ countries = {
 	}
 
 	PSS = {	#Passau
-		own_control_core = {
-			passau st_polten
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -29577,11 +29483,43 @@ countries = {
 		country_rank = rank_county
 	}
 
+	SCU = {	#Schaunberg
+		own_control_core = {
+			linz gmunden st_georgen
+		}
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_monarchy_no_coast"
+		include = "expl_northern_europe"
+		capital = linz
+		government = {
+		}
+
+		country_rank = rank_county
+	}
+
+	MEE = {	#Merania
+		own_control_core = {
+			andechs indersdorf friedberg miesbach kufstein scharding passau grafenau
+			brixen villandro
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_monarchy_no_coast"
+		include = "expl_northern_europe"
+		capital = andechs
+		government = {
+		}
+
+		country_rank = rank_duchy
+	}
+
 	SLZ = {	#Salzburg
 		own_control_core = {
-			salzburg hallein st_johann saalfelden leibnitz tamsweg friesach
-			bischofshofen zell_am_see mittersill laufen muhldorf
-			ptuj zell_am_ziller
+			salzburg hallein st_johann saalfelden tamsweg
+			bischofshofen zell_am_see mittersill
+			zell_am_ziller
 		}
 
 		starting_technology_level = 3
@@ -29607,10 +29545,6 @@ countries = {
 	}
 
 	BAM = {	#Bamberg
-		own_control_core = {
-			bamberg wolfsberg villach kronach
-			forchheim lichtenfels pegnitz
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -29677,6 +29611,23 @@ countries = {
 		}
 		country_rank = rank_county
 		capital = zurich
+	}
+
+	SNE = {	#Senegaus
+		own_control_core = {
+			tarasp bludenz landeck bormio silandro
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_german_republic_no_coast"
+		include = "expl_northern_europe"
+		include = "swiss_republic"
+		government = {
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = tarasp
 	}
 
 	SYZ = {	#Schwyz
@@ -29952,8 +29903,7 @@ countries = {
 
 	FRE = {	#Freising
 		own_control_core = {
-			freising miesbach garmisch
-			skofja_loka waidhofen
+			freising
 		}
 
 		starting_technology_level = 3
@@ -30002,9 +29952,6 @@ countries = {
 	}
 
 	GRF = {	#Grafenau
-		own_control_core = {
-			grafenau
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -30073,9 +30020,6 @@ countries = {
 	}
 
 	BMS = {  # Bishopric of Meissen
-		own_control_core = {
-			wurzen
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_german_bishopric_no_coast"
@@ -30097,9 +30041,6 @@ countries = {
 	}
 
 	BLB = {  # Bishopric of Lebus
-		own_control_core = {
-			lebus
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_german_bishopric_no_coast"
@@ -30124,9 +30065,6 @@ countries = {
 	}
 
 	BBD = {  # Bishopric of Brandenburg
-		our_cores_conquered_by_others = {
-			brandenburg
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_bishopric_not_present"
@@ -30157,9 +30095,6 @@ countries = {
 	}
 
 	BSK = {  # Beeskow-Starkow
-		own_control_core = {
-			beeskow
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
@@ -30191,9 +30126,6 @@ countries = {
 	}
 
 	WGO = {  # Wernigerode
-		own_control_core = {
-			wernigerode
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
@@ -30223,9 +30155,6 @@ countries = {
 	}
 
 	BHL = {  # Beichlingen
-		own_control_core = {
-			beichlingen
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
@@ -30315,9 +30244,6 @@ countries = {
 	}
 
 	WDE = {  # Waldeck (North Germany)
-		own_control_core = {
-			korbach
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
@@ -30346,9 +30272,6 @@ countries = {
 	}
 
 	RBG = {  # Rietberg (North Germany)
-		own_control_core = {
-			rietberg
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
@@ -30374,9 +30297,6 @@ countries = {
 	}
 
 	LEU = {	#Leuchtenberg
-		own_control_core = {
-			leuchtenberg
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -30409,9 +30329,6 @@ countries = {
 	}
 
 	FLK = {  # Falkenstein (South Germany)
-		own_control_core = {
-			friedberg_hesse offenbach
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
@@ -30528,10 +30445,6 @@ countries = {
 	}
 
 	NSS = {  # Nassau Siegen (North Germany)
-		own_control_core = {
-			dillenburg #Nassau Dillenburg
-			siegen #Nassau Siegen
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
@@ -30554,9 +30467,6 @@ countries = {
 	}
 
 	NSD = {  # Nassau Dillenburg (North Germany)		
-		our_cores_conquered_by_others = {
-			dillenburg
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy_not_present"
@@ -30576,9 +30486,6 @@ countries = {
 	}
 
 	RDL = {  # Riedesel (North Germany)
-		own_control_core = {
-			lauterbach
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
@@ -30600,9 +30507,6 @@ countries = {
 	}
 
 	NID = {  # Nidda (North Germany)
-		own_control_core = {
-			nidda
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
@@ -30886,9 +30790,6 @@ countries = {
 	}
 
 	EVS = {  # Everstein (North Germany)
-		own_control_core = {
-			holzminden
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
@@ -30900,9 +30801,6 @@ countries = {
 	}
 
 	FUR = {  # Fürstenberg (South Germany)
-		own_control_core = {
-			furstenberg
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
@@ -31014,9 +30912,6 @@ countries = {
 	}
 
 	ELL = {  # Ellwangen (South Germany)
-		own_control_core = {
-			ellwangen
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
@@ -31028,9 +30923,6 @@ countries = {
 	}
 
 	HEH = {  # Heidenheim (South Germany)
-		own_control_core = {
-			heidenheim
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
@@ -31042,9 +30934,6 @@ countries = {
 	}
 
 	HLF = {  # Helfenstein (South Germany)
-		own_control_core = {
-			helfenstein
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
@@ -31097,9 +30986,6 @@ countries = {
 	}
 
 	KIR = {  # Kirchberg (South Germany)
-		own_control_core = {
-			erbach_swabia illereichen
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
@@ -31126,9 +31012,6 @@ countries = {
 	}
 
 	TUB = {  # Tübingen (South Germany)
-		own_control_core = {
-			tubingen
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
@@ -31176,10 +31059,6 @@ countries = {
 	}
 
 	ANS = {	#Ansbach
-		own_control_core = {
-			ansbach wunsiedel bayreuth neustadt schwabach
-			kulmbach
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -31218,9 +31097,6 @@ countries = {
 	}
 
 	UFF = {	#Uffenheim
-		own_control_core = {
-			uffenheim crailsheim ohringen kitzingen
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -31246,9 +31122,6 @@ countries = {
 	}
 
 	MSB = {	#Mosbach
-		own_control_core = {
-			mosbach
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -31321,7 +31194,7 @@ countries = {
 
 	KMP = {	#Kempten
 		own_control_core = {
-			kempten
+			kempten immenstadt
 		}
 
 		starting_technology_level = 3
@@ -31337,7 +31210,7 @@ countries = {
 
 	ULM = {	#Ulm
 		own_control_core = {
-			ulm
+			ulm helfenstein
 		}
 
 		starting_technology_level = 3
@@ -31353,7 +31226,7 @@ countries = {
 
 	KNZ = {	#Konstanz
 		own_control_core = {
-			konstanz stockach schaffhausen
+			konstanz stockach schaffhausen hohenberg
 		}
 
 		starting_technology_level = 3
@@ -31374,7 +31247,8 @@ countries = {
 
 	WUR = {	#Württemberg
 		own_control_core = {
-			stuttgart goppingen sigmaringen welzheim backnang urach nagold riedlingen oberndorf calw
+			stuttgart goppingen sigmaringen welzheim backnang urach nagold riedlingen oberndorf calw uberlingen
+			oberkirch villingen waldshut bonndorf freiburg furstenberg hall
 		}
 
 		starting_technology_level = 3
@@ -31427,9 +31301,6 @@ countries = {
 	}
 
 	SWH = {	#Schwäbisch Hall
-		own_control_core = {
-			hall
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -31515,9 +31386,6 @@ countries = {
 	}
 
 	WDB = { #Waldburg
-		own_control_core = {
-			waldburg
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -31537,7 +31405,7 @@ countries = {
 
 	RVA = { #Ravensburg
 		own_control_core = {
-			ravensburg
+			ravensburg saulgau waldsee biberach erbach_swabia waldburg
 		}
 
 		starting_technology_level = 3
@@ -31557,9 +31425,6 @@ countries = {
 	}
 
 	BIB = { #Biberach
-		own_control_core = {
-			biberach
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -31573,9 +31438,6 @@ countries = {
 	}
 
 	UBL = { #Überlingen
-		own_control_core = {
-			uberlingen
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -31594,9 +31456,6 @@ countries = {
 	}
 
 	HHB = {	#Hohenberg
-		own_control_core = {
-			hohenberg horb
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -31628,10 +31487,6 @@ countries = {
 	}
 
 	FBG = {	#Freiburg
-		own_control_core = {
-			freiburg
-		}
-
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
@@ -32072,9 +31927,6 @@ countries = {
 	}
 
 	SPB = { #Spremberg
-		own_control_core = {
-			spremberg
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32094,9 +31946,6 @@ countries = {
 	}
 
 	GLA = { #Glauchau
-		own_control_core = {
-			glauchau
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32126,9 +31975,6 @@ countries = {
 	}
 
 	SWB = { #Saxe-Wittenberg
-		own_control_core = {
-			wittenberg belzig schweinitz bitterfeld torgau liebenwerda
-		}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
@@ -32158,9 +32004,6 @@ countries = {
 	}
 
 	RUP = { #Ruppin
-		own_control_core = {
-			ruppin
-		}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
@@ -32188,9 +32031,6 @@ countries = {
 	}
 
 	HVB = {	#Havelberg
-		own_control_core = {
-			havelberg wittstock
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32215,9 +32055,6 @@ countries = {
 	}
 
 	SWR = { #Schwerin
-		own_control_core = {
-			schwerin butzow
-		}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
@@ -32322,9 +32159,6 @@ countries = {
 	}
 
 	WRN = { #Waren
-		own_control_core = {
-			waren malchin
-		}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
@@ -32395,9 +32229,6 @@ countries = {
 	}
 
 	GSW = { #Gustrow
-		own_control_core = {
-			gustrow parchim malchow
-		}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
@@ -32510,9 +32341,6 @@ countries = {
 	}
 
 	NWG = {	#Nowogard
-		own_control_core = {
-			nowogard
-		}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
@@ -32582,9 +32410,6 @@ countries = {
 	}
 
 	HBS = {	#Halberstadt
-		own_control_core = {
-			halberstadt quedlinburg
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32609,9 +32434,6 @@ countries = {
 	}
 
 	BBG = {	#Blankenburg
-		own_control_core = {
-			blankenburg
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32639,9 +32461,6 @@ countries = {
 	}
 
 	ANH = {	#Anhalt
-		own_control_core = {
-			zerbst
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32669,9 +32488,6 @@ countries = {
 	}
 
 	BNB = {	#Bernburg
-		own_control_core = {
-			bernburg ballenstedt
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32701,9 +32517,6 @@ countries = {
 	}
 
 	MFE = {	#Mansfeld
-		own_control_core = {
-			eisleben
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32727,9 +32540,6 @@ countries = {
 	}
 
 	MRB = {	#Merseburg
-		own_control_core = {
-			merseburg
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32744,10 +32554,6 @@ countries = {
 	}
 
 	NMB = {	#Naumburg
-		own_control_core = {
-			naumburg
-		}
-
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_german_bishopric_no_coast"
@@ -32783,9 +32589,6 @@ countries = {
 	}
 
 	WMA = {	#Weimar
-		own_control_core = {
-			weimar
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32842,9 +32645,6 @@ countries = {
 	}
 
 	FLD = {	#Fulda
-		own_control_core = {
-			fulda hunfeld
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32871,9 +32671,6 @@ countries = {
 	}
 
 	SHS = {	#Sondershausen
-		own_control_core = {
-			sondershausen
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32897,9 +32694,6 @@ countries = {
 	}
 
 	NHS = {	#Nordhausen
-		own_control_core = {
-			nordhausen
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32913,9 +32707,6 @@ countries = {
 	}
 
 	MLH = {	#Mühlhausen
-		own_control_core = {
-			muhlhausen
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32929,9 +32720,6 @@ countries = {
 	}
 
 	ERF = {	#Erfurt
-		own_control_core = {
-			erfurt
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32950,9 +32738,6 @@ countries = {
 	}
 
 	HSF = {	#Hersfeld
-		own_control_core = {
-			hersfeld
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32967,10 +32752,6 @@ countries = {
 	}
 
 	HES = {	#Hesse
-		own_control_core = {
-			kassel rotenburg eschwege frankenberg marburg alsfeld
-			giessen melsungen
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33003,9 +32784,6 @@ countries = {
 	}
 
 	PDB = {	#Paderborn
-		own_control_core = {
-			paderborn buren warburg
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33169,9 +32947,6 @@ countries = {
 	}
 
 	ERB = {	#Erbach
-		own_control_core = {
-			erbach
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33511,9 +33286,6 @@ countries = {
 	}
 
 	GMK = {	#(Grafschaft) Mark
-		own_control_core = {
-			hamm altena bochum
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33543,10 +33315,6 @@ countries = {
 	}
 
 	WTG = {	#Wittgenstein
-		own_control_core = {
-			berleburg
-		}
-
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
@@ -33574,9 +33342,6 @@ countries = {
 	}
 
 	DTM = { #Dortmund
-		own_control_core = {
-			dortmund
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33662,9 +33427,6 @@ countries = {
 	}
 
 	ANB = {	#Arnsberg
-		own_control_core = {
-			arnsberg meschede
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33693,9 +33455,6 @@ countries = {
 	}
 
 	LPP = {	#Lippe
-		own_control_core = {
-			lippstadt detmold
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33724,10 +33483,6 @@ countries = {
 	}
 
 	HOX = {	#Corvey
-		own_control_core = {
-			hoxter
-		}
-
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_abbey"
@@ -33740,9 +33495,6 @@ countries = {
 	}
 
 	RVB = {	#Ravensberg
-		own_control_core = {
-			bielefeld
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33767,9 +33519,6 @@ countries = {
 	}
 
 	MDN = {	#Minden
-		own_control_core = {
-			minden
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33789,9 +33538,6 @@ countries = {
 	}
 
 	OSN = {	#Osnabrück
-		own_control_core = {
-			osnabruck bersenbruck
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33810,10 +33556,6 @@ countries = {
 	}
 
 	TCK = {	#Tecklenburg
-		own_control_core = {
-			tecklenburg lingen
-			cloppenburg friesoythe
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33936,12 +33678,6 @@ countries = {
 	}
 
 	BRU = {	#Brunswick (Lüneburg)
-		own_control_core = {
-			brunswick gifhorn helmstedt meinersen wolfenbuttel gandersheim #Duchy of Braunschweig-Wolfenbüttel
-			hanover hamelin neustadt_am_rubenberge #Duchy of Calemberg
-			gottingen #Duchy of Göttingen
-
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33981,9 +33717,6 @@ countries = {
 	}
 
 	GBH = {	#Grubenhagen
-		own_control_core = {
-			einbeck duderstadt herzberg
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -34027,9 +33760,6 @@ countries = {
 	}
 
 	HDH = {	#Hildesheim
-		own_control_core = {
-			hildesheim alfeld burgdorf
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -34060,9 +33790,6 @@ countries = {
 	}
 
 	GOS = {	#Goslar
-		own_control_core = {
-			goslar
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -34076,9 +33803,6 @@ countries = {
 	}
 
 	SCB = {	#Schauenburg
-		own_control_core = {
-			buckeburg
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -34136,9 +33860,6 @@ countries = {
 	}
 
 	NIE = {	#Nienburg
-		own_control_core = {
-			nienburg
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -34168,9 +33889,6 @@ countries = {
 	}
 
 	DPH = {	#Diepholz
-		own_control_core = {
-			diepholz
-		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -34665,9 +34383,6 @@ countries = {
 	#-------------------------- Silesia + Poland + Lithuania + Ruthenia ----------------------------
 
 	ZAG = { #Zagan
-		own_control_core = {
-			zagan krosno_odrzanskie sulechow zary
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -34697,10 +34412,6 @@ countries = {
 	}
 
 	LGC = { #Legnica
-		own_control_core = {
-			legnica zlotoryja #Duchy of Legnica
-			kluczbork #Duchy of Brzeg
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -34729,9 +34440,6 @@ countries = {
 	}
 
 	OEL = { #Oels
-		own_control_core = {
-			olesnica milicz sycow trzebnica
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -34758,10 +34466,6 @@ countries = {
 	}
 
 	JAW = { #Jawor
-		own_control_core = {
-			jawor boleslawiec #Duchy of Jawor
-			zittau
-		}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
@@ -34792,10 +34496,6 @@ countries = {
 	}
 
 	OPL = {	#Opole
-		own_control_core = {
-			opole olesno #Duchy of Opole
-			lubliniec #Duchy of Strzelce
-		}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
@@ -34822,9 +34522,6 @@ countries = {
 	}
 
 	PDK = {	#Prudnik
-		own_control_core = {
-			prudnik #Duchy of Prudnik
-		}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
@@ -34843,9 +34540,6 @@ countries = {
 	}
 
 	BYM = {	#Bytom
-		own_control_core = {
-			bytom kozle toszek
-		}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
@@ -34872,10 +34566,6 @@ countries = {
 	}
 
 	OPV = {	#Opava
-		own_control_core = {
-			opava hlucin #Duchy of Opava
-			krnov glubczyce #Duchy of Krnov
-		}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
@@ -34903,10 +34593,6 @@ countries = {
 	}
 
 	RCB = {	#Racibórz
-		own_control_core = {
-			raciborz #Duchy of Raciborz
-			pszczyna #Duchy of Pszczyna
-		}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
@@ -34933,9 +34619,6 @@ countries = {
 	}
 
 	TES = {	#Tesin
-		own_control_core = {
-			tesin bielsko #Duchy of Cieszyn
-		}
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
@@ -34963,9 +34646,6 @@ countries = {
 	}
 
 	OSW = {	#Oświęcim
-		own_control_core = {
-			oswiecim zywiec
-		}
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
@@ -34991,9 +34671,6 @@ countries = {
 	}
 
 	SWD = {	#Świdnica
-		own_control_core = {
-			kamienna_gora swidnica rychbach
-		}
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
@@ -35020,9 +34697,6 @@ countries = {
 	}
 
 	SCI = {	#Ścinawa
-		own_control_core = {
-			wolow gora
-		}
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
@@ -35046,9 +34720,6 @@ countries = {
 	}
 
 	ZIE = {	#Ziębice
-		own_control_core = {
-			ziebice
-		}
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
@@ -35072,9 +34743,6 @@ countries = {
 	}
 
 	BRZ = {	#Brzeg
-		own_control_core = {
-			brzeg olawa niemcza
-		}
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
@@ -35098,9 +34766,6 @@ countries = {
 	}
 
 	NMS = {	#Namysłów
-		own_control_core = {
-			namyslow
-		}
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
@@ -35124,9 +34789,6 @@ countries = {
 	}
 
 	STZ = {	#Strzelce
-		own_control_core = {
-			strzelce_opolskie
-		}
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
@@ -35150,9 +34812,6 @@ countries = {
 	}
 
 	NMD = {	#Niemodlin
-		own_control_core = {
-			niemodlin
-		}
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
@@ -35176,9 +34835,6 @@ countries = {
 	}
 
 	SIZ = {	#Siewierz
-		own_control_core = {
-			siewierz
-		}
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
@@ -35203,9 +34859,6 @@ countries = {
 	}
 
 	WRC = {	#Wrocław
-		own_control_core = {
-			wroclaw sroda_slaska
-		}
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
@@ -35225,9 +34878,6 @@ countries = {
 	}
 
 	NYS = {	#Nysa
-		own_control_core = {
-			nysa grodkow fryvaldov
-		}
 		starting_technology_level = 3
 		include = "catholic_german_bishopric_no_coast"
 		include = "expl_northern_europe"
@@ -35255,9 +34905,6 @@ countries = {
 	}
 
 	GLO = {	#Głogów
-		own_control_core = {
-			glogow szprotawa kozuchow wschowa zielona_gora
-		}
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
@@ -35422,11 +35069,6 @@ countries = {
 	}
 
 	SDZ = {	#Sieradz - Vassal of Poland
-		own_control_core = {
-			sieradz szadek turek tuszyn uniejow
-			radomsko brzeznica piotrkow_trybunalski
-
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -35476,9 +35118,6 @@ countries = {
 	}
 
 	LCZ = {	#ŝęczyca - Vassal of Poland
-		own_control_core = {
-			leczyca lodz zgierz orlow
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -35530,9 +35169,6 @@ countries = {
 
 	#Płock
 	PLK = {	#https://en.wikipedia.org/wiki/Duchy_of_Masovia
-		own_control_core = {
-			plock sierpc szrensk plonsk gostynin gabin
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -35586,10 +35222,6 @@ countries = {
 
 	#Rawa
 	RAW = {	#https://en.wikipedia.org/wiki/Duchy_of_Masovia
-		own_control_core = {
-			rawa sochaczew wizna goniadz zambrow ostroleka zakroczym przasnysz
-			rozan lomza kolno biala_rawska ciechanow tykocin
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -35642,10 +35274,7 @@ countries = {
 	}
 
 	#Czersk
-	CZK = {	#https://en.wikipedia.org/wiki/Duchy_of_Masovia
-		own_control_core = {
-			warsaw grojec czersk liw nur kamieniec garwolin tarczyn
-		}
+	CZK = {
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -35697,9 +35326,6 @@ countries = {
 	}
 
 	INO = {	#Inowrocław - PU under Poland
-		own_control_core = { #Should actually be own_core
-			bydgoszcz inowroclaw
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -35724,20 +35350,6 @@ countries = {
 	}
 
 	HAL = {	#Halych
-		own_control_core = {
-			#Halych
-			halych bohorodchany buchach rohatyn
-			lubaczow
-			drohobych sambir stryi turka
-			kolomyia kosiv sniatyn tysmenytsia
-			lviv bereschany zhovkva yavoriv zvenyhorod
-			przemysl piskorowice rzeszow yaroslav_poland
-			sanok krosno lesko
-			terebovlia khorostkiv ternopil
-			zhydachiv bolekhiv dolyna
-			ushytsia khmilnyk letychiv mezhybozhe mohyliv_podilskyi rov
-			bakota horodok kamianets_podilskyi zalishchyky
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -35828,20 +35440,6 @@ countries = {
 	}
 
 	VOL = {	#Volhynia
-		own_control_core = {
-			#Volhynia
-			chelm krasnystaw liuboml ratne shatsk ugrovesk
-			kremenets dubno zbarazh tykhomel
-			lutsk chortoryisk peremyl rozhyshche stepan volodymyrets
-			rivne kostopil ostroh peresopnytsya
-			volodymyr kamin kovel melnytsya turiisk
-			novohrad_volynskyi iziaslav korets liubar polonne
-			#Halych
-			belz busk grabowiec sokal
-			brody
-			#Polesia
-			liubeshiv dubrovytsia
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -35891,44 +35489,6 @@ countries = {
 	}
 
 	LIT = {	#Lithuania
-		own_control_core = {
-			#Lithuania
-			vilnius giedraiciai kernave medininkai_vilna
-			ashmyany halshany hieraniony kreva
-			braslaw drysvyaty ezerenai miory
-			kaunas alytus punia vilkaviskis
-			lida astrina eisiskes shchuchyn
-			suwalki lipsk veisiejai
-			trakai lazdijai onushkis merkine
-			svir dokshytsy hlybokaye myadzyel svencionys vileyka
-			upyte birzai linkava panevezys pasvalys
-			vilkmerge anyksciai maleisiai rokiskis utena
-			#Black Ruthenia
-			grodno bershty masty sokolka
-			nyasvizh
-			babruysk luchin rahachow svietlahorsk
-			#Polesia
-			brest_litowsk biala_podlaska chernyany malaryta wlodawa
-			kobryn dabuchyn hajnowka kamyenyets
-			#Samogitia
-			medininkai
-			raseiniai jurbarkas kedainiai panemune tendziogala
-			siauliai kraziai papile zagare
-			#White Ruthenia
-			barysaw klichaw krupki lukolm lyubashany
-			lahoysk begoml byerazino ilya krasnoe smalyavichy
-			minsk chervyen koidanova marjina_horka rakau stowbtsy svislach
-			mogilev bykhaw
-		}
-		own_control_integrated = {
-			grodek
-			#Podlasie
-			drohiczyn bielsk_podlaski mielnik sokolow suraz
-		}
-		own_core = {
-			palanga rietavas silale skuodas taurage
-			mazeikiai
-		}
 
 		include = "expl_eastern_europe"
 		include = "lithuanian_monarchy"
@@ -35988,14 +35548,6 @@ countries = {
 	}
 
 	MIS = {	#Minsk - Revolter of LIT
-		our_cores_conquered_by_others = {
-			minsk chervyen koidanova marjina_horka rakau stowbtsy svislach
-			lahoysk begoml byerazino ilya krasnoe smalyavichy
-			barysaw bobr krupki lukolm lyubashany
-			drutsk tyatseryn
-			nyasvizh
-			klichaw
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -36033,12 +35585,6 @@ countries = {
 	}
 
 	NRK = {	#Novogrudok - Vassal of LIT
-		own_control_core = {
-			#Black Ruthenia
-			novogrudok lyakhavichy lyubcha turets
-			vawkavysk porazava vowpa
-			slonim dzyatlava vyada zdzitov
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -36063,11 +35609,6 @@ countries = {
 	}
 
 	DRU = {	#Drutsk - Vassal of LIT
-		own_control_core = {
-			#Black Ruthenia
-			drutsk tyatseryn
-			bobr
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -36125,11 +35666,6 @@ countries = {
 	}
 
 	PNK = {	#Pinsk - Vassal of LIT
-		own_control_core = {
-			pinsk drahichyn motal nobel
-			stolin
-			luninets
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -36200,11 +35736,6 @@ countries = {
 	}
 
 	TUV = {	#Turov - Vassal of LIT
-		own_control_core = {
-			turov davyd_haradok hlynne
-			lakhva
-			lelchytsy zhytkavichy
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -36267,10 +35798,6 @@ countries = {
 	}
 
 	SSK = {	#Slutsk - Vassal of LIT
-	own_control_core = {
-			slutsk hlusk starobin staryya_darohi
-			kletsk bolshie_krugovichi kapyl
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -36290,12 +35817,6 @@ countries = {
 	}
 
 	MSV = {	#Mstislavl - Vassal of LIT
-		own_control_core = {
-			mstsislaw kastsyukovichy khotsimsk krychaw monastyrshchina shumyachi
-			novy_bykhaw slawharad
-			chavusy drokov
-			mglin popowa_gora
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -36321,14 +35842,6 @@ countries = {
 	}
 
 	SMO = {	#Smolensk - Vassal of LIT
-		own_control_core = {
-			smolensk krasny demidov luchani
-			dorogobuzh yartsevo dukhovshchina yelnya belik roslavl zaroy
-			rognedino demensk
-			shchuchye_smolensk verzhavsk vetlitsy katyn berezhnyany izyaslavl pustosel shui gorodechnya mozhino
-			#Principality of Bely
-			bely bibirevo bolshevo shoptovo verkhovye yotkino
-		}
 
 		include = "expl_eastern_europe"
 		include = "lithuanian_monarchy"
@@ -36368,29 +35881,6 @@ countries = {
 	}
 
 	KIE = {	#Kyiv - Vassal of LIT
-		own_control_core = {
-			#Ukraine
-			kyiv dymer fastiv zdvizhen
-			bila_tserkva bohuslav kaharlyk kaniv sherbiv skvyra
-			cherkasy chyhyryn korsun lebedyn rozkishna smila zvenyhorodka
-			chornobyl belaya_soroka brahin khoiniki kholmyech
-			olevsk kopyshche viry yemilchyne
-			ovruch bilokorovychi korosten malyn narodychi stodolichi
-			zhytomyr berdychiv chudniv chortolisy korostyshiv mychesk
-
-			poltava kremenchuk myrhorod velyki_sorochyntsi kotelva
-			lubny pyriatyn horodyshche horoshino zolotonosha
-			pereiaslav desnyanskyi_horodok boryspil oster kozelets
-			#Black Ruthenia
-			mazyr buinovichi kalinkavichy pietrykaw rudobelka
-			#Chernihiv
-			melnya 
-			ichnia pryluky chornukhy
-			lypova_dolyna romen buryn sumy okhtyrka krasnopillia hadiach
-			glushkovo putyvl khotmyzh vilshana
-
-			yaroslavka yahotyn lutava opishnya hovtva kolomak
-		} 
 
 		include = "expl_eastern_europe"
 		include = "lithuanian_monarchy"
