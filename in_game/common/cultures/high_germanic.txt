@@ -1,0 +1,101 @@
+﻿#High German
+boarisch = {
+	language = boarisch_dialect
+	
+	color = map_boarisch
+	
+	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+		angrian = positive
+		ostrisch = kindred
+		boarisch = kindred
+		alamannisch = kindred
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+alamannisch = {
+	language = alemannic_dialect
+	
+	color = map_alamannisch
+	
+	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+		boarisch = kindred
+		ostrisch = kindred
+		burgundian = kindred
+		dieringisch = kindred
+		angrian = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+ostrisch = {
+	language = ostrisch_dialect
+	
+	color = map_ostrisch
+	
+	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+		boarisch = kindred
+		alamannisch = kindred
+		burgundian = kindred
+		dieringisch = kindred
+		angrian = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+dieringisch = {
+	language = dieringisch_dialect
+	
+	color = map_dieringisch
+	
+	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+		boarisch = kindred
+		alamannisch = kindred
+		burgundian = kindred
+		ostrisch = kindred
+		angrian = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+burgundian = { 
+	language = burgundian_german_dialect
+	
+	color = map_burgundian
+	
+	tags = { french_gfx south_german_gfx german_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		boarisch = kindred
+		ostrisch = kindred
+		alamannisch = kindred
+		dieringisch = kindred
+		daufines = positive
+		angrian = positive
+	}
+	
+	culture_groups = {
+		german_group
+		alpine_group
+	}
+}

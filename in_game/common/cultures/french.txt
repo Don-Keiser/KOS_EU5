@@ -9,6 +9,8 @@ french = {
 
 	opinions = {
 		divreen = kindred
+		francique = kindred
+		gallo = positive
 	}
 	
 	culture_groups = {
@@ -24,7 +26,8 @@ divreen = {
 	tags = { french_gfx western_european_gfx european_gfx }
 
 	opinions = {
-		divreen = kindred
+		french = kindred
+		gallo = kindred
 	}
 	
 	culture_groups = {
@@ -43,6 +46,7 @@ breton = {
 		gallo = kindred
 		welsh = positive
 		cornish = kindred
+		welsh = rochelaes
 	}
 	
 	culture_groups = {
@@ -59,42 +63,12 @@ gallo = {
 
 	opinions = {
 		breton = kindred
-		angevin = kindred
-		berrichon = kindred
-		burgundian = kindred
-		champenais = kindred
-		franc_comtois = kindred
 		french = kindred
-		lorrain = kindred
-		norman = kindred
-		picard = kindred
-		poitevin = kindred
-		saintongeais = kindred
-		walloon = kindred
 	}
 	
 	culture_groups = {
 		celtic_group
 		french_group
-	}
-}
-
-burgundian = { 
-	language = burgundian_german_dialect
-	
-	color = map_burgundian
-	
-	tags = { french_gfx south_german_gfx german_gfx western_european_gfx european_gfx }
-
-	opinions = {
-		high_alemannic = kindred
-		rhine_alemannic = kindred
-		daufines = positive
-	}
-	
-	culture_groups = {
-		german_group
-		alpine_group
 	}
 }
 
@@ -123,6 +97,24 @@ picard = {
 	culture_groups = {
 		french_group
 		netherlandish_group
+	}
+}
+
+francique = {
+	language = francique_dialect
+	
+	color = map_francique
+	
+	tags = { french_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		french = kindred
+	}
+	
+	culture_groups = {
+		french_group
+		netherlandish_group
+		german_group
 	}
 }
 

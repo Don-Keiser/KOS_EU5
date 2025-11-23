@@ -9,6 +9,18 @@
 	text = {
 		localization_key = country_name_construction_name
 		trigger = {
+			tag = FLA
+		}
+	}
+	text = {
+		localization_key = country_name_construction_name
+		trigger = {
+			tag = GTL
+		}
+	}
+	text = {
+		localization_key = country_name_construction_name
+		trigger = {
 			OR = {
 				AND = {
 					tag = PAP

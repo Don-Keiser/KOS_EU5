@@ -48,7 +48,7 @@ LUX = {
 LIE = {
 	color = map_LIE
 	color2 = rgb { 149 186 37 }
-	culture_definition = walloon
+	culture_definition = flaamsk
 	religion_definition = catholic
 }
 

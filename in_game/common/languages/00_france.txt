@@ -228,6 +228,7 @@ french_language = {
 		francique_dialect = {}
 		poitevin_dialect = {}
 		arpitan_dialect = {}
+		francique_dialect = {}
 	}
 }
 

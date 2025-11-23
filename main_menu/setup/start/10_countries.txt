@@ -1201,7 +1201,7 @@ countries = {
 		own_control_core = {
 			erfurt neustadt uffenheim kitzingen forchheim bamberg wurzburg karlstadt
 			bruckenau aschach mellrichstadt konigshofen lichtenfels coburg hildburghausen
-			schleusingen meiningen hunfeld schmalkalden eisenach gotha weimar ohrdruf
+			schleusingen meiningen schmalkalden eisenach gotha weimar ohrdruf
 			arnstadt saalfeld eisenberg apolda weissenfels freyburg merseburg
 			naumburg ansbach eisleben muhlhausen gottingen einbeck duderstadt langensalza
 			sondershausen beichlingen nordhausen sangerhausen herzberg blankenburg ballenstedt
@@ -1367,7 +1367,7 @@ countries = {
 
 	MAI = {	#Mainz
 		own_control_core = {
-			mainz oppenheim worms
+			mainz oppenheim worms aschaffenburg bensheim miltenberg buchen tauberbischofsheim
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -11982,11 +11982,6 @@ countries = {
 	}
 
 	GOR = {
-		own_control_core = {
-			gorizia pazin
-			lienz bruneck hermagor winklern
-			metlika #County of Möttling
-		}
 		starting_technology_level = 3
 		include = "expl_mediterranean"
 		include = "catholic_monarchy"
@@ -12238,9 +12233,6 @@ countries = {
 		}
 	}
 	ANR = {
-		own_control_core = {
-			andorra_la_vella
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -12417,67 +12409,7 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = nav_jeanne_ii_capet
-
-			ruler_term = { character = nav_inigo_arista start_date = 815.1.1 end_date = 851.1.1 regnal_number = 1 }
-			ruler_term = { character = nav_garcia_iniguez start_date = 851.1.1 end_date = 882.1.1 regnal_number = 0 }
-			ruler_term = { character = nav_fortun_garces start_date = 882.1.1 end_date = 905.1.1 regnal_number = 1 }
-
-			ruler_term = { character = nav_sancho_i_jimena start_date = 905.1.1 end_date = 925.12.10 regnal_number = 1 }
-			ruler_term = { character = nav_garcia_i_jimena start_date = 925.12.10 end_date = 970.2.22 regnal_number = 1 }
-			ruler_term = { character = nav_sancho_ii_jimena start_date = 970.2.22 end_date = 994.12.1 regnal_number = 2 }
-			ruler_term = { character = nav_garcia_ii_jimena start_date = 994.12.1 end_date = 999.12.8 regnal_number = 2 }
-			ruler_term = { character = nav_sancho_iii_jimena start_date = 999.12.18 end_date = 1035.10.18 regnal_number = 3 }
-			ruler_term = { character = nav_garcia_iii_jimena start_date = 1035.10.18 end_date = 1054.9.1 regnal_number = 3 }
-			ruler_term = { character = nav_sancho_iv_jimena start_date = 1054.9.1 end_date = 1076.6.4 regnal_number = 4 }
-			ruler_term = { character = ara_sancho_i_aragon start_date = 1076.6.4 end_date = 1094.6.4 regnal_number = 5 }
-			ruler_term = { character = ara_pedro_i_aragon start_date = 1094.6.4 end_date = 1104.12.28 regnal_number = 1 }
-			ruler_term = { character = ara_alfonso_i_aragon start_date = 1104.12.28 end_date = 1134.9.7 regnal_number = 1 }
-			ruler_term = { character = nav_garcia_iv_jimena start_date = 1134.9.7 end_date = 1150.11.21 regnal_number = 4 }
-			ruler_term = { character = nav_sancho_vi_jimena start_date = 1150.11.21 end_date = 1194.6.27 regnal_number = 6 }
-			ruler_term = { character = nav_sancho_vii_jimena start_date = 1194.6.27 end_date = 1234.2.12 regnal_number = 7 }
-
-			ruler_term = {
-				character = nav_sancho_vii_jimena start_date = 1234.2.12 end_date = 1234.4.7 regnal_number = 7
-				character = nav_thibault_i_blois start_date = 1234.2.12 end_date = 1234.4.7 regnal_number = 1
-			}
-
-			ruler_term = { character = nav_thibault_i_blois start_date = 1234.4.7 end_date = 1253.7.8 regnal_number = 1 }
-			ruler_term = { character = nav_thibault_ii_blois start_date = 1253.7.8 end_date = 1270.12.4 regnal_number = 2 }
-			ruler_term = { character = nav_henri_i_blois start_date = 1270.12.4 end_date = 1274.7.22 regnal_number = 1 }
-			ruler_term = { character = fra_jeanne_i_blois start_date = 1274.7.22 end_date = 1284.8.16 regnal_number = 1 }
-			ruler_term = {
-				character = fra_jeanne_i_blois start_date = 1284.8.16 end_date = 1305.4.2 regnal_number = 1
-				character = fra_philippe_iv_capet start_date = 1284.8.16 end_date = 1305.4.2 regnal_number = 1 #Marital Co-Ruler
-			}
-
-			ruler_term = { character = fra_louis_x_capet start_date = 1305.4.2 end_date = 1316.6.5 regnal_number = 1 }
-			ruler_term = { character = fra_jean_i_capet start_date = 1316.11.15 end_date = 1316.11.20 regnal_number = 1 }
-			ruler_term = { character = fra_philippe_v_capet start_date = 1316.11.20 end_date = 1322.1.3 regnal_number = 2 }
-			ruler_term = { character = fra_charles_iv_capet start_date = 1322.1.3 end_date = 1328.2.1 regnal_number = 1 }
-			ruler_term = { character = nav_jeanne_ii_capet start_date = 1328.2.1 regnal_number = 2 }
-			#ruler_term = { character = nav_philip_iii_evreux start_date = 1328.2.1 regnal_number = 3 } # Marital Co-Ruler
-
-			regnal_numbers = {
-				name_inigo = 1
-				name_garcia = 5
-				name_fortunius = 1
-				name_sancho = 7
-				name_peter = 1
-				name_alphonse = 1
-				name_theobald = 2
-				name_henry = 1
-				name_joanna = 2
-				name_philip = 3
-				name_louis = 1
-				name_john = 1
-				name_charles = 1
-			}
-
-			reforms = {
-				pyrenean_fueros_reform
-				sons_of_the_oak_reform
-			}
+			ruler = random
 
 
 			laws = {
@@ -12503,11 +12435,8 @@ countries = {
 			andalusi
 		}
 
-		court_language = aragonese_dialect
 		country_rank = rank_kingdom
 		capital = pamplona
-		dynasty = de_evreux_dynasty
-
 	}
 
 
@@ -12596,7 +12525,7 @@ countries = {
 			essen neuss solingen siegburg
 
 			#Westphalia
-			gummersbach attendorn brilon korbach 
+			korbach 
 		}
 
 		own_control_conquered = {
@@ -13360,7 +13289,7 @@ countries = {
 			#HRE
 			mirecourt nancy saint_die salm
 			merzig luxembourg arlon epinal saarwerden
-			darney arches longwy neufchateau_luxembourg saarburg
+			darney arches longwy neufchateau_luxembourg
 			luneville wallerfangen thionville etain
 		}
 
@@ -13461,6 +13390,26 @@ countries = {
 			akvitadzyte
 			basque
 		}
+		country_rank = rank_duchy
+	}
+
+	#Gothalaunia
+	GTL = {
+		own_control_core = {
+			narbonne nimes melgueil montpellier agde lodeve beziers saint_pons
+			carcassonne saint_lizier pamiers mirepoix foix limoux fenouillet
+			perpignan prades puigcerda andorra_la_vella vielha talarn seu_durgell
+			barcelona terrassa sant_feliu girona besalu castellon_ampurias ripoll
+			berga vic manresa cardona cervera tarrega agramunt balaguer benabarre
+			barbastro ainsa
+		}
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		capital = narbonne
 		country_rank = rank_duchy
 	}
 
@@ -13857,9 +13806,6 @@ countries = {
 	}
 
 	CLI = {	#Cilli
-		own_control_core = {
-			celje lasko
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -13885,9 +13831,6 @@ countries = {
 	}
 
 	ORT = {	#Ortenburg
-		own_control_core = {
-			spittal kocevje
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -29384,8 +29327,11 @@ countries = {
 	}
 
 	CRH = {	#Carinthia
+		own_control_core = {
+			lienz bruneck winklern steinfeld hermagor spittal villach
+		}
+
 		our_cores_conquered_by_others = {
-			villach hermagor steinfeld winklern spittal lienz
 			wolfsberg st_veit friesach volkermarkt klagenfurt feldkirchen
 		}
 
@@ -29398,7 +29344,7 @@ countries = {
 		government = {
 			ruler = random
 		}
-		capital = klagenfurt
+		capital = lienz
 	}
 
 	LBV = {
@@ -29472,7 +29418,7 @@ countries = {
 			kirchdorf steyr wels waidhofen perg freistadt rohrbach benesov
 			pisek prachen husinec krumlov trebon bechyne kourim kutna_hora
 			caslav nemecky_brod j_hradec amstetten landau griesbach budejovice
-			amberg leuchtenberg eschenbach tirschenreuth
+			amberg leuchtenberg eschenbach tirschenreuth kitzbuhel
 		}
 
 		starting_technology_level = 3
@@ -29585,24 +29531,20 @@ countries = {
 		dynasty = henneberg_dynasty
 	}
 
-	WBG = {	#W�rzburg
+	WBG = {	#Thuringian Goths
 		own_control_core = {
 			schweinfurt hassfurt
 		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_german_bishopric_no_coast"
+		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
+		include = "german_principality"
 		government = {
-			regnal_numbers = {
-				name_otto = 2
-			}
-			ruler = wbg_otto_ii_von_wolfskeel
-
-			reforms = {
-				prince_bishopric_reform
-			}
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
 		}
 
 		tolerated_cultures = {
@@ -29614,6 +29556,9 @@ countries = {
 	}
 
 	RIE = {	#Rieneck
+		own_control_core = {
+			lohr
+		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -29853,7 +29798,7 @@ countries = {
 	MEE = {	#Merania
 		own_control_core = {
 			andechs indersdorf friedberg miesbach kufstein scharding passau grafenau
-			brixen villandro
+			brixen villandro rosenheim
 		}
 
 		starting_technology_level = 3
@@ -30585,6 +30530,10 @@ countries = {
 	}
 
 	WDE = {  # Waldeck (North Germany)
+		own_control_core = {
+			korbach
+		}
+
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
@@ -30670,6 +30619,10 @@ countries = {
 	}
 
 	FLK = {  # Falkenstein (South Germany)
+		own_control_core = {
+			friedberg_hesse offenbach
+		}
+
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
@@ -30786,6 +30739,10 @@ countries = {
 	}
 
 	NSS = {  # Nassau Siegen (North Germany)
+		own_control_core = {
+			dillenburg #Nassau Dillenburg
+			siegen #Nassau Siegen
+		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
@@ -30827,6 +30784,10 @@ countries = {
 	}
 
 	RDL = {  # Riedesel (North Germany)
+		own_control_core = {
+			lauterbach
+		}
+
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
@@ -30848,6 +30809,10 @@ countries = {
 	}
 
 	NID = {  # Nidda (North Germany)
+		own_control_core = {
+			nidda
+		}
+
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
@@ -31152,9 +31117,6 @@ countries = {
 	}
 
 	GRK = {  # Gurk (South Germany)
-		own_control_core = {
-			feldkirchen
-		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
@@ -31285,7 +31247,7 @@ countries = {
 
 	HOH = {  # Hohenzollern (South Germany)
 		own_control_core = {
-			balingen
+			balingen mergentheim
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -31715,6 +31677,50 @@ countries = {
 		country_rank = rank_county
 		capital = baden
 		dynasty = baden_dynasty
+	}
+
+	XBG = {	#Burgau
+		own_control_core = {
+			gunzburg
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_monarchy_no_coast"
+		include = "expl_northern_europe"
+		include = "german_principality"
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			reforms = {
+				margraviate
+			}
+		}
+
+		country_rank = rank_county
+		capital = gunzburg
+	}
+
+	MRQ = {	#Marquartstoa
+		own_control_core = {
+			wasserburg
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_monarchy_no_coast"
+		include = "expl_northern_europe"
+		include = "german_principality"
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			reforms = {
+				margraviate
+			}
+		}
+
+		country_rank = rank_county
+		capital = wasserburg
 	}
 
 	WDB = { #Waldburg
@@ -32965,6 +32971,9 @@ countries = {
 	}
 
 	FLD = {	#Fulda
+		own_control_core = {
+			fulda hunfeld
+		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32988,6 +32997,46 @@ countries = {
 
 		country_rank = rank_county
 		capital = fulda
+	}
+
+	ATD = {	#Attendorn
+		own_control_core = {
+			attendorn
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_german_bishopric_no_coast"
+		include = "expl_northern_europe"
+		government = {
+			type = theocracy
+			reforms = {
+				prince_bishopric_reform
+			}
+		}
+
+		country_rank = rank_county
+		capital = attendorn
+	}
+
+	XBL = {	#Brilon
+		own_control_core = {
+			brilon
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_german_bishopric_no_coast"
+		include = "expl_northern_europe"
+		government = {
+			type = theocracy
+			reforms = {
+				prince_bishopric_reform
+			}
+		}
+
+		country_rank = rank_county
+		capital = brilon
 	}
 
 	SHS = {	#Sondershausen
@@ -33072,6 +33121,10 @@ countries = {
 	}
 
 	HES = {	#Hesse
+		own_control_core = {
+			kassel frankenberg marburg alsfeld
+			giessen melsungen
+		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33126,6 +33179,9 @@ countries = {
 	}
 
 	ZIG = {	#Ziegenhain
+		own_control_core = {
+			ziegenhain
+		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33150,6 +33206,9 @@ countries = {
 	}
 
 	HNA = {	#Hanau
+		own_control_core = {
+			hanau
+		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33172,6 +33231,9 @@ countries = {
 	}
 
 	BUD = {	#Büdingen
+		own_control_core = {
+			budingen
+		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33193,6 +33255,9 @@ countries = {
 	}
 
 	WTZ = {	#Wetzlar
+		own_control_core = {
+			wetzlar
+		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33206,6 +33271,9 @@ countries = {
 	}
 
 	TRI = {	#Trier
+		own_control_core = {
+			trier wittlich mayen coblenz saarburg
+		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33267,6 +33335,9 @@ countries = {
 	}
 
 	ERB = {	#Erbach
+		own_control_core = {
+			erbach
+		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -33406,7 +33477,7 @@ countries = {
 
 	SYN = {	#Sayn
 		own_control_core = {
-			altenkirchen coblenz
+			altenkirchen gummersbach
 		}
 
 		starting_technology_level = 3
@@ -33634,6 +33705,10 @@ countries = {
 	}
 
 	WTG = {	#Wittgenstein
+		own_control_core = {
+			berleburg
+		}
+
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
@@ -33944,6 +34019,7 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
+			ruler = random
 		}
 
 		country_rank = rank_kingdom
@@ -33966,6 +34042,7 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
+			ruler = random
 		}
 
 		capital = luneburg

@@ -3,7 +3,7 @@
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = breton
-	religion_definition = catholic
+	religion_definition = african_catholic
 }
 
 
@@ -46,6 +46,14 @@ AQN = {
 	religion_definition = catholic
 }
 
+#Gothalaunia
+GTL = {
+	color = rgb { 76 65 130 }
+
+	culture_definition = tarragones
+	religion_definition = catholic
+}
+
 #Alencon
 ALE = {
 	#color = map_FRA
@@ -61,7 +69,7 @@ RNN = {
 	color = rgb { 92 101 119 }
 
 	culture_definition = breton
-	religion_definition = catholic
+	religion_definition = african_catholic
 }
 
 #Guise
@@ -69,7 +77,7 @@ GUI = {
 	#color = map_FRA
 	color = rgb { 58 76 78 }
 
-	culture_definition = french
+	culture_definition = francique
 	religion_definition = catholic
 }
 
@@ -498,7 +506,7 @@ RET = {
 	#color = map_FRA
 	color = rgb { 166 223 215 }
 
-	culture_definition = champenais
+	culture_definition = francique
 	religion_definition = catholic
 }
 
@@ -658,7 +666,7 @@ NTN = {
 	color = rgb { 85 137 82 }
 
 	culture_definition = breton
-	religion_definition = catholic
+	religion_definition = african_catholic
 }
 
 #Carlat

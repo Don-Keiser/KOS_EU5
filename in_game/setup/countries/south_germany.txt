@@ -329,6 +329,20 @@ EIC = {
 	religion_definition = catholic
 }
 
+XBG = {
+	color = rgb { 202 255 165 }
+	
+	culture_definition = alamannisch
+	religion_definition = catholic
+}
+
+MRQ = {
+	color = rgb { 166 198 111 }
+	
+	culture_definition = boarisch
+	religion_definition = catholic
+}
+
 WEI = {
 	color = rgb { 255 206 112 }
 	

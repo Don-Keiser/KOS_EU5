@@ -580,6 +580,18 @@ german_language = {
 			fallback = upper_german_dialect
 		}
 
+		boarisch_dialect = {
+			fallback = upper_german_dialect
+		}
+
+		ostrisch_dialect = {
+			fallback = upper_german_dialect
+		}
+
+		dieringisch_dialect = {
+			fallback = upper_german_dialect
+		}
+
 		burgundian_german_dialect = {
 			fallback = upper_german_dialect
 		}

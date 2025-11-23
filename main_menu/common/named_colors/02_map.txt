@@ -4194,8 +4194,13 @@ colors = {
 	map_bechensk = rgb { 55 84 74 }
 	map_frisian = rgb { 142 104 99 }
 	map_little_frisian = rgb { 165 120 116 }
-	map_flaamsk = rgb { 140 107 84 }
+	map_flaamsk = rgb { 168 122 85 }
 	map_jutsk = rgb { 119 100 109 }
 	map_angrian = rgb { 107 105 93 }
+	map_francique = rgb { 75 75 105 }
+	map_boarisch = rgb { 173 203 211 }
+	map_alamannisch = rgb { 93 108 127 }
+	map_ostrisch = rgb { 140 159 165 }
+	map_dieringisch = rgb { 119 142 130 }
 }
 

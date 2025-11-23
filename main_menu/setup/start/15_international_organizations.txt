@@ -15,15 +15,15 @@ international_organization_manager = {
 		members = { FRA AQN LRC PRO TNT MAI LUX NAV ORA VLN DAU LYO BRI BUR BAR VDU TUL MTZ PAV LOR MTB MUL HAG ALS SAA ZWE LDA PAL BDE SYE SPO PSZ WIE
 	 				PIE GEN CRR ATI ASD AOS NUA MLO BRS MAN VER BCH STG KNZ MBZ MFA MSP SYN SAB KMP RVA MEM WUR ULM HOH AUG SNE MEE TIR AQU UBV OET FRE
 				    LUC PST FLO PIS VLT SIE ATN SLZ ROT NUR WEI DNB EIC SCU ANJ RNN ALE GUI RET LIE FLA AUV VNT FLR TUE XTL LSN BIU BSS RCC ANG POI THR
-				    MTU XTM	LMG LOU RTZ NTN WBG THU OST VOG PRG }
+				    MTU XTM	LMG LOU RTZ NTN WBG THU OST VOG PRG ATD XBL GTL TRI HES WDE WTG NSS WTZ NSH NSW NSI DIE FRN FLK ZIG NID RDL FLD HNA KTZ ERB
+				    BUD RIE XBG MRQ CRH }
 		leader = FRA
 		regions = { france_region }
 		areas = { 
 			#North Germany
-			brabant_area friesland_area holland_area wallonia_area holstein_area brandenburg_area rhineland_area
-			hesse_area westphalia_area lower_saxony_area upper_saxony_area mecklenburg_area
+			hesse_area
 			#South Germany
-			upper_rhine_area swabia_area bavaria_area franconia_area tirol_area carinthia_area salzburg_area upper_austria_area
+			upper_rhine_area swabia_area bavaria_area franconia_area tirol_area salzburg_area upper_austria_area
 			#France
 			alsace_area franche_comte_area savoy_area flanders_area
 			#Italy
@@ -34,13 +34,18 @@ international_organization_manager = {
 		provinces = {
 			#Emilia Romagna
 			piacenza_province parma_province reggioem_province modena_province
-			#Slovenia
-			lower_styria_province lower_carniola_province upper_carniola_province
 			#Bohemia
 			chebsko_province plzensko_province prachensko_province zatacko_province prague_province bechinsko_province
+			zateko_province erzgebirge_province leipziger_bucht_province vogtland_province thuringer_becken_province
+			thuringer_walder_province saale_province upper_carinthia_province
 		}
 		locations = { 
 			teramo atri csantangelo chieti sulmona najera logrono arnedo lanciano
+			kutna_hora caslav nemecky_brod siegen attendorn berleburg brilon
+			muhlhausen gottingen einbeck duderstadt nordhausen sangerhausen
+			herzberg blankenburg ballenstedt quedlinburg wernigerode gandersheim
+			goslar halberstadt torgau bitterfeld wittenberg bernburg calbe amstetten
+			waidhofen liezen schladming brussels nivelles leuven borgloon
 		}
 		emperor = { FRA }
 		elector = { 
@@ -57,7 +62,7 @@ international_organization_manager = {
 				MAI # Mainz
 		}
 		free_city = {
-			PAV MUL HAG LDA SYE SPO PSZ ATI NUA MAN KNZ KMP RVA MEM ULM OET FRE LUC PST VLT ROT XTM PRG
+			PAV MUL HAG LDA SYE SPO PSZ ATI NUA MAN KNZ KMP RVA MEM ULM OET FRE LUC PST VLT ROT XTM PRG WTZ FRN
 			#Should be but can't because they only have "rural settlements"
 			# MLH BIB NHS OFB SWH WDB WEI SLT TUL
 		}
@@ -65,12 +70,12 @@ international_organization_manager = {
 			STG SNE DNB RET
 		}
 		imperial_prelate = { 
-			ORA VDU TUL MTZ BCH AUG AQU SLZ EIC LIE XTL BIU
+			ORA VDU TUL MTZ BCH AUG AQU SLZ EIC LIE XTL BIU ATD XBL TRI FLD
 		}
 		imperial_prince = {
 			LUX VLN DAU LYO BRI MTB SAA ZWE PAL BDE WIE PIE GEN CRR ASD AOS MLO BRS VER MBZ MFA MSP SYN SAB WUR HOH MEE TIR
 			UBV FLO PIS SIE ATN NUR WEI SCU ANJ RNN ALE GUI FLA AUV VNT FLR TUE LSN BSS RCC ANG POI THR MTU LMG LOU RTZ NTN
-			WBG OST VOG
+			WBG OST VOG GTL HES WDE WTG NSS NSH NSW NSI DIE FLK ZIG NID RDL HNA KTZ ERB BUD RIE XBG MRQ CRH
 		}
 		
 		laws = {

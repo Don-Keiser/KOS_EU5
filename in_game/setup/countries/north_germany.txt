@@ -433,6 +433,20 @@ FLD = {
 	religion_definition = catholic
 }
 
+ATD = {
+	color = rgb { 255 196 178 }
+
+	culture_definition = angrian
+	religion_definition = catholic
+}
+
+XBL = {
+	color = rgb { 181 167 61 }
+
+	culture_definition = angrian
+	religion_definition = catholic
+}
+
 SHS = {
 	color = rgb { 198 210 222 }
 

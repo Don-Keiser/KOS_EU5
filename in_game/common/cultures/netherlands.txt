@@ -14,7 +14,6 @@
 	
 	culture_groups = {
 		netherlandish_group
-		german_group
 	}
 }
 
@@ -33,7 +32,7 @@ angrian = {
 	}	
 	
 	culture_groups = {
-		german_group
+		netherlandish_group
 	}
 }
 
@@ -53,7 +52,6 @@ flaamsk = {
 	
 	culture_groups = {
 		netherlandish_group
-		german_group
 	}
 }
 
@@ -73,7 +71,6 @@ little_frisian = {
 	
 	culture_groups = {
 		netherlandish_group
-		german_group
 	}
 }
 
@@ -93,6 +90,5 @@ jutsk = {
 	
 	culture_groups = {
 		netherlandish_group
-		german_group
 	}
 }
