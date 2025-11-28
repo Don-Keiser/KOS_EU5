@@ -34,6 +34,7 @@ akvitadzyte = {
 	opinions = {
 		ronadzyte = kindred
 		rochelaes = kindred
+		venadzyte = kindred
 	}
 	
 	culture_groups = {
@@ -49,11 +50,31 @@ ronadzyte = {
 	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
 
 	opinions = {
-		ronadzyte = kindred
+		akvitadzyte = kindred
 		daufines = kindred
+		venadzyte = kindred
 	}
 
 	culture_groups = {
 		western_alan
+	}
+}
+
+venadzyte = {
+	language = venadzyte_dialect
+	
+	color = map_venadzyte
+	
+	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		ronadzyte = kindred
+		akvitadzyte = kindred
+		venetian = kindred
+	}
+
+	culture_groups = {
+		western_alan
+		alpine_group
 	}
 }

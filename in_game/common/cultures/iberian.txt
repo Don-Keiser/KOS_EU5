@@ -49,7 +49,6 @@ basque = {
 	use_patronym = yes
 	
 	culture_groups = {
-		iberian_group
 		pyrenean_group
 	}
 }

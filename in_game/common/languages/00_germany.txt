@@ -682,10 +682,13 @@ frisian_language = {
 	lowborn = {
 	}
 
-	flaamsk_dialect = { }
-	little_frisian_dialect = { }
-	angrian_dialect = { }
-	jutsk_dialect = { }
+	dialects = { 
+		frisian_language = { default = yes }
+		flaamsk_dialect = { }
+		little_frisian_dialect = { }
+		angrian_dialect = { }
+		jutsk_dialect = { }
+	}
 		
 	location_prefix = "location_prefix_frisian"
 

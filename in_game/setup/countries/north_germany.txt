@@ -65,7 +65,7 @@ MAG = {
 THU = {
 	color = rgb { 66 126 157 }
 	
-	culture_definition = saxon
+	culture_definition = dieringisch
 	religion_definition = catholic
 }
 
@@ -122,14 +122,14 @@ NSA = {
 NSH = {
 	color = rgb { 91 183 203 }
 	
-	culture_definition = moselle_franconian
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 
 NSS = {
 	color = rgb { 191 83 203 }
 	
-	culture_definition = moselle_franconian
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 
@@ -150,21 +150,21 @@ BRG = {
 KTZ = {
 	color = rgb { 178 45 187 }
 	
-	culture_definition = rhine_franconian
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 
 MAI = {
 	color = rgb { 178 145 87 }
 	
-	culture_definition = rhine_franconian
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 
 SAA = {
 	color = rgb { 248 242 154 }
 	
-	culture_definition = rhine_franconian
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 
@@ -429,7 +429,7 @@ SWZ = {
 FLD = {
 	color = rgb { 66 103 88 }
 
-	culture_definition = rhine_franconian
+	culture_definition = dieringisch
 	religion_definition = catholic
 }
 
@@ -485,7 +485,7 @@ HSF = {
 HES = {
 	color = rgb { 114 171 184 }
 
-	culture_definition = rhine_franconian
+	culture_definition = dieringisch
 	religion_definition = catholic
 }
 
@@ -499,56 +499,56 @@ PDB = {
 ZIG = {
 	color = rgb { 0 241 230 }
 
-	culture_definition = rhine_franconian
+	culture_definition = dieringisch
 	religion_definition = catholic
 }
 
 HNA = {
 	color = rgb { 205 186 214 }
 
-	culture_definition = rhine_franconian
+	culture_definition = alamannisch
 	religion_definition = catholic
 }
 
 BUD = {
 	color = rgb { 150 70 70 }
 
-	culture_definition = rhine_franconian
+	culture_definition = dieringisch
 	religion_definition = catholic
 }
 
 WTZ = {
 	color = rgb { 180 22 127 }
 
-	culture_definition = rhine_franconian
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 
 TRI = {
 	color = rgb { 208 104 44 }
 
-	culture_definition = moselle_franconian
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 
 DIE = {
 	color = rgb { 236 90 91 }
 
-	culture_definition = rhine_franconian
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 
 FRN = {
 	color = rgb { 243 201 33 }
 
-	culture_definition = rhine_franconian
+	culture_definition = alamannisch
 	religion_definition = catholic
 }
 
 ERB = {
 	color = rgb { 227 225 160 }
 
-	culture_definition = rhine_franconian
+	culture_definition = dieringisch
 	religion_definition = catholic
 }
 
@@ -562,14 +562,14 @@ WRM = {
 SYE = {
 	color = rgb { 240 101 101 }
 
-	culture_definition = rhine_franconian
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 
 ZWE = {
 	color = rgb { 121 184 223 }
 
-	culture_definition = rhine_franconian
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 
@@ -583,7 +583,7 @@ LNN = {
 SPO = {
 	color = rgb { 215 66 74 }
 
-	culture_definition = rhine_franconian
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 
@@ -870,7 +870,7 @@ GLN = {
 
 WDE = {
     color = rgb { 200 180 130 }
-    culture_definition = rhine_franconian
+    culture_definition = angrian
     religion_definition = catholic
 }
 
@@ -882,25 +882,25 @@ RBG = {
 
 NSW = {
     color = rgb { 210 160 100 }
-    culture_definition = rhine_franconian
+    culture_definition = ostrisch
     religion_definition = catholic
 }
 
 NSI = {
     color = rgb { 220 180 90 }
-    culture_definition = rhine_franconian
+    culture_definition = ostrisch
     religion_definition = catholic
 }
 
 RDL = {
     color = rgb { 190 170 110 }
-    culture_definition = rhine_franconian
+    culture_definition = dieringisch
     religion_definition = catholic
 }
 
 NID = {
     color = rgb { 210 140 130 }
-    culture_definition = rhine_franconian
+    culture_definition = dieringisch
     religion_definition = catholic
 }
 

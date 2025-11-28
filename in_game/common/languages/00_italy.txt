@@ -131,6 +131,9 @@ north_italian_language = {
 		emilian_dialect = {}
 		venetian_dialect = { }
 		rhaetian_dialect = {}
+		istriota_dialect = {}
+		median_dialect = {}
+		dalmatian_dialect = {}
 	}
 }
 
@@ -246,8 +249,6 @@ south_italian_language = {
 		tuscan_dialect = {}
 		sicilian_dialect = {}
 		neapolitan_dialect = {}
-		median_dialect = {}
-		dalmatian_dialect = {}
 		sardinian_dialect = {}
 	}
 

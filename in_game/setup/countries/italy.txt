@@ -607,7 +607,7 @@ religion_definition = catholic
 TNT	= { #trento
 color = map_trento
 
-culture_definition = southern_bavarian
+culture_definition = romansh
 religion_definition = catholic
 
 }

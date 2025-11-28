@@ -3,9 +3,9 @@
 galetzian = { 
 	language = galetzian_dialect
 	
-	color = map_rochelaes
+	color = map_galetzian
 	
-	tags = { castilian_gfx iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+	tags = { portuguese_gfx iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
 
 	opinions = {
 		asturian = kindred

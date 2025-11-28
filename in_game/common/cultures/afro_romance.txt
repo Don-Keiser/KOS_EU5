@@ -1,0 +1,182 @@
+﻿sardinian = { 
+	language = sardinian_dialect
+	
+	color = map_sardinian
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		african_romance = kindred
+		numidian = kindred
+		muretannian = kindred
+		ispannian = kindred
+		cartagenian = kindred
+		lusitanian = kindred
+		toledian = kindred
+	}
+	
+	culture_groups = {
+		eia_group
+	}
+}
+
+african_romance = { 
+	language = afro_romance_language
+	
+	color = map_african_romance
+	
+	tags = { south_italian_gfx amazigh_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		sardinian = kindred
+		numidian = kindred
+		muretannian = kindred
+		ispannian = kindred
+		cartagenian = kindred
+		lusitanian = kindred
+		toledian = kindred
+	}
+	
+	culture_groups = {
+		eia_group
+		mauretanian_group
+	}
+}
+
+numidian = { 
+	language = numidian_dialect
+	
+	color = map_numidian
+	
+	tags = { south_italian_gfx amazigh_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		sardinian = kindred
+		african_romance = kindred
+		muretannian = kindred
+		ispannian = kindred
+		cartagenian = kindred
+		lusitanian = kindred
+		toledian = kindred
+	}
+	
+	culture_groups = {
+		eia_group
+		mauretanian_group
+	}
+}
+
+muretannian = { 
+	language = muretannian_dialect
+	
+	color = map_muretannian
+	
+	tags = { south_italian_gfx amazigh_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		sardinian = kindred
+		african_romance = kindred
+		numidian = kindred
+		ispannian = kindred
+		cartagenian = kindred
+		lusitanian = kindred
+		toledian = kindred
+	}
+	
+	culture_groups = {
+		eia_group
+		mauretanian_group
+	}
+}
+
+ispannian = { 
+	language = ispannian_language
+	
+	color = map_ispannian
+	
+	tags = { castilian_gfx iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		sardinian = kindred
+		african_romance = kindred
+		numidian = kindred
+		muretannian = kindred
+		cartagenian = kindred
+		lusitanian = kindred
+		toledian = kindred
+	}
+	
+	culture_groups = {
+		eia_group
+		iberian_group
+	}
+}
+
+cartagenian = { 
+	language = cartagenian_dialect
+	
+	color = map_cartagenian
+	
+	tags = { castilian_gfx iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		sardinian = kindred
+		african_romance = kindred
+		numidian = kindred
+		muretannian = kindred
+		ispannian = kindred
+		lusitanian = kindred
+		toledian = kindred
+	}
+	
+	culture_groups = {
+		eia_group
+		iberian_group
+	}
+}
+
+lusitanian = { 
+	language = lusitanian_dialect
+	
+	color = map_lusitanian
+	
+	tags = { portuguese_gfx iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		sardinian = kindred
+		african_romance = kindred
+		numidian = kindred
+		muretannian = kindred
+		ispannian = kindred
+		cartagenian = kindred
+		toledian = kindred
+	}
+	
+	culture_groups = {
+		eia_group
+		iberian_group
+	}
+}
+
+toledian = { 
+	language = toledian_dialect
+	
+	color = map_toledian
+	
+	tags = { castilian_gfx iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		sardinian = kindred
+		african_romance = kindred
+		numidian = kindred
+		muretannian = kindred
+		ispannian = kindred
+		cartagenian = kindred
+		lusitanian = kindred
+	}
+	
+	culture_groups = {
+		eia_group
+		iberian_group
+	}
+}

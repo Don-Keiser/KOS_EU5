@@ -265,7 +265,7 @@ LOR = {
 	color = map_LOR
 	color2 = rgb { 115 142 205 }
 
-	culture_definition = lorrain
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 
@@ -274,7 +274,7 @@ BAR = {
 	#color = map_FRA
 	color = rgb { 162 204 187 }
 
-	culture_definition = lorrain
+	culture_definition = francique
 	religion_definition = catholic
 }
 
@@ -459,7 +459,7 @@ BSC = {
 ALS = {
 	#color = map_FRA
 	color = rgb { 190 50 40 }
-	culture_definition = rhine_alemannic
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 
@@ -467,25 +467,25 @@ ALS = {
 MTB = {
 	#color = map_FRA
 	color = rgb { 112 128 96 }
-	culture_definition = burgundian
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 
 TUL = {
 	color = rgb { 142 58 124 }
-	culture_definition = lorrain
+	culture_definition = francique
 	religion_definition = catholic
 }
 
 VDU = {
 	color = rgb { 204 131 89 }
-	culture_definition = lorrain
+	culture_definition = francique
 	religion_definition = catholic
 }
 
 MTZ = {
 	color = rgb { 240 192 160 }
-	culture_definition = lorrain
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 

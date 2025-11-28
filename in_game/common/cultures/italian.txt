@@ -43,6 +43,22 @@ friulian = {
 	}
 }
 
+istriota = { 
+	language = istriota_dialect
+	
+	color = map_istriota
+	
+	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+
 ladin = { 
 	language = rhaetian_dialect
 	
@@ -85,6 +101,7 @@ lombard = {
 	
 	culture_groups = {
 		italian_group
+		cisalpine_group
 	}
 }
 
@@ -147,22 +164,7 @@ romansh = {
 	
 	culture_groups = {
 		italian_group
-		swiss_group
-	}
-}
-
-sardinian = { 
-	language = sardinian_dialect
-	
-	color = map_sardinian
-	
-	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
-
-	opinions = {
-	}
-	
-	culture_groups = {
-		italian_group
+		alpine_group
 	}
 }
 
@@ -178,6 +180,8 @@ sicilian = {
 	
 	culture_groups = {
 		italian_group
+		eia_group
+		greek_group
 	}
 }
 
@@ -268,5 +272,6 @@ venetian = {
 	
 	culture_groups = {
 		italian_group
+		cisalpine_group
 	}
 }

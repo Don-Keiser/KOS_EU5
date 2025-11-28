@@ -36,8 +36,9 @@ international_organization_manager = {
 			piacenza_province parma_province reggioem_province modena_province
 			#Bohemia
 			chebsko_province plzensko_province prachensko_province zatacko_province prague_province bechinsko_province
-			zateko_province erzgebirge_province leipziger_bucht_province vogtland_province thuringer_becken_province
-			thuringer_walder_province saale_province upper_carinthia_province
+			zatecko_province erzgebirge_province leipziger_bucht_province vogtland_province thuringer_becken_province
+			thuringer_wald_province saale_province upper_carinthia_province hunsruck_province eifel_province east_luxembourg_province
+			west_luxembourg_province hainaut_province namur_province brabant_province koln_bucht_province westerwald
 		}
 		locations = { 
 			teramo atri csantangelo chieti sulmona najera logrono arnedo lanciano
@@ -45,7 +46,8 @@ international_organization_manager = {
 			muhlhausen gottingen einbeck duderstadt nordhausen sangerhausen
 			herzberg blankenburg ballenstedt quedlinburg wernigerode gandersheim
 			goslar halberstadt torgau bitterfeld wittenberg bernburg calbe amstetten
-			waidhofen liezen schladming brussels nivelles leuven borgloon
+			waidhofen liezen schladming borgloon usti_nad_labem liege st_vith aachen
+			duren essen dusseldorf solingen siegburg gummersbach
 		}
 		emperor = { FRA }
 		elector = { 

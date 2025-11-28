@@ -1,0 +1,34 @@
+﻿elvaitz = { 
+	language = elvaitz_language
+	
+	color = map_elvaitz
+	
+	tags = { breton_gfx north_italian_gfx celtic_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		breton = positive
+		noric = kindred
+	}
+	
+	culture_groups = {
+		celtic_group
+		alpine_group
+	}
+}
+
+noric = { 
+	language = noric_language
+	
+	color = map_noric
+	
+	tags = { celtic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		breton = positive
+		elvaitz = kindred
+	}
+	
+	culture_groups = {
+		celtic_group
+	}
+}

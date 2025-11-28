@@ -199,6 +199,7 @@ alanic_language = {
 		jasz_dialect = {}
 		akvitadzyte_dialect = {}
 		ronadzyte_dialect = {}
+		venadzyte_dialect = {}
 	}
 	# to override the default adjective and noun database for cultural works
 	#adjective = {
