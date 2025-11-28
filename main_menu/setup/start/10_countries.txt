@@ -8255,9 +8255,6 @@ countries = {
 	}
 
 	ARB = {
-		own_control_core = {
-			ales oristano sorgono terralba bosa macomer bitti ozieri
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -10011,7 +10008,7 @@ countries = {
 		capital = atri
 	}
 
-	BNV = {
+	BNV = { #Benevento
 		own_control_core = {
 			benevento caserta piedimonte nola avellino isernia bojano
 			trivento vasto larino ariano sansevero lucera bovino foggia
@@ -10029,7 +10026,7 @@ countries = {
 			type = monarchy
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = benevento
 	}
 
@@ -14155,30 +14152,6 @@ countries = {
 	}
 
 	MOR = { #Morocco
-		own_control_core = {
-			tangier ceuta tetouan asilah basra_al_hamra larache taunat
-			badis tizgane amergo al_mazamma
-			melilla ras_kebdana ghassasa temsamane tabarida
-			ksar_el_kebir tazroute ouezzane
-			fez meknes la_mamora sale azrou volubilis tefelfelt baht
-			anfa azemmour bejaad thagia rabat settat mrirah
-			asfi mazaghan tit boulaouane miatbir aguz
-			tednest ait_daoud tafedna mogador
-			marrakesh aghmat tinmel naffis hanimmei tamdegost
-			taroudant tidsi tiout tiznit massa_MOR tafraout ifni noul_lamta agadir
-			bzou demnate azilal
-			tadla khenifra chichaoua
-			guercif ameskour terrest tezerghe namalata taza sefrou
-			jarawah_abu_al_aysh oujda
-			jerada taourirt debdou echemmaia sidi_bennour
-			nedroma tegeget kalaat_sraghna midelt
-			aouint_yghomane afso ifrane
-			ronda algeciras gibraltar marbella
-		}
-
-		control = {
-			arshgul madinat_alawiyyin saida ras_al_ain
-		}
 
 		include = "expl_muslim_mediterranean"
 		include = "muslim_monarchy_no_abrahamic_dhimmi"
@@ -14255,21 +14228,6 @@ countries = {
 	}
 
 	TLE = { #Tlemcen
-		own_control_core = {
-			tessala mascara tlemcen
-			mostaganem brashk cherchell tenes
-			tamazaghrane oran arzew ksar_ibn_senane
-			tamentfoust medea algiers tablat
-			tahert djelfa zenina asir_ALG tissemsilt
-			el_bayadh ain_sefra naama messaad ksar_el_boukhari el_abiodh_sidi_cheikh brezina
-			mazouna miliana qal_at_ibn_salama yellel chlef al_khadra_ALG
-			laghouat ksar_el_kaoua medrissa
-			azeffoun tedelles kuku charef qutb ain_madhi
-		}
-
-		own_core = {
-			arshgul madinat_alawiyyin ras_al_ain saida
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -14332,21 +14290,6 @@ countries = {
 	}
 
 	TUN = { #Tunis
-		own_control_core = {
-			bir_el_alter
-			madjul mahres sidi_fredj bou_hajla sfaqes chebba
-			kairouan sbiba kasserine subaytila thala
-			mahdia sousse el_jem monastir
-			bejaia el_kseur mansouria bouira kalaa_of_ait_abbas setif
-			annaba cheffia jijel el_milia skikda el_kala guelma collo tekouch
-			bizerte tabarka sejnane mateur beja_TUN souk_el_arba el_kef thagaste
-			tunis tebourba el_fahs zaghouan nabeul kelibia hammamet kesra
-			constantine_ALG mila ngaous baghai dufanat bazer_sakhra tiffech tebessa meskiana tijis ikjan
-			feriana
-			bordj_bou_arreridj jama_TUN
-			el_ksour medjez_el_bab sbikha
-
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -14501,12 +14444,6 @@ countries = {
 	}
 
 	TFL = {
-		own_control_core = {
-			ouarzazate   agdez ait_benhaddou skoura tagmadert taznakht
-			boumalne_dades
-			sijilmasa  er_rich ksar_es_souk tazzarine todgha
-			tamdoult   assa beni_sabih foum_zguid igiliz taghjijt tata_MOR tissint tizounine
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -14584,9 +14521,6 @@ countries = {
 	}
 
 	TGT = {
-		own_control_core = {
-			touggourt  asuf tamacine
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -14658,13 +14592,6 @@ countries = {
 
 	#Mzab - MZB
 	MZB = {
-		own_control_core = {
-			ghardaia berriane el_guerrara guettara
-		}
-
-		our_cores_conquered_by_others = {
-			laghouat
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -14689,11 +14616,6 @@ countries = {
 
 	#Zab - ZAB
 	ZAB = {
-		own_control_core = {
-			biskra   amdoukal bades el_kantara madila sidi_okba tolga
-			bou_saada maqqara msila
-			ouled_djellal
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -14725,9 +14647,6 @@ countries = {
 
 	#Djerids - DJE
 	DJE = {
-		own_control_core = {
-			ghadames sinawin
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -14752,9 +14671,6 @@ countries = {
 
 	#Gafsa - GFS
 	GFS = {
-		own_control_core = {
-			gafsa debila douz kebili madas nefta tozeur
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -14783,18 +14699,6 @@ countries = {
 
 	#Gabès - GBS
 	GBS = {
-		own_control_core = {
-			jadu nalut yafran zintan
-			chenini matmata
-		}
-
-		own_control_integrated = {
-			gabes ajim medenine 
-			zuwarah tataouine zarzis 
-		}
-
-		our_cores_conquered_by_others = {
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -14821,9 +14725,6 @@ countries = {
 
 	#Ouargla - OGL
 	OGL = {
-		own_control_core = {
-			ouargla ngoussa
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -14878,9 +14779,6 @@ countries = {
 
 	#Tripoli - TRP
 	TRP = {
-		own_control_core = {
-			tripoli al_kadwa ghariyan zawiya
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -14909,9 +14807,6 @@ countries = {
 
 	#Banu Tellis - BTL
 	BTL = {
-		own_control_core = {
-			bani_walid al_khums misratah mizda ras_lanuf sirte tarhuna tawurgha zliten
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -14942,15 +14837,6 @@ countries = {
 
 	#Fezzan - FZA
 	FZA = {
-		own_control_core = {
-			sabha  al_jawf brak maradah murzuk tazirbu zella #fezzan_province
-			qatrun
-		}
-
-		own_control_integrated = {
-			ghat sokna zawila ubari
-			djanet
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -17623,34 +17509,6 @@ countries = {
 
 	#Mamluk Sultanate - MAM
 	MAM = {
-		own_control_core = {
-			alexandria el_alamein damanhur ramsis kafr_saqr kharibta rashid wadi_el_natrun
-			cairo atfih beni_suef faiyum giza dakahla
-			damietta al_mima el_burullus el_mahalla fuwa menouf samanoud tidah
-			mansoura bilbeis faqus ushmum_tannah qalyub tarrana tinnis
-			suez saint_anthony saint_paul_anchorite
-			el_tor
-			edfu esna qena hiw qus
-			asyut el_balyana el_buwit akhmim manfalut
-			minya ashmunayn el_bahnasa sharuna tahna
-			kharga bahariyya baris el_qasr qasr_farafra siwa
-		}
-
-		own_control_integrated = {
-			el_arish nekhel qatya warrada
-			matruh sallum tobruk
-			el_qoseir ras_gharib safaga
-			el_jundi faran nuweiba saint_katrine
-			ayntab dluk
-			jerusalem acre amman aqaba beersheba gaza hebron karak maan majdal nablus safed sughar jaffa al_quwayrah
-			beirut baalbek deir_qamar sidon tripoli_syria shoubak madaba
-			damascus al_bab aleppo antioch arsuz artah baniyas dabiq hama homs idlib jabbul jableh kafartab latakia manbij maskanah masyaf nabek qusayr tartus zardana
-			umluj al_hawra al_manjur al_maramiyah
-			al_ula al_bleiteh al_farah_ula al_marwa az_zubayir mughayra
-			duba ad_disah al_azlam al_wajh bada_yaqub bir_al_qurr
-			tabuk_arabia al_khanbarah al_muazzam al_ukhaydir bajdah bir_ibn_hermas dhat_al_hajj
-			aynuna al_bad al_muwaylih haql makna afrin kilis
-		}
 
 		include = "expl_muslim_mediterranean"
 		include = "expl_horn_of_africa"
@@ -17769,10 +17627,6 @@ countries = {
 
 	#Barqa - BQA
 	BQA = {
-		own_control_core = {
-			benghazi ajdabiya al_bayda al_khuimat barca derna mechili msus qaminis suluntah tmimi
-			awjila el_agheila
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -54411,6 +54265,130 @@ countries = {
 
 		country_rank = rank_kingdom
 		capital = tallinn
+	}
+
+	#Greater Mauretania
+	MURO = { #Mauro-Roman Empire
+		own_control_core = {
+			tangier ceuta tetouan asilah basra_al_hamra larache taunat
+			badis tizgane amergo al_mazamma
+			melilla ras_kebdana ghassasa temsamane tabarida
+			ksar_el_kebir tazroute ouezzane
+			fez meknes la_mamora sale azrou volubilis tefelfelt baht
+			anfa azemmour bejaad thagia rabat settat mrirah
+			asfi mazaghan tit boulaouane miatbir aguz
+			tednest ait_daoud tafedna mogador
+			marrakesh aghmat tinmel naffis hanimmei tamdegost
+			taroudant tidsi tiout tiznit massa_MOR tafraout ifni noul_lamta agadir
+			bzou demnate azilal
+			tadla khenifra chichaoua
+			guercif ameskour terrest tezerghe namalata taza sefrou
+			jarawah_abu_al_aysh oujda
+			jerada taourirt debdou echemmaia sidi_bennour
+			nedroma tegeget kalaat_sraghna midelt
+			aouint_yghomane afso ifrane
+			ronda algeciras gibraltar marbella
+			ouarzazate   agdez ait_benhaddou skoura tagmadert taznakht
+			boumalne_dades tripoli al_kadwa ghariyan zawiya
+			sijilmasa er_rich ksar_es_souk tazzarine todgha
+			tamdoult assa beni_sabih foum_zguid igiliz taghjijt tata_MOR tissint tizounine
+			tessala mascara tlemcen
+			mostaganem brashk cherchell tenes
+			tamazaghrane oran arzew ksar_ibn_senane
+			tamentfoust medea algiers tablat
+			tahert djelfa zenina asir_ALG tissemsilt
+			el_bayadh ksar_el_boukhari
+			mazouna miliana qal_at_ibn_salama yellel chlef al_khadra_ALG
+			ksar_el_kaoua medrissa
+			azeffoun tedelles kuku charef qutb
+			biskra amdoukal bades el_kantara madila sidi_okba tolga
+			bou_saada maqqara msila asuf touggourt
+			bir_el_alter gafsa debila douz kebili madas nefta tozeur
+			madjul mahres sidi_fredj bou_hajla sfaqes chebba
+			kairouan sbiba kasserine subaytila thala
+			mahdia sousse el_jem monastir
+			bejaia el_kseur mansouria bouira kalaa_of_ait_abbas setif
+			annaba cheffia jijel el_milia skikda el_kala guelma collo tekouch
+			bizerte tabarka sejnane mateur beja_TUN souk_el_arba el_kef thagaste
+			tunis tebourba el_fahs zaghouan nabeul kelibia hammamet kesra
+			constantine_ALG mila ngaous baghai dufanat bazer_sakhra tiffech tebessa meskiana tijis ikjan
+			feriana jadu yafran chenini matmata al_khums tarhuna zliten misratah
+			bordj_bou_arreridj jama_TUN el_ksour medjez_el_bab sbikha arshgul medinat_alawiyyin saida ras_al_ain
+			gabes medenine ajim zarzis tataouine zuwarah
+
+			almeria almanzora baza gergal mojacar velez_rubio
+			granada adra almunecar guadix huescar illora loja pinar orgiva
+			malaga antequera velez_malaga
+
+			avila adrada arevalo las_navas oropesa villatoro
+			burgos aranda_de_duero briviesca castrojeriz lerma miranda_de_ebro sto_domingo_silos villadiego villarcayo
+			palencia aguilar_de_campoo carrion_de_los_condes monzon_campos palenzuela saldana reinosa
+			segovia cuellar fuentiduena pedraza sepulveda
+			soria agreda almazan berlanga burgo_de_osma calatanazor medinaceli
+			santander laredo potes san_vicente_barquera
+			valladolid medina_de_rioseco medina_del_campo penafiel tordesillas
+			cuenca alarcon belmonte beteta canete huete iniesta jorquera molina_de_aragon moya pareja san_clemente requena torralba
+			madrid alcala_de_henares brihuega buitrago_de_lozoya cobeta colmenar el_escorial guadalajara maqueda siguenza zorita
+			ciudad_real alcaraz almaden almodovar_del_campo calatrava lezuza malagon manzanares puertollano alhambra_location montiel villapalacios villarobledo
+			toledo alcazar_de_san_juan chinchon consuegra guadalupe illescas los_yebenes navalucillos ocana puebla_de_montalban puente_arzobispo talavera_de_la_reina tomelloso ucles
+			badajoz albuquerque azuaga barcarrota jerez_de_los_caballeros llerena merida monesterio villanueva_del_fresno zafra
+			caceres alcantara arroyo brozas galisteo granadilla montanchez valencia_de_alcantara
+			plasencia belalcazar escurial herrera jaraicejo medellin puebla_de_alcocer trujillo valverde villanueva_de_la_serena zalamea
+			coruna betanzos ferrol mondonedo vivero
+			lugo monforte_de_lemos navia_de_suarna sarria villalba
+			ourense barco_de_valdeorras ginzo_de_limia monterrey ribadavia viana_bolo
+			santiago_compostela finisterre lalin mellid noya pontevedra tuy
+			oviedo aviles cangas castropol llanes mieres tineo villaviciosa
+			leon astorga castrocalbon mansilla ponferrada riano sahagun villablino villafranca_bierzo
+			salamanca alba_de_tormes bejar ciudad_rodrigo coria ledesma matilla_de_canos piedrahita san_felices yecla_de_yeltes
+			zamora alba_de_aliste alcanices benavente fermoselle puebla_de_sanabria toro villalpando
+			cordoba baena carpio espiel fuenteovejuna lucena palma_del_rio pedroche santa_eufemia
+			jaen andujar baeza cazorla jodar martos ubeda
+			murcia albacete caravaca cartagena chinchilla cieza hellin lorca mula segura_de_la_sierra villena
+			sevilla arcos_de_la_frontera cadiz carmona constantina ecija jerez_de_la_frontera medina_sidonia moron olvera osuna sanlucar tarifa
+			huelva almonaster_la_real aracena aroche ayamonte coria_del_rio niebla puebla_de_guzman sanlucar_la_mayor
+
+			lagos faro silves tavira
+			evora alvalade alvito avis beja crato elvas estremoz mertola montemor mora_portugal moura odemira ourique ponte_sor portalegre portel salvaterra serpa sines vila_vicosa
+			coimbra besteiros castelo_branco covilha esgueira feira guarda idanha lamego meda pinhel proenca_nova sabugal seia trancoso viseu
+			lisbon alcacer_do_sal alcobaca chao_de_couce figueira leiria santarem setubal tomar torres_novas torres_vedras
+			porto aguiar barcelos braga guimaraes montalegre valenca viana_do_castelo
+			braganca chaves macedo miranda_de_i_douro mirandela moncorvo vila_real
+			jumilla orihuela elche alicante denia alcoy jativa gandia ayora bunol valencia lliria chelva castellon_de_la_plana llucena cantavieja
+			mora_de_rubielos teruel albarracin alfambra montalban daroca ariza
+			ibiza pollensa palma manacor ciudadela_de_menorca
+			ales oristano sorgono terralba bosa macomer bitti ozieri sassari alghero thiesi castelsardo tempiopausania terranova_pausania posada orosei
+			tortoli isili muravera seddori cagliari villa_di_chiesa tratalias
+		}
+
+		include = "expl_muslim_mediterranean"
+		include = "catholic_monarchy"
+		country_rank = rank_empire
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+
+			ruler = random
+
+			privilege = {
+				#Nobles
+				noble_sponsored_navy
+				#Burghers
+				land_of_commerce
+				allow_trade_center_sponsorship
+			}
+		}
+
+		tolerated_cultures = {
+			ispannian
+			numidian
+			african_romance
+			cartagenian
+			lusitanian
+			toledian
+		}
+
+		capital = sevilla
 	}
 }
 }
