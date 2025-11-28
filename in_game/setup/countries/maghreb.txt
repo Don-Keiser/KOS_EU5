@@ -164,3 +164,11 @@ TAT = {
 	culture_definition = zenati
 	religion_definition = sunni
 }
+
+#KOS
+MURO = { 
+	color = rgb { 127 101 44 }
+	
+	culture_definition = muretannian
+	religion_definition = african_catholic
+}
