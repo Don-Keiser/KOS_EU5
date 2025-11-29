@@ -47,6 +47,8 @@
  eastern_alan_desc: "The Eastern Alans, originating from the Eurasian steppes, were a nomadic Iranian people renowned for their equestrian skills and warrior culture. They migrated westward during the early medieval period, influencing the regions they traversed and eventually settling in parts of Eastern Europe and the Caucasus. Their legacy is marked by their contributions to the military and cultural landscapes of these areas."
  balkan_group: "Balkan"
  balkan_group_desc: "The Balkan peoples, inhabiting the southeastern region of Europe, are characterized by a rich tapestry of cultures, languages, and histories. This diverse group has been shaped by centuries of migration, conquest, and cultural exchange, resulting in a unique blend of traditions and identities that define the Balkans today."
+ east_german_group: "East German"
+ east_german_group_desc: "The East Germans."
  alpine_group: "Alpine"
  alpine_group_desc: "The Alpine peoples inhabit the mountainous regions of Central Europe, where their cultures have been shaped by the rugged terrain and harsh climates. Despite the challenges posed by their environment, these communities have developed unique traditions, dialects, and ways of life that reflect their resilience and adaptability."
  cisalpine_group: "Cisalpine"

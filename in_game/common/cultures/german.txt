@@ -986,8 +986,38 @@ upper_palatine = {
 	}
 }
 
+moesogothic = { 
+	language = moesogothic_dialect
+	
+	color = map_moesogothic
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+		thuringian_gothic = kindred
+	}	
+	
+	culture_groups = {
+		east_german_group
+		balkan_group
+	}
+}
 
-
-
+thuringian_gothic = { 
+	language = thuringian_gothic_dialect
+	
+	color = map_thuringian_gothic
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+		moesogothic = kindred
+	}	
+	
+	culture_groups = {
+		east_german_group
+		german_group
+	}
+}
 
 

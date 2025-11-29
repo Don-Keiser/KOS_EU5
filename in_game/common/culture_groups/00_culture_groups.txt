@@ -81,6 +81,9 @@ balkan_group = {
 german_group = {
 }
 
+east_german_group = {
+}
+
 swiss_group = {
 }
 

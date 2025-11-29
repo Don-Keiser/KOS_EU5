@@ -360,7 +360,7 @@ NUR = {
 WBG = {
 	color = rgb { 147 146 106 }
 	
-	culture_definition = east_franconian
+	culture_definition = thuringian_gothic
 	religion_definition = catholic
 }
 

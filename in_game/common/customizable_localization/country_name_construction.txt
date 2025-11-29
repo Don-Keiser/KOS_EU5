@@ -27,6 +27,18 @@
 	text = {
 		localization_key = country_name_construction_name
 		trigger = {
+			tag = ERRB
+		}
+	}
+	text = {
+		localization_key = country_name_construction_name
+		trigger = {
+			tag = KUNS
+		}
+	}
+	text = {
+		localization_key = country_name_construction_name
+		trigger = {
 			OR = {
 				AND = {
 					tag = PAP

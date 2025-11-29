@@ -596,6 +596,14 @@ german_language = {
 			fallback = upper_german_dialect
 		}
 
+		moesogothic_dialect = {
+			fallback = upper_german_dialect
+		}
+
+		thuringian_gothic_dialect = {
+			fallback = upper_german_dialect
+		}
+
 		yiddish_dialect ={
 
 			male_names = {

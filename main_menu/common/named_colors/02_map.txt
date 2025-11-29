@@ -4206,6 +4206,7 @@ colors = {
 	map_dieringisch = rgb { 119 142 130 }
 	map_noric = rgb { 116 155 136 }
 	map_elvaitz = rgb { 71 130 100 }
+	map_kunsag = rgb { 58 40 89 }
 	#Afro-Romance
 	map_sardinian = rgb { 120 162 77 }
 	map_african_romance = rgb { 63 119 87 }
@@ -4215,8 +4216,16 @@ colors = {
 	map_cartagenian = rgb { 151 188 76 }
 	map_lusitanian = rgb { 144 161 61 }
 	map_toledian = rgb { 179 163 20}
+	#Balkan Alans
 	map_rughan = rgb { 113 103 85 }
 	map_red_croat = rgb { 140 90 41 }
 	map_black_croat = rgb { 94 59 36 }
+	#Rughans and others
+	map_ERRB = rgb { 78 112 84 }
+	map_MSGT = rgb { 87 124 103 }
+	map_KUNS = rgb { 150 116 111 }
+	#Goths
+	map_moesogothic = rgb { 74 74 74 }
+	map_thuringian_gothic = rgb { 74 74 113 }
 }
 

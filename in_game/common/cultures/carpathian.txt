@@ -81,6 +81,7 @@ hungarian = { #HUN
 	opinions = { 
 		chiyalik_culture = kindred
 		szekely_culture = kindred
+		kunsag = positive
 	}	
 	culture_groups = {
 		hungarian_group
@@ -88,8 +89,26 @@ hungarian = { #HUN
 	}
 }
 
+kunsag = { #Kunsag region of Hungary https://en.wikipedia.org/wiki/Kuns%C3%A1g
+	language = kunsag_dialect
+	
+	color = map_kunsag
+	
+	tags = { hungarian_gfx central_asian_gfx middle_east_gfx eastern_european_gfx european_gfx }
+
+	opinions = { 
+		hungarian = kindred
+		szekely_culture = kindred
+	}	
+	culture_groups = {
+		hungarian_group
+		carpathian_group
+		turkic_group
+	}
+}
+
 szekely_culture = { #https://en.wikipedia.org/wiki/Sz%C3%A9kelys
-	language = hungarian_language
+	language = szekely_dialect
 	
 	color = color_culture_szekely
 	
@@ -98,6 +117,7 @@ szekely_culture = { #https://en.wikipedia.org/wiki/Sz%C3%A9kelys
 	opinions = {
 		chiyalik_culture = kindred
 		hungarian = kindred
+		kunsag = kindred
 	}	
 	culture_groups = {
 		hungarian_group

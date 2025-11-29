@@ -38,7 +38,7 @@ mithraic_zalmoxis = {
 }
 
 jayayan_zalmukh = {
-    color = map_mithraic_zalmoxis
+    color = map_jayayan_zalmukh
     group = folk_european_group
 
 	religious_aspects = 1

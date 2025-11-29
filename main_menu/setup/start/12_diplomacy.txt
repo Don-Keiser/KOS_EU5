@@ -51,4 +51,10 @@ diplomacy_manager = {
     scripted_mutual = { first = JAP second = NTC type = alliance }
     scripted_oneway = { first = JAP second = NTC type = guarantee }
 
+    #Hungary
+    dependency = { first = HUN second = KUNS subject_type = vassal }
+
+    #Rughan Empire
+    dependency = { first = ERRB second = MSGT subject_type = vassal }
+
 }

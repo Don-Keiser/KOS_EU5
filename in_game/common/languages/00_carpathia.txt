@@ -58,6 +58,16 @@
 		Nagy Kovacs	Szabo Varga	Kiss Molnar Farkas Balogh Lakatos Takacs Juhasz	Meszaros name_simeon Fekete Szilagyi Feher name_blaise	
 	}
 
+	dialects = {
+		hungarian_language = {
+			default = yes
+		}
+		kunsag_dialect = {
+		}
+		szekely_dialect = {
+		}
+	}
+
 	location_suffix = "location_suffix_hungarian"
 	
 	character_name_short_regnal_number = "CHARACTER_SHORT_NAME_PREFIX_NUMBER_NAME_SUFFIX"

@@ -10739,9 +10739,6 @@ countries = {
 	}
 
 	CRT = { #Candia https://en.wikipedia.org/wiki/Kingdom_of_Candia
-		own_control_core = {
-			chania hagios_pavlos rethymno candia gergeri elounda viannos siteia
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -10954,14 +10951,6 @@ countries = {
 
 
 	ACH = { #https://en.wikipedia.org/wiki/Principality_of_Achaea
-		own_control_core = {
-			damala ermioni kalamata kyparissia
-			andritsaina pontikokastro andravida corinth
-			chalandritsa patras vostitsa kalavryta xylokastro
-		}
-		our_cores_conquered_by_others = {
-			tripolitsa veligosti karytaina
-		}
 		starting_technology_level = 3
 		include = "expl_mediterranean"
 		include = "expl_silk_road_west"
@@ -11549,9 +11538,6 @@ countries = {
 	}
 
 	MZK = {
-		own_control_core = {
-			berat ballsh
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -11725,9 +11711,6 @@ countries = {
 	}
 
 	RAG = {
-		own_control_core = {
-			dubrovnik
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -13290,7 +13273,6 @@ countries = {
 			cristuru_secuiesc reghin
 			mezhorje sighet
 			baita carei hodod
-			recas semlacu_mare
 			cheresig ineu lipova mako oradea szarvas
 			baja_hungary
 			csurgo simontornya kaposvar mohacs nagykanizsa siklos zalaegerszeg
@@ -13302,8 +13284,7 @@ countries = {
 			kremnica krupina nograd salgotarjan zvolen
 			prievidza trnava
 			povazska_bystrica zilina
-			pancevo
-			kikinda titel modos
+			kikinda titel
 			belgrad debrc sabac
 			gradiski_brod dubica
 			buda pest kalocsa felegyhaza
@@ -13320,18 +13301,19 @@ countries = {
 			bistrita cuhea rakhiv khust sic dej
 			turda targu_mures cetatea_balta felvint cluj
 			fagaras sibiu sebes alba_iulia medias sighisoara brasov sfantu_gheorghe
-			hateg caransebes lugoj deva
+			deva
 			bihar beius baia_de_aries huedin crasna
 			debrecen nagyboszormeny nagykallo nagyecsed varda szatmar syvlyush zalau baia_mare
 			szolnok eger karcag borsod
 			bekes csanad szeged
-			kovin veliky_beckerek carasova mihalt
 			timisoara arad zarand
 			dabaca baia_crisului gurghiu
 			#Banate of Croatia
 			bjelovar koprivnica kutina pakrac vaska virovitica
 			vukovar ilok pozega sremska_mitrovica petrovaradin
 			zagreb cakovec karlovac petrinja sisak slunj varazdin
+
+			cozia poenari
 		}
 
 		own_control_integrated = {
@@ -54128,6 +54110,155 @@ countries = {
 			ruler = random
 		}
 		capital = tarragona
+		country_rank = rank_duchy
+	}
+
+	ERRB = {
+		own_control_core = {
+			constantinople uskudar silivri catalca vize kiyikoy corlu ahtopol rodoscuk malgara gallipoli luleburgaz
+			kirklareli sozopol hayrabolu kesan enez edirne traianopolis demotica komotini ormenio ustra perperek
+			haskovo xanthia smolyan stanimaka thasos kavala drama dospat beden tsepina nevrokop bansko serres melnik
+			krupnik dupnitsa samokov velbuzd mount_athos polygyros kassandreia thessaloniki rentina gynaikokastro kilkis
+			strumica kocani shtip giannitsa prosek veles bukelon elhovo constantia_bul hiambouli rusokastro lardeja sliven
+			kran plovdiv strelcha kostenets stipon sredets burgas aytos anhialo ktenia varna ovech veliki_preslav lyaskovets
+			tryavna hotalich lovech pleven bozhenitsa svoge zemlungrad kratovo archar kutlovitsa vratsa lom oryahovo dobrolak
+			gigen nikopol tarnovo cherven ruse razgrad targoviste_BUL shumen drastar kladentsi karvuna cernavoda kaliakra pangalia
+			constanta harsova babadag isaccea enisala boruy tutrakan kumanovo skopje vranje novo_brdo tetovo kicevo prilep bitola
+			ohrid edessa devol berat ballsh kastoria florina ostrovo veria avlonya kleisoura_epirus konitsa siatista servia hatera
+			argyrokastro corfu butrint parga ioannina grevena trikala elassona tyrnavos stomio preveza arta pyli karditsa farsala
+			larissa demetrias leukas cephalonia zakynthos vonitsa angelokastron karpenisi neopatras loidoriki nafpaktos salona
+			zetounion bodonitsa gravia atalanti livadeia thebes negroponte megara athens corinth damala nafplio ermioni argos
+			xylokastro vostitsa patras kalavryta chalandritsa andravida pontikokastro andritsaina karytaina tripolitsa kyparissia
+			modon kalamata veligosti astros mystras leuktron oitylo monemvasia kythira tsaribrod pirot svrljig
+
+			orhei tuzara ungheni iasi cotnari targu_neamt piatra_lui_craciun bacau targu_trotus roman vaslui husi targu_lapusnei
+			chisinau tighina gura_galbenei targul_saratii tutova barlad oancea tecuci adjud focsani tulnici cudalbi galati cahul
+			reni palada ismail chilia tulcea sarata cetatea_alba
+			ramnicu_sarat braila viziru parscov buzau meteleu orasul_de_floci valenii_de_munte bukov slobozia cegani lichiresti slanic
+			ploesti gaiseni bucharest giurgiu comana gratia targoviste cetateni pitesti campulung_muscel arges glavacioc slatina rusii_de_vede
+			zimnicea turnu_magurele
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		discovered_areas = {
+			red_sea_area
+			persian_gulf_sea_zones_area
+			upper_egypt_area
+			nubia_proper_area
+		}
+		include = "eastern_european_monarchy"
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+
+			ruler = random
+
+			centralization_vs_decentralization = 20
+			traditionalist_vs_innovative = -60
+			spiritualist_vs_humanist = -60
+			aristocracy_vs_plutocracy = -70
+			serfdom_vs_free_subjects = -60
+			mercantilism_vs_free_trade = -70
+			belligerent_vs_conciliatory = -20
+			quality_vs_quantity = -5
+			offensive_vs_defensive = 50
+			land_vs_naval = 20
+			capital_economy_vs_traditional_economy = 60
+			individualism_vs_communalism = -10
+			outward_vs_inward = 70
+
+			privilege = {
+				#Nobles
+				elaborate_court_ceremonies
+				noble_serfdom_rights
+				manorial_courts
+				consolidated_corruption_of_the_nobles
+
+				#Clergy
+				embellish_great_works_of_faith
+				clergy_powerful_dioceses
+				clergy_strengthen_faith
+				consolidated_corruption_of_the_clergy
+
+				#Burghers
+				formal_guilds
+				land_of_commerce
+				market_fairs
+				sponsor_maritime_contracts
+				control_over_monetary_policy
+				control_over_the_coinage
+				consolidated_corruption_of_the_burghers
+
+				#Commoners
+				access_to_royal_and_ecclesiastical_courts
+				consolidated_corruption_of_the_peasants
+			}
+			reforms = {
+				autocracy
+				theme_system
+				kritai_katholikoi
+			}
+
+			laws = {
+				legal_code_law = byzantine_law
+				distribution_of_power_law = dop_favor_the_ruler
+				feudal_de_jure_law = by_blood
+				administrative_system = pronoia_system
+				patriarchate_law = state_patriarchate_policy
+			}
+		}
+
+		accepted_cultures = {
+			bolghar_culture
+		}
+
+		tolerated_cultures = {
+			greek_culture
+			black_croat
+			red_croat
+		}
+
+		liturgical_language = greek_language
+
+		capital = constantinople
+		country_rank = rank_empire
+	}
+
+	#Moesogothia
+	MSGT = {
+		own_control_core = {
+			nis glubocica medveda prokuplje krusevac stalac
+		}
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		capital = nis
+		country_rank = rank_county
+	}
+
+	#Kunsag March
+	KUNS = {
+		own_control_core = {
+			severin targu_jiu targu_bengai ramnicu_valcea stramba strehaia craiova dragasani
+			plenita calafat radovanu caracal corabia visesav vidin kucevo branicevo ravno kozelj
+			hateg caransebes lugoj mihalt carasova recas semlacu_mare modos veliky_beckerek
+			kovin pancevo
+		}
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		capital = severin
 		country_rank = rank_duchy
 	}
 }

@@ -266,3 +266,24 @@ GOR = {
 	culture_definition = danube_bavarian
 	religion_definition = catholic
 }
+
+ERRB = {
+	color = map_ERRB
+
+	culture_definition = rughan
+	religion_definition = orthodox
+}
+
+MSGT = {
+	color = map_MSGT
+
+	culture_definition = moesogothic
+	religion_definition = orthodox
+}
+
+KUNS = {
+	color = map_KUNS
+
+	culture_definition = kunsag
+	religion_definition = orthodox
+}
