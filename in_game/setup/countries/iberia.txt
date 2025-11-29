@@ -132,6 +132,13 @@ NAV = {
 	
 }
 
+TRGN = {
+	color = rgb { 97 142 119 }
+
+	culture_definition = tarragones
+	religion_definition = catholic
+}
+
 #CTV = {
 #	color = map_CTV
 #	color2 = rgb { 16 41 202 }

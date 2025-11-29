@@ -449,17 +449,11 @@ international_organization_manager = {
 		members = {
 			#The Golden Horde
 			GLH
-			#Tax Collector
-			MOS
-			#Member
-			BLO DMI GLM KCH KOS MRM NSL NZH RSO RYA SKY SMO TRS TVE YAR YRV
-			FMB GRS KAS KLN KZK MOG MSV PRK SZL UGL VLR VYA ZUB
 		}
 		tatar_overlord = {
 			GLH
 		}
 		tatar_tax_collector = {
-			MOS
 		}
 		ruler_term = {	 character = jochi_borjigin start_date = 1207.1.1 end_date = 1227.1.1 regnal_number = 1	}
 		ruler_term = {	 character = batu_borjigin start_date = 1227.1.1 end_date = 1255.1.1 regnal_number = 1	}

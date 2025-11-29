@@ -12,6 +12,8 @@ alan_culture = {
 	}		
 }
 
+#Balkan Alans
+
 jasz_culture = { #https://en.wikipedia.org/wiki/Jasz_people
 	language = jasz_dialect
 	
@@ -20,9 +22,68 @@ jasz_culture = { #https://en.wikipedia.org/wiki/Jasz_people
 	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
 
 	opinions = {
-
+		rughan = positive
+		red_croat = positive
+		black_croat = kindred
 	}	
 }
+
+rughan = {
+	language = rughan_dialect
+	
+	color = map_rughan
+	
+	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		jasz_culture = positive
+		red_croat = kindred
+		black_croat = kindred
+		bolghar_culture = kindred
+	}
+	culture_groups = {
+		eastern_alan
+		balkan_group
+	}
+}
+
+red_croat = {
+	language = rughan_dialect
+	
+	color = map_red_croat
+	
+	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		jasz_culture = positive
+		rughan = kindred
+		black_croat = kindred
+	}
+	culture_groups = {
+		eastern_alan
+		balkan_group
+	}	
+}
+
+black_croat = {
+	language = black_croat_dialect
+	
+	color = map_black_croat
+	
+	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		jasz_culture = kindred
+		red_croat = kindred
+		rughan = kindred
+	}
+	culture_groups = {
+		eastern_alan
+		balkan_group
+	}
+}
+
+#Western Alans
 
 akvitadzyte = {
 	language = akvitadzyte_dialect

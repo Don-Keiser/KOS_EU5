@@ -197,6 +197,9 @@ alanic_language = {
 			default = yes
 		}
 		jasz_dialect = {}
+		rughan_dialect = {}
+		red_croat_dialect = {}
+		black_croat_dialect = {}
 		akvitadzyte_dialect = {}
 		ronadzyte_dialect = {}
 		venadzyte_dialect = {}

@@ -718,3 +718,9 @@ PST = { # Pistoia
     culture_definition = tuscan
     religion_definition = catholic
 }
+
+BZIT = { # Kingdom of Italia
+    color = rgb { 163 40 163 }
+    culture_definition = griko_culture
+    religion_definition = orthodox
+}

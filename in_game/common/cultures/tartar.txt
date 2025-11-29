@@ -160,9 +160,11 @@ bolghar_culture = {
 	
 	opinions = {
 		chuvash_culture = kindred
+		rughan = kindred
 	}	
 	culture_groups = {
 		turkic_group
+		balkan_group
 	}
 }
 

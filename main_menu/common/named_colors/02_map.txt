@@ -290,7 +290,7 @@ colors = {
 	map_NOG = rgb { 0 120 145 } #same as in EU4
 	map_SIB = rgb { 139 138 160 } #same as in EU4
 	map_chuvash = rgb { 255 223 228 }
-	map_bolghar = rgb { 155 123 128 }
+	map_bolghar = rgb { 132 120 60 }
 	map_sakha = rgb { 238 204 76 }
 	map_soyot = rgb { 14 67 252 }
 	map_telengit = rgb { 90 23 130 }
@@ -932,6 +932,8 @@ colors = {
 	religion_waldensian = rgb { 102 51 128 } #same as in CK3
 	religion_african_catholic = rgb { 123 143 78 }
 	religion_arian = rgb { 74 86 47 }
+	map_mithraic_zalmoxis = rgb { 76 0 26 }
+	map_jayayan_zalmukh = rgb { 165 0 58 }
 	#Indian Religions
 	color_hindu = hsv360 { 24 84 100 }
 	color_jain = rgb { 231 169 20 }
@@ -4213,5 +4215,8 @@ colors = {
 	map_cartagenian = rgb { 151 188 76 }
 	map_lusitanian = rgb { 144 161 61 }
 	map_toledian = rgb { 179 163 20}
+	map_rughan = rgb { 113 103 85 }
+	map_red_croat = rgb { 140 90 41 }
+	map_black_croat = rgb { 94 59 36 }
 }
 

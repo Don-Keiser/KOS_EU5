@@ -3478,140 +3478,6 @@ countries = {
 
 	GLH = {
 		type = army
-		own_control_core = {
-
-			qirq_yer qarasuvbazar seyitler kalay kezlev aqmecit or_qapi solkhat jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
-			balikley aqmecit_prybuzhzhya argamakli_sarai vithold_hammami harbuzynka oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka qalancaq aslan_horod
-			ordu_bazar rohat_kermen enice velyka_lepetykha melitopol kyrylivka tokmak konski_vody kuchugur berdiansk yelanets
-			mala_vyska umanske ingul sofiivka kryvyi_rih tomakivka mykytyn_rih kichkas rozdory hryshyne
-			kupiansk posad velyka_novosilka domakha huliaipole shyrokyne vasylivka taganrog bakhmut sloviansk lysychansk
-			kreminna oleksandrivka bielska_sloboda bilovodsk novopskov kalnivka konstantinovka krasny_sulin
-			shakhty rovenky kalmius kamenskaya azok bagayevskaya shcherbinovka balzimachi kanevskaya starominskaya yegorlykskaya semikarakorsk
-			yundin mityakinskaya luhansk novoaidar belaya_kalitva millerovo oblivskaya
-			kashary chertkovo bokovskaya milyutinskaya boguchar ostrogozhsk
-			kalach uryupin mikhaylovka novoanninsky alexeyevskaya veesky kumylzhenskaya
-			yelan machekha novonikolayevsky samoylovka
-			novopavlovsk yessentuq alexandrovskoye blagodarnoye novoselitskoye
-			kalininskaya bryukhovetskaya bzhedygu_kal ust_labinsk pavlovskaya tbilisskaya romanovsky_khutor
-			adyukh stavropol grigoropolisskaya uspenskoye shad_kirman petrovskoye_pontic privolnoye belaya_glina peschanokopskoye
-			novo_alexandrovskoye bezopasnoye ipatovo bakanas ashchyozek dagandely koksala sayak
-			irgiz chet_irgiz karasay kayrakty sazanbay
-			zhuban_ana kaip_ata karagau korgan maulimberdy gebergeyel khaiylmysh khaqmar shikashin yuldibay tagatay dandybay karabay smai_samkai yegindybulak
-			sarykopa karasu saryozen ulkayak bolgan_ana aitbulat belen_ana talmas_ata tengiz kon_tengiz kulanotpes sonaly tokrau espe kusak zhamankul
-			aybas kabyrga karaturgay turgay zhaldama orda_bazar alashakhan baskamyr ulytau namjan atach ishkul kumak suyunduk tanalyk yaik
-			zhamshy kashkanteniz kyzylsay moiynty mukur yangikent buzikkala jubara karmakshi
-			sighnaq asanas barchkend jand kamyskala sozak aksumbe gulshara kyzylkorgan ran tasty
-		}
-		own_control_integrated = {
-			usivka petrove kodak myshuryn_rih samarchyk pavlohrad oril ternivka adalaga berestyn 
-			karlivka izium barvinkove donets_kharkiv zmiiv chuhuiv vovchansk nyzhnia_duvanka 
-			bol_shaya_martynovka cheplak bolshoy_gashun dubovskoye ust_tsimla konstantinovsk 
-			tatsinskaya tormosin kremenskaya kletskaya ust_medveditskaya nizhny_chir anna_russia 
-			novaya_pokrovka semidesyatnoye zemlyansk rossosh borisoglebsk bannoye sadovoye 
-			bolshaya_gribanovka buturlinovka verkhny_mamon zimnyatsky malodelskaya ilovlya 
-			atkarsk lysye_gory yekaterinovka balanda rtishchevo balashov turki arkadak 
-			sosnovy_ostrov malykovka novye_burasy tereshka petrovsk mechet stepanevka 
-			sarai_al_jadid beljamen zenzevatka nagavskaya aksay rudnya_pontic danilovka 
-			kotovo kamyshin goly_karamysh pologoye_zaymishche srednyaya_akhtuba bykovo 
-			elton zolotari berezhnovka kalmyk karatobe shyngyrlau aksay_pointic zhympity
-			terekti oral ryn saryadyn ushtagan sarayjuk kisikkamys kulagin talowski 
-			astrakhan khosheutovo krasny_yar ganyushkino zamyany yenotayevka sapara 
-			chernyye_zemli ikryanoye chyorny_yar nikolskoye_pontic malye_derbety 
-			sadovoye_kalmykia ded_khulsun zavetnoye bolkhuny mikhaylovka_pontic 
-			rechnoye bokey botkul zhanybek piterka krasny_kut_pontic mokrous 
-			savinka rovnoye pokrovsk baronsk taskala dergachi chertanla alexandrov_gay 
-			ozinki mechetnaya perelyub ivanteyevka balakovo dukhovnitskoye 
-			sakminskoye_vodokhranilishche yershov dardeling mekletin kok_usn yashkul 
-			iki_burul priyutnoye elista remontnoye gorodovikovsk raguli majar zelenokumsk arzgir levokumskoye 
-			naurskaya kara_bazaar terekli_mekteb kurskaya kamysh_burun baytak ilek 
-			kargaly_aktobe kobda irek tas_kichu kaynar shagiz tenteksor mavliberda 
-			kiyl koptam uil emba atzhaksy shatyrlysay temir or_aktobe
-
-			chilia cetatea_alba gura_galbenei sarata tighina chatyun kutarka sernur morki urzhum
-			lusta soldaia 
-			zainsk syun verkhneyarkeyevo
-			menzelinsk lower_aktanyshbash chalninsky_pochinok chekmagush chishmy
-			ulukulevo davlekanovo bizhbulyak turkmenevo sterlibashevo
-			sterlitamak bavly bugulma abdulino aznakayevo
-			sadak gorkovskoye okoneshnikovo
-			qashliq siberia_abalak turtas yukonda
-			tara znamenskoye ust_ishim omsk kamyshnoye cherlak tyukalinsk kolosovka
-			siletiteniz zhalauly
-			tuzdysor imakia zhelezin lebyazhye
-			chastoozerye polovinnoye armizonskoye berdyuzhye korkina_sloboda
-			tarankol kyzylzhar presnowka staroye stanitsa_kokchetavskaya
-			shish muromtsevo ufa askino baltas
-			sartlan taskayevo kargat kainsky_pas kyshtovka
-			bursol kuchukskoye volchikha butyrskoe zmeinogorsk shemonayevskoye oskemen ust_kalmanka
-			krivoshchekovo kamen dovolnoye kozhevnikovo bolotnye
-			suzun berdsk chesnokovka kalmanka barnaul verkhotomsk kolchugino
-			altayskoye onguday ust_koksa smolenskoye mayma biysk
-			kuznetsk salair kytmanovo ust_kabyrza askiz abakasnk beya shushenskoye
-			tomsk melnikovo molchanovo kargasok vasyugan kolpashevo
-			surgut bolshoy_balyk irtysh megion bolshoy_yugan upper_ob
-			alkhan_kala nazran dzhulat tatartup
-			promsa alatyr batyrevo
-			atrat altyshevo bolshoye_boldino shatki arzamas sarov lukoyanov krasnoslobodsk ruzayevka
-			insar temnikov tarbeevka zubova_polyana mokhcha nizhny_lomov zemetchino bondari 
-			sergach chamzinka saransk lunino 
-			pokrovskoye simbirsk cherdakly staraya_mayna melekess tetyushi sviyazhsk
-			atishchevo tsivilsk sharanga uren tonshayevo
-			bolshoye_murashkino kurmysh lyskovo perevoz sechenovo spasskoye_lyskovo
-			cheboksary kozmodemyansk alikovo vasilsursk pavlovo
-			vetluga semyonov khakhaly kovernino krasnye_baki raznezhye voskresenskoye varnavino
-			kadom ardatov 
-			ushkan koskuduk manysai shagan zhaksy_karasay
-			ketik_kala kabakty karatobe_mangyshlak kyzylkala
-			masat_ata beket_ata beki kenderli_kayasan koshkar_ata temir_baba
-			beleuli kyushe sam shuruk sisem_ata uchkuduk
-			pulzhai qonirat shimbay xojeli khurgancha
-			vezir urgench
-			kazan laish calli mamadysh bogatye_saby oli_baraza dobyaz
-			yaransk kiknur kabachischi yoshkar_ola
-			bolghar cukataw bilyar almetyevsk 
-			tabynsky ishimbay beloretsk 
-			buguruslan sergiyevsk
-			koshki kamyshla bolshoy_cheremshan staryi_amanak
-			samara shigony morkvash chebarkul miass
-			krasnaya_gorka belekes 
-
-			ismail
-			tula_russia bogoroditsk arkhangelskoye kurkino donkov yelets talitsa_yelets gogol teshevka voronezh ukek
-			lipetsk usman mordovo zherdevka uvarovo kirsanov rasskazovo izberdey tambov ust_stanovykh_ryas
-			kozlov ust_livny terbuny kastornoye chernyanka alexeyevka opalkova
-			rovenki valuyki korocha belgorod rakitnoye muzhech sudzha oboyan
-			staroyuryevo morsha sasovo nikolskoye bazarny_syzgan karsun 
-			mokshan chembar
-			serdobinskaya malaya_serdoba shemysheyka
-			penza gorodishche russky_kameshkir staraya_kulatka solovtsovo
-			troitskoye_kuroedovo 
-			kasimov azeevo
-
-			meleuz kapova_pesera
-			khvorostyanka stavropol_na_volge kondurcha pestravka
-			poganovka sorochinskaya buzuluk grachevka bol_shoy_uran malyy_uran
-			s_ezzaja bogatoye
-			tobolsk vagay tavdinsky_sloboda yurginskoye vikulovo
-			bayanaul shybyndy bozok_astana akkol
-			karasor karkaraly takhir
-			arykbalyk kak kokshetau shoindykol atbasar
-			kulykol zhetykol shoptikol siberia_tenteksor konildi
-			zharkol sasykkol kartaly alakol almenevo safkul shchuchye kargapolye kurtamysh
-			yetkul troitsk uyskoye 
-			bolshoy_ik ust_katav mesyagutovo zlatoust
-			chimgi_tura tugulym yalutorovsk shadrinsk
-			tsaryovo_gorodishche burayevo
-			sarybulak zhanaarka arkat balyktykol kaynar_atbai
-
-			bratslav balta bershad drahushiv karabul savran
-			torhovytsia teplyk tsybuliv uman zavallia
-			vinnytsia buzhskyi pohrebyshche sokilets
-			armavir 
-
-			#Principality of Kursk
-			kursk fatezh kosozhichi olgov
-			manturovo_kursk oskol troitskoye_na_shchigrakh
-		}
 		starting_technology_level = 3
 		include = "expl_mongols"
 		include = "eurasian_horde"
@@ -3768,9 +3634,6 @@ countries = {
 
 
 	FEO = {	# Theodoro
-		own_control_core = {
-			theodoro
-		}
 
 		starting_technology_level = 3
 		government = {
@@ -9536,7 +9399,7 @@ countries = {
 			emilian
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = milano
 		dynasty = visconti_dynasty
 	}
@@ -10379,13 +10242,6 @@ countries = {
 
 
 	SIC = {
-		own_control_core = {
-			catania messina mistretta nicosiasic patti piazza girgenti bivona caltanisetta cefalu sciacca termini
-			corleone mazara palermo salemi trapani caltagirone modica noto syracuse terranovasic
-		}
-		our_cores_conquered_by_others = {
-			ajim
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -10774,11 +10630,6 @@ countries = {
 	VEN = {
 		own_control_core = {
 			chioggia venice mestre
-			pola rovinj pag zadar split brac slano
-		}
-
-		own_control_integrated = {
-			corfu modon kythira andros mykonos amorgos karpathos
 		}
 
 		include = "expl_mediterranean"
@@ -11002,7 +10853,7 @@ countries = {
 			lombard
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = verona
 	}
 
@@ -11060,9 +10911,6 @@ countries = {
 	#Balkans
 
 	ATH = {
-		own_control_core = {
-			athens megara thebes atalanti livadeia gravia
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -11186,9 +11034,6 @@ countries = {
 	}
 
 	CEP = {
-		own_control_core = {
-			zakynthos leukas cephalonia
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -11268,9 +11113,6 @@ countries = {
 	}
 
 	NAX = { #https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago
-		own_control_core = {
-			naxos kythnos milos
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -11309,13 +11151,6 @@ countries = {
 	}
 
 	EPI = {
-		own_control_core = {
-			nafpaktos angelokastron vonitsa arta preveza parga ioannina kleisoura_epirus butrint
-			argyrokastro avlonya karpenisi konitsa
-		}
-		our_cores_conquered_by_others = {
-			ballsh berat
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -11448,24 +11283,6 @@ countries = {
 	}
 
 	BYZ = {
-		own_control_core = {
-			sporades servia kastoria hatera veria edessa kassandreia polygyros thessaloniki
-			kilkis giannitsa gynaikokastro serres rentina kavala mount_athos thasos drama xanthia komotini
-			traianopolis demotica lemnos imbros gallipoli kesan
-			edirne hayrabolu corlu
-			rodoscuk enez kiyikoy ahtopol constantinople silivri catalca luleburgaz kirklareli
-			malgara
-			monemvasia mystras oitylo leuktron astros ostrovo
-			uskudar
-			chios vize
-			ormenio
-		}
-		own_control_integrated = {
-			bukelon devol ustra
-		}
-		own_control_conquered = {
-			demetrias tripolitsa veligosti karytaina farsala elassona larissa siatista stomio trikala tyrnavos pyli karditsa grevena
-		}
 		our_cores_conquered_by_others = {
 			#Vardar Province - lost in 1285
 			kocani strumica
@@ -11821,21 +11638,6 @@ countries = {
 	}
 
 	SER = {
-		own_control_core = {
-			peja prizren bitola prilep kicevo tetovo kotor shkoder debar onogost gradina
-			budimlja brskovo gjakova mitrovica pristina novo_brdo skopje kumanovo veles prosek shtip
-			kratovo vranje podgorica bar_cg prijepolje visegrad ustikolina soko_grad
-			glubocica nis prokuplje stalac ravno jagodina gacko trebinje ohrid kocani strumica
-			krusevac kucevo branicevo rudnik smederevo krupanj valjevo uzice pljevlja
-			gradac zica trgoviste_SER sjenica velbuzd
-			arilje brvenik medveda
-		}
-		own_control_integrated = {
-			koman has dukagjini lezha florina
-		}
-		our_cores_conquered_by_others = {
-			slano mostar konjic belgrad debrc sabac
-		}
 		starting_technology_level = 3
 		include = "expl_mediterranean"
 		include = "eastern_european_monarchy"
@@ -11891,12 +11693,6 @@ countries = {
 	}
 
 	BOS = {
-		own_control_core = {
-			mostar metkovic glamoc
-			vrhbosna konjic srebrenica doboj soli
-			jajce livno drijeva zenica kljuc srebrenik
-			kozara glaz teocak olovo borac nevesinje
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -12040,13 +11836,6 @@ countries = {
 	}
 
 	CRO = {
-		own_control_core = {
-			sibenik kaseg knin novigrad crikvenica senj
-			bihac krk makarska srb sinj otocac
-		}
-		our_cores_conquered_by_others = {
-			zadar split
-		}
 		starting_technology_level = 3
 		include = "expl_mediterranean"
 		include = "catholic_monarchy"
@@ -12073,30 +11862,6 @@ countries = {
 	}
 
 	BUL = {
-		own_control_core = {
-			sredets samokov plovdiv stipon ovech
-			hiambouli rusokastro lardeja boruy
-			tarnovo drastar tutrakan cherven razgrad shumen aytos targoviste_BUL sliven kran
-			lovech nikopol pleven vratsa kutlovitsa vidin oryahovo bozhenitsa hotalich tryavna
-			anhialo varna karvuna pangalia kaliakra
-			tulcea harsova
-			archar lom gigen dobrolak svoge kostenets strelcha ruse kladentsi lyaskovets veliki_preslav ktenia constantia_bul elhovo
-			babadag cernavoda constanta enisala isaccea
-			visesav kozelj svrljig pirot tsaribrod  
-			zemlungrad dupnitsa
-		}
-		own_control_conquered = {
- 			dospat bansko krupnik melnik nevrokop 
-			tsepina 
-			beden haskovo perperek smolyan stanimaka
-		}
-		own_control_integrated = {
-			burgas sozopol
-		}
-
-		our_cores_conquered_by_others = {
-			nis glubocica velbuzd
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -12671,6 +12436,7 @@ countries = {
 			ruler = random
 		}
 
+		country_rank = rank_county
 		capital = belleme
 	}
 
@@ -12691,6 +12457,7 @@ countries = {
 			ruler = random
 		}
 
+		country_rank = rank_duchy
 		capital = angers
 	}
 
@@ -12715,6 +12482,7 @@ countries = {
 			gallo
 		}
 
+		country_rank = rank_county
 		capital = rennes
 	}
 
@@ -12733,6 +12501,8 @@ countries = {
 			heir_selection = cognatic_primogeniture
 			ruler = random
 		}
+	
+		country_rank = rank_county
 		capital = bruges
 	}
 
@@ -12752,6 +12522,7 @@ countries = {
 			ruler = random
 		}
 
+		country_rank = rank_duchy
 		capital = clermont
 	}
 
@@ -12768,6 +12539,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 		}
 
+		country_rank = rank_county
 		capital = ventadour
 	}
 
@@ -12784,6 +12556,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 		}
 
+		country_rank = rank_county
 		capital = turenne
 	}
 
@@ -12830,6 +12603,7 @@ countries = {
 			}
 		}
 
+		country_rank = rank_county
 		capital = rochechouart
 	}
 
@@ -12846,6 +12620,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 		}
 
+		country_rank = rank_county
 		capital = limoges
 	}
 
@@ -12862,6 +12637,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 		}
 
+		country_rank = rank_county
 		capital = angouleme
 	}
 
@@ -12878,6 +12654,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 		}
 
+		country_rank = rank_county
 		capital = lusignan
 	}
 
@@ -12894,6 +12671,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 		}
 
+		country_rank = rank_county
 		capital = brosse
 	}
 
@@ -12913,6 +12691,7 @@ countries = {
 			}
 		}
 
+		country_rank = rank_county
 		capital = brioude
 	}
 
@@ -12929,6 +12708,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 		}
 
+		country_rank = rank_county
 		capital = florac
 	}
 
@@ -12945,6 +12725,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 		}
 
+		country_rank = rank_county
 		capital = poitiers
 	}
 
@@ -12961,6 +12742,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 		}
 
+		country_rank = rank_county
 		capital = thouars
 	}
 
@@ -12977,6 +12759,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 		}
 
+		country_rank = rank_county
 		capital = montaigu
 	}
 
@@ -12993,6 +12776,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 		}
 
+		country_rank = rank_county
 		capital = talmont
 	}
 
@@ -13009,6 +12793,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 		}
 
+		country_rank = rank_county
 		capital = loudun
 	}
 
@@ -13029,6 +12814,7 @@ countries = {
 			breton
 		}
 
+		country_rank = rank_county
 		capital = machecoul
 	}
 
@@ -13049,6 +12835,7 @@ countries = {
 			rochelaes
 		}
 
+		country_rank = rank_county
 		capital = machecoul
 	}
 
@@ -13065,6 +12852,8 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 		}
+
+		country_rank = rank_duchy
 		capital = guise
 	}
 
@@ -13117,6 +12906,8 @@ countries = {
 				immigration_law = open_borders_law
 			}
 		}
+
+		country_rank = rank_county
 		capital = rethel
 	}
 
@@ -13173,6 +12964,7 @@ countries = {
 			french
 		}
 
+		country_rank = rank_county
 		capital = bar_le_duc
 	}
 
@@ -13359,7 +13151,7 @@ countries = {
 			auvergnat
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = valence
 	}
 
@@ -13625,17 +13417,6 @@ countries = {
 	}
 
 	WAL = {	#Wallachia
-		own_control_core = {
-			targoviste ploesti valenii_de_munte campulung_muscel arges zimnicea
-			severin stramba targu_jiu targu_bengai ramnicu_valcea craiova
-			caracal calafat slatina turnu_magurele
-			giurgiu rusii_de_vede comana bucharest
-			buzau orasul_de_floci braila ramnicu_sarat
-			lichiresti strehaia
-			corabia dragasani radovanu plenita
-			cozia glavacioc gratia pitesti poenari
-			bukov cegani cetateni gaiseni meteleu parscov slanic slobozia viziru
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -13673,9 +13454,6 @@ countries = {
 	}
 
 	BIA = {	#Baia
-		own_control_core = {
-			suceava adjud campulung_moldovenesc focsani hangu_romania piatra_lui_craciun targu_neamt targu_trotus tulnici vatra_dornei
-		}
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
 		include = "eastern_european_monarchy_no_coast"
@@ -13689,9 +13467,6 @@ countries = {
 	}
 
 	BLD = {	#Bârlad
-		own_control_core = {
-			barlad cahul cudalbi galati oancea palada reni targul_saratii tecuci
-		}
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
 		include = "eastern_european_monarchy_no_coast"
@@ -13705,9 +13480,6 @@ countries = {
 	}
 
 	HSC = {	#Hansca
-		own_control_core = {
-			chisinau targu_lapusnei tuzara
-		}
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
 		include = "eastern_european_monarchy_no_coast"
@@ -13721,9 +13493,6 @@ countries = {
 	}
 
 	HTN = {	#Hotin
-		own_control_core = {
-			hotin cernauti cetatea_tetina
-		}
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
 		include = "eastern_european_monarchy_no_coast"
@@ -13737,9 +13506,6 @@ countries = {
 	}
 
 	IAS = {	#Iaşi
-		own_control_core = {
-			iasi bacau cotnari dorohoi harlau husi roman stefanesti tutova ungheni vaslui
-		}
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
 		include = "eastern_european_monarchy_no_coast"
@@ -13753,9 +13519,6 @@ countries = {
 	}
 
 	SRC = {	#Soroca
-		own_control_core = {
-			soroca balti lipnic orhei viadineti
-		}
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
 		include = "eastern_european_monarchy_no_coast"
@@ -13769,9 +13532,6 @@ countries = {
 	}
 
 	SSI = {	#Străşineţ
-		own_control_core = {
-			storozhynets putna siret
-		}
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
 		include = "eastern_european_monarchy_no_coast"
@@ -13850,9 +13610,6 @@ countries = {
 	}
 
 	NEO = {	#Neopatria
-		own_control_core = {
-			neopatras zetounion
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -13885,9 +13642,6 @@ countries = {
 	}
 
 	BOD = {	#Bodonitsa
-		own_control_core = {
-			bodonitsa
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -13942,12 +13696,6 @@ countries = {
 	}
 
 	ARG = { #Argos
-		own_control_core = {
-			argos nafplio
-		}
-		our_cores_conquered_by_others = {
-			athens megara thebes atalanti livadeia gravia
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -13986,9 +13734,6 @@ countries = {
 	}
 
 	KNI = { #Knights Hospitaller
-		own_control_core = {
-			rodos kos
-		}
 
 		include = "catholic_military_order"
 
@@ -14026,9 +13771,6 @@ countries = {
 	}
 
 	NEG = { #Negroponte https://en.wikipedia.org/wiki/Triarchy_of_Negroponte
-		own_control_core = {
-			negroponte kleisoura karystos kymi oreos eretreia
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -14078,10 +13820,6 @@ countries = {
 	}
 
 	SAO = { #Salona
-		own_control_core = {
-			salona loidoriki
-			malta
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -14750,10 +14488,6 @@ countries = {
 
 	#Touat - TAT
 	TAT = {
-		own_control_core = {
-			bechar figuig
-			timimoun tabelbala adrar ain_salah igli charouine taghit
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -15432,22 +15166,6 @@ countries = {
 	}
 
 	GHA = {
-		own_control_core = {
-			koumbi_saleh timbedra nema balle
-			sosso sagala mourdiah guire goumbou
-			sokolo timbuktu kare 
-		}
-		own_control_integrated = {
-			walata 
-			taghaza taoudenni araouane
-		}
-		our_cores_conquered_by_others = {
-			diara
-			tichit aoudaghost tidjikja
-			nioro tourougoumbe diangounte_camara dioumara kolokani kourouninkoto
-			sandare banamba 
-			kita narena tabou_m
-		}
 
 		starting_technology_level = 3
 		include = "expl_west_africa_muslim"
@@ -17576,10 +17294,6 @@ countries = {
 
 	#Banu Kanz - BKZ
 	BKZ = {
-		own_control_core = {
-			aswan  aydhab kom_ombo
-			deraheib #suakin_province
-		}
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -27648,10 +27362,6 @@ countries = {
 
 	#Al 'Alī - AAL
 	AAL = {
-		own_control_core = {
-			burraq jayrud qutayfah
-			sakaka dumat_al_jandal aba_al_qur al_hamad arar
-		}
 
 		starting_technology_level = 3
 		include = "expl_middle_east"
@@ -27677,11 +27387,6 @@ countries = {
 
 	#Al Mira - AMR
 	AMR = {
-		own_control_core = {
-			bosra dara irbid nawa salkhad suwayda
-			azraq
-			kaf al_harrah an_nasifah qurayyat_al_milh
-		}
 
 		starting_technology_level = 3
 		include = "expl_middle_east"
@@ -27707,19 +27412,6 @@ countries = {
 
 	#Al Fadl - FDL
 	FDL = {
-		own_control_core = {
-			ithriya sukhnah taybah
-			khanaser qastal salamiyya
-			marrat
-			arak huwwarin qaryatayn tadmur
-		}
-
-		own_control_integrated = {
-			zubala al_labbah al_thulayma al_waqbi linah lowqah
-			al_anbar hit ayn_tamr karbala
-			anah abu_kemal haditha
-			deir_ez_zor tabqah rahba
-		}
 
 		starting_technology_level = 3
 		include = "expl_middle_east"
@@ -27755,10 +27447,6 @@ countries = {
 
 	#Döger - DGE
 	DGE = {
-		own_control_core = {
-			raqqa  busayrah jabar madinat_far
-			urfa  birecik harran suruc viransehir  siverek
-		}
 
 		starting_technology_level = 3
 		include = "expl_middle_east"
@@ -50701,12 +50389,6 @@ countries = {
 	}
 
 	SME = { #Samtskhe
-		own_control_core = {
-			akhaltsikhe ardahan
-			hasankale ispir khupati rize
-			artanuji khikhani oltu parkhali savsat
-			ani kars kagizman tmogvi
-		}
 
 		include = "expl_christian_caucasus"
 		include = "eastern_european_monarchy_no_coast"
@@ -54181,7 +53863,7 @@ countries = {
 			gallo
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = la_rochelle
 	}
 
@@ -54355,7 +54037,7 @@ countries = {
 			porto aguiar barcelos braga guimaraes montalegre valenca viana_do_castelo
 			braganca chaves macedo miranda_de_i_douro mirandela moncorvo vila_real
 			jumilla orihuela elche alicante denia alcoy jativa gandia ayora bunol valencia lliria chelva castellon_de_la_plana llucena cantavieja
-			mora_de_rubielos teruel albarracin alfambra montalban daroca ariza
+			mora_de_rubielos teruel albarracin alfambra ares_del_maestre daroca ariza
 			ibiza pollensa palma manacor ciudadela_de_menorca
 			ales oristano sorgono terralba bosa macomer bitti ozieri sassari alghero thiesi castelsardo tempiopausania terranova_pausania posada orosei
 			tortoli isili muravera seddori cagliari villa_di_chiesa tratalias
@@ -54389,6 +54071,64 @@ countries = {
 		}
 
 		capital = sevilla
+	}
+
+	#Kingdom of Italia, Byzantine Remnant
+	BZIT = {
+		own_control_core = {
+			naples salerno campagna vallo salacon potenza acerenza lagonegro montepeloso altamura
+			bari monopoli martinafr brindisi francavilla taranto lecce gallipoliita santarcangelo
+			scalea castrovillari cassano paola cosenza rossano cotrone catanzaro nicastro monteleone
+			gerace palmi reggiocal gerace matera
+
+			catania messina mistretta nicosiasic patti piazza girgenti bivona caltanisetta cefalu sciacca termini
+			corleone mazara palermo salemi trapani caltagirone modica noto syracuse terranovasic
+			malta
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_monarchy"
+		government = {
+			type = monarchy
+			heir_selection = salic_law
+
+			ruler = random
+			
+			reforms = {
+				feudal_nobility
+			}
+
+			privilege = {
+				formal_guilds
+			}
+		}
+		accepted_cultures = { sicilian }
+		tolerated_cultures = { median }
+		capital = naples
+		country_rank = rank_kingdom
+	}
+
+	#Tarragona
+	TRGN = {
+		own_control_core = {
+			tarragona tortosa peniscola morella valderrobres alcaniz
+			flix caspe belchite carinena calatayud zaragoza tarazona montblanc sitges
+			villafranca_del_penedes lleida fraga monzon sarinena pina_de_ebro zuera
+			almudevar montalban tudela ejea_de_los_caballeros
+		}
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		capital = tarragona
+		country_rank = rank_duchy
 	}
 }
 }

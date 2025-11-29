@@ -17,6 +17,46 @@
 	}
 }
 
+mithraic_zalmoxis = {
+    color = map_mithraic_zalmoxis
+    group = folk_european_group
+
+	religious_aspects = 1
+    
+    definition_modifier = {
+		global_defensive = 0.1
+		global_pop_food_consumption = -0.1
+    }
+    
+    opinions = {
+		jayayan_zalmukh = kindred
+    }
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+jayayan_zalmukh = {
+    color = map_mithraic_zalmoxis
+    group = folk_european_group
+
+	religious_aspects = 1
+    
+    definition_modifier = {
+		global_defensive = 0.1
+		global_pop_food_consumption = -0.1
+    }
+    
+    opinions = {
+		mithraic_zalmoxis = kindred
+    }
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
 hellenism_religion = { #https://en.wikipedia.org/wiki/Hellenism_(modern_religion) 
     color = map_greek
     group = folk_european_group
