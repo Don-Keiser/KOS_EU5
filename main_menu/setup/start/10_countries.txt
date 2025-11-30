@@ -13313,7 +13313,7 @@ countries = {
 			vukovar ilok pozega sremska_mitrovica petrovaradin
 			zagreb cakovec karlovac petrinja sisak slunj varazdin
 
-			cozia poenari
+			cozia poenari vatra_dornei hangu_romania
 		}
 
 		own_control_integrated = {
@@ -13813,16 +13813,6 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = sao_alfons_frederic_de_arago
-
-			ruler_term = { character = sao_alfons_frederic_de_arago start_date = 1318.1.1 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_thomas = 3
-				name_william = 1
-				name_roger = 1
-				name_alphonse = 1
-			}
 		}
 
 		tolerated_cultures = {
@@ -54155,7 +54145,6 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-
 			ruler = random
 
 			centralization_vs_decentralization = 20

@@ -115,14 +115,14 @@ STY = {
 CRH = {
 	color = rgb { 201 185 40 }
 	
-	culture_definition = southern_bavarian
+	culture_definition = romansh
 	religion_definition = catholic
 }
 
 TIR = {
 	color = rgb { 239 95 132 }
 	
-	culture_definition = boarisch
+	culture_definition = romansh
 	religion_definition = catholic
 }
 
@@ -472,7 +472,7 @@ WDB = {
 RVA = {
 	color = rgb { 28 153 162 }
 	
-	culture_definition = high_alemannic
+	culture_definition = alamannisch
 	religion_definition = catholic
 }
 

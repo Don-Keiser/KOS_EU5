@@ -15,7 +15,7 @@ ANC	= { #ancona
 
 AQU	= { #aquileia
 	color = rgb { 34 30 174 }
-	culture_definition = friulian
+	culture_definition = istriota
 	religion_definition = catholic
 }
 
