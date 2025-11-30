@@ -54145,7 +54145,7 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = random
+			ruler = rug_khosmar_velisar
 
 			centralization_vs_decentralization = 20
 			traditionalist_vs_innovative = -60

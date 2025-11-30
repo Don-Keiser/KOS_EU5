@@ -99769,4 +99769,15 @@ adm = 31 dip = 34 mil = 24
 		religion = catholic
 		tag = LRC
 	}
+
+	#Rughan Emperor
+	rug_khosmar_velisar = {
+		first_name = { name = Khosmar }
+		dynasty = velisar_dynasty
+		birth = constantinople
+		birth_date = 1296.1.1
+		culture = rughan
+		religion = orthodox
+		tag = ERRB
+	}
 }

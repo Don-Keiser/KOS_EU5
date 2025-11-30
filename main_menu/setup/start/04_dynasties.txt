@@ -8510,4 +8510,8 @@ dynasty_manager = {
 		name = { name = rancon_dynasty }
 		home = la_rochelle
 	}
+	velisar_dynasty = { 
+		name = { name = velisar_dynasty }
+		home = constantinople
+	}
 }

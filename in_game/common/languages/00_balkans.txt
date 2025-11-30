@@ -124,6 +124,14 @@ greek_language = {
 		Nikolaos Adamos Chloros Galatas Halkias name_papadopoulos Mallas Samaras Karagiannis Vlahos Ioannidis
 		Economou Papageorgiou Makris Konstantinidis Dimopoulos Georgiadis Vasiliou Kameniatis
 	}
+
+	dialects = {
+		greek_language = {
+			default = yes
+		}
+		griko_dialect = {
+		}
+	}
 	
 }
 
