@@ -108,9 +108,9 @@
 
 	dialects = {
 		afro_romance_language = { default = yes }
-		sicilian_dialect = {}
 		numidian_dialect = {}
 		muretannian_dialect = {}
+		sardinian_dialect = {}
 	}
 
 	location_prefix = "location_prefix_italian"

@@ -131,6 +131,7 @@ greek_language = {
 		}
 		griko_dialect = {
 		}
+		sicilian_dialect = {}
 	}
 	
 }

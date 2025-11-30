@@ -11465,11 +11465,8 @@ countries = {
 
 	ALB = {
 		own_control_core = {
-			durres
-		}
-
-		our_cores_conquered_by_others = {
-			elbasan kavaje kruje tirana
+			durres kavaje tirana kruje elbasan debar dukagjini lezha shkoder koman has
+			prizren gjakova peja pristina mitrovica
 		}
 
 		starting_technology_level = 3
@@ -11482,39 +11479,13 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-
-			regency = consort_regency
-			active_regent = alb_agnes_perigord
-			start_regency_date = 1336.4.5
-			end_regency_date = 1341.1.1
-			heir = alb_charles_durazzo
-
-			ruler_term = { character = nap_charles_i_anjou start_date = 1272.2.1 end_date = 1285.1.7 regnal_number = 1 }
-			ruler_term = { character = nap_carlo_ii_anjou start_date = 1285.1.7 end_date = 1294.8.13 regnal_number = 2 }
-			ruler_term = { character = alb_filippo_i_taranto start_date = 1294.8.13 end_date = 1332.12.23 regnal_number = 1 }
-			ruler_term = { character = ach_robert_taranto start_date = 1332.12.23 end_date = 1333.1.1 regnal_number = 1 }
-			ruler_term = { character = alb_john_gravina start_date = 1333.1.1 end_date = 1336.4.5 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_john = 1
-				name_charles = 1
-			}
-		}
-
-		tolerated_cultures = {
-			bulgarian
 		}
 
 		country_rank = rank_kingdom
 		capital = durres
-		dynasty = anjou_dynasty
-		#dynasty = anjou_durazzo_dynasty
 	}
 
 	THP = {
-		own_control_core = {
-			kruje tirana
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -11568,9 +11539,6 @@ countries = {
 	}
 
 	ANT = {
-		own_control_core = {
-			elbasan
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -11598,9 +11566,6 @@ countries = {
 	}
 
 	MTR = {
-		own_control_core = {
-			kavaje
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"

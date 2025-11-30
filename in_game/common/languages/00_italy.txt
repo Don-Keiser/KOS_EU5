@@ -247,9 +247,7 @@ south_italian_language = {
 
 	dialects = {
 		tuscan_dialect = {}
-		sicilian_dialect = {}
 		neapolitan_dialect = {}
-		sardinian_dialect = {}
 	}
 
 	location_prefix = "location_prefix_italian"

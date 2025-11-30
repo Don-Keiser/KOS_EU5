@@ -56,5 +56,6 @@ diplomacy_manager = {
 
     #Rughan Empire
     dependency = { first = ERRB second = MSGT subject_type = vassal }
+    dependency = { first = ERRB second = ALB subject_type = vassal }
 
 }
