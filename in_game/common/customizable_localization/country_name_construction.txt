@@ -21,6 +21,12 @@
 	text = {
 		localization_key = country_name_construction_name
 		trigger = {
+			tag = SRTR
+		}
+	}
+	text = {
+		localization_key = country_name_construction_name
+		trigger = {
 			tag = MURO
 		}
 	}

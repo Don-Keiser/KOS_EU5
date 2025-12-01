@@ -43,6 +43,46 @@ african_romance = {
 	}
 }
 
+afresitziliu = { 
+	language = afro_romance_language
+	
+	color = map_afresitziliu
+	
+	tags = { south_italian_gfx amazigh_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		sardinian = kindred
+		numidian = african_romance
+		muretannian = kindred
+		sitzmuru = kindred
+	}
+	
+	culture_groups = {
+		eia_group
+		mauretanian_group
+	}
+}
+
+sitzmuru = { 
+	language = muretannian_dialect
+	
+	color = map_sitzmuru
+	
+	tags = { south_italian_gfx amazigh_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		sardinian = kindred
+		african_romance = kindred
+		muretannian = kindred
+		afresitziliu = kindred
+	}
+	
+	culture_groups = {
+		eia_group
+		mauretanian_group
+	}
+}
+
 numidian = { 
 	language = numidian_dialect
 	

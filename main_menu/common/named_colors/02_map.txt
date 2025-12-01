@@ -4211,6 +4211,8 @@ colors = {
 	#Afro-Romance
 	map_sardinian = rgb { 120 162 77 }
 	map_african_romance = rgb { 63 119 87 }
+	map_afresitziliu = rgb { 29 56 40 }
+	map_sitzmuru = rgb { 58 91 58 }
 	map_numidian = rgb { 72 137 72 }
 	map_muretannian = rgb { 114 181 114 }
 	map_ispannian = rgb { 166 193 30 }

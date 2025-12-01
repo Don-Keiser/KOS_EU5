@@ -54064,7 +54064,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 			ruler = random
 		}
-		capital = tarragona
+		capital = syracuse
 		country_rank = rank_duchy
 	}
 
