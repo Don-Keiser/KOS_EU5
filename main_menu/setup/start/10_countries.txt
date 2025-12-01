@@ -26552,11 +26552,10 @@ countries = {
 			tarsus candir_cil corycus molevon #Tarsus
 			sis anavarza caxud #Sis
 			amasya ladik_pontus merzifon sonisa #Amasya
-			giresun akkus bayramlu mesudiye terme unye #Canik
-			sebinkarahisar siran keban #Erzurum
+			giresun akkus bayramlu mesudiye terme unye gorele #Canik
+			sebinkarahisar keban harput sivrice #Erzurum
 			adana ayas kars_armenia iskenderun #Adana
 			divrigi arapgir arguvan egin #Arguvan
-			ilic #Harput
 		}
 		own_conquered = { 
 			trapessac
@@ -50177,8 +50176,8 @@ countries = {
 			yerevan bjni amberd ani artashavan igdir kars kagizman khor_virap kumayri surmali
 			malazgirt hinis karakilise hasankale tekman tutak varto
 			van ahlat bargiri ercis hosap tatvan
-			harput adakli bingol cemisgezek genc kuzucan palu pertek sivrice
-			erzurum bayburt erzincan kelkit kemah tercan
+			adakli bingol cemisgezek genc kuzucan palu pertek
+			erzurum bayburt erzincan kelkit kemah tercan siran ilic
 			akhalkalaki ardahan tmogvi
 			oltu panaskerti tortum ispir parkhali
 			bayazit siah_cheshmeh maku nazok_olya qarahziaoddin khoy marand hadishahr
