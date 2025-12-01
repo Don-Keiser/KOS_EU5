@@ -186,7 +186,7 @@ sicilian = {
 }
 
 southern_gallo_italic = { 
-	language = lombard_dialect
+	language = sicule_dialect
 	
 	color = map_southern_gallo_italic
 	

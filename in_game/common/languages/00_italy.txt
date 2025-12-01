@@ -134,6 +134,7 @@ north_italian_language = {
 		istriota_dialect = {}
 		median_dialect = {}
 		dalmatian_dialect = {}
+		sicule_dialect = {}
 	}
 }
 
