@@ -461,11 +461,10 @@ BRO = {
 	religion_definition = catholic
 }
 POS = {
-	color = hsv360 { 150 80 95 }
-	color2 = hsv { 0 0 0.38 }
+	color = rgb { 48 70 62 }
 
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = welsh
+	religion_definition = african_catholic
 }
 EWY = {
 	color = hsv360 { 30 85 95 }
@@ -504,12 +503,182 @@ GDD = {
 	religion_definition = catholic
 }
 PWS = {
-	color = map_PWS
-	color2 = hsv { 0 0 0.38 }
+	color = rgb { 48 70 62 }
 
 	culture_definition = welsh
+	religion_definition = african_catholic
+}
+DYF = {
+	color = rgb { 76 235 32 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+SLW = {
+	color = rgb { 236 245 132 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+PGW = {
+	color = rgb { 63 139 185 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+DUMN = {
+	color = rgb { 105 52 145 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+CRLG = {
+	color = rgb { 163 142 235 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+YMDW = {
+	color = rgb { 38 56 49 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+GRAW = {
+	color = rgb { 85 119 198 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+CREM = {
+	color = rgb { 63 128 168 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+CRDF = {
+	color = rgb { 69 152 165 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+CRNI = {
+	color = rgb { 116 152 165 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+CRAL = {
+	color = rgb { 75 86 130 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+DRNV = {
+	color = rgb { 196 133 92 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+CRLN = {
+	color = rgb { 196 76 48 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+CRSA = {
+	color = rgb { 196 88 122 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+LYND = {
+	color = rgb { 215 250 173 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+ELFD = {
+	color = rgb { 229 219 248 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+EBRC = {
+	color = rgb { 238 184 175 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+RGHD = {
+	color = rgb { 118 224 230 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+
+GDDN = {
+	color = rgb { 222 189 103 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+SLGW = {
+	color = rgb { 222 179 118 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+EDYN = {
+	color = rgb { 210 185 112 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+NVNT = {
+	color = rgb { 94 75 145 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+AERN = {
+	color = rgb { 145 68 100 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+ALTC = {
+	color = rgb { 98 142 120 }
+
+	culture_definition = welsh
+	religion_definition = african_catholic
+}
+
+UKRN = {
+	color = rgb { 206 203 6 }
+
+	culture_definition = polabian
 	religion_definition = catholic
 }
+VLDN = {
+	color = rgb { 157 27 176 }
+
+	culture_definition = polabian
+	religion_definition = catholic
+}
+LWZC = {
+	color = rgb { 186 27 154 }
+
+	culture_definition = polabian
+	religion_definition = catholic
+}
+SBVT = {
+	color = rgb { 186 27 45 }
+
+	culture_definition = polabian
+	religion_definition = catholic
+}
+
 DHB = {
 	color = map_DHB
 	color2 = hsv { 0 0 0.38 }

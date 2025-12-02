@@ -58,4 +58,14 @@ diplomacy_manager = {
     dependency = { first = ERRB second = MSGT subject_type = vassal }
     dependency = { first = ERRB second = ALB subject_type = vassal }
 
+    #Dumnonia
+    dependency = { first = HUN second = KUNS subject_type = vassal }
+
+    #Powys
+    dependency = { first = PWS second = YMDW subject_type = vassal }
+    
+    #Gododdin
+    dependency = { first = GDDN second = EDYN subject_type = vassal }
+    dependency = { first = GDDN second = SLGW subject_type = vassal }
+
 }

@@ -344,21 +344,21 @@ MRQ = {
 }
 
 WEI = {
-	color = rgb { 255 206 112 }
+	color = rgb { 206 119 147 }
 	
 	culture_definition = alamannisch
 	religion_definition = catholic
 }
 
 NUR = {
-	color = rgb { 243 112 15 }
+	color = rgb { 250 242 107 }
 	
 	culture_definition = dieringisch
 	religion_definition = catholic
 }
 
 WBG = {
-	color = rgb { 147 146 106 }
+	color = rgb { 99 72 107 }
 	
 	culture_definition = thuringian_gothic
 	religion_definition = catholic

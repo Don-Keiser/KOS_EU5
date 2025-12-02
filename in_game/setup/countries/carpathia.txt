@@ -1,5 +1,5 @@
 ﻿HUN = {
-	color = map_hungarian
+	color = map_HUN
 	color2 = rgb { 152  85  92 }
 
 	unit_color0 = hsv360 {	7 87 50 }

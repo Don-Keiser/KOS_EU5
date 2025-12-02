@@ -8,7 +8,7 @@ colors = {
 	map_cornish = rgb { 105 105 105 }
 	map_corsican = rgb { 106 178 46 }
 	map_danish = rgb { 190 70 70 }
-	map_skane = rgb { 190 190 70 }
+	map_skane = rgb { 40 56 107 }
 	map_gutnish = rgb { 190 120 70 }
 	map_dutch = hsv360 { 27 92 83 }
 	map_emilian = rgb { 192 102 151 }
@@ -245,7 +245,7 @@ colors = {
 	map_polesian = rgb { 166 133 133 }
 	map_rusyn = rgb { 0 233 233 }
 	map_TEU = rgb { 102 105 104 } #same as in EU4
-	map_POL = rgb { 197 92 106 } #same as in EU4
+	map_POL = rgb { 255 127 127 } #same as in EU4
 	map_MAZ = rgb { 195 149 155 } #same as in EU4
 	map_PLC = rgb { 176 81 111 } #same as in EU4
 	map_LIT = rgb { 154 69 116 } #same as in EU4
@@ -343,7 +343,8 @@ colors = {
 	map_VID = rgb { 183 149 205 }
 	
 	#Carpathia
-	map_hungarian = rgb { 152 85 92 } #same as in EU4
+	map_hungarian = rgb { 45 58 106 } #same as in EU4
+	map_HUN = rgb { 130 100 95 }
 	color_culture_moldavian = rgb { 136 157 23 } #same as in EU4
 	color_culture_szekely = rgb { 153 255 50 }
 	map_transylvanian = rgb { 211 207 173 } #same as in EU4

@@ -38,7 +38,6 @@ DAN = {
 
 SKE = {
 	color = map_skane
-	color2 = rgb { 255 223 0 }
 
 	culture_definition = danish
 	religion_definition = catholic

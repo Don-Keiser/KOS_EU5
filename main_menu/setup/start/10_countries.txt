@@ -3684,9 +3684,6 @@ countries = {
 
 	GWR = { # Gower Marcher Lordship
 		include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-		own_control_core = {
-			swansea
-		}
 		capital = swansea
 
 		government = {
@@ -3698,9 +3695,6 @@ countries = {
 
 	GMG = { # Glamorgan Marcher Lordship
 		include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-		own_control_core = {
-			cardiff caerphilly neath
-		}
 		capital = cardiff
 
 		government = {
@@ -3713,12 +3707,6 @@ countries = {
 
 	MAC = { # March Marcher Lordship
 		include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-		own_control_core = {
-			radnor builth newport wigmore ludlow
-		}
-		our_cores_conquered_by_others = {
-			denbigh montgomery
-		}
 		capital = wigmore
 		government = {
 			ruler_term = { character = eng_roger_mortimer_1st_earl_of_march start_date = 1330.11.29 end_date = 1330.11.29 regnal_number = 1 }			
@@ -3734,9 +3722,6 @@ countries = {
 
 	AUD = { # Arundel Marcher Lordship
 		include = "catholic_monarchy_english_lordship_welsh_marcher_lord_no_coast"
-		own_control_core = {
-			llangollen oswestry
-		}
 		capital = oswestry
 
 		government = {
@@ -3749,9 +3734,6 @@ countries = {
 
 	BRO = { # Brecknock Brecon Marcher Lordship
 		include = "catholic_monarchy_english_lordship_welsh_marcher_lord_no_coast"
-		own_control_core = {
-			brecknock
-		}
 		capital = brecknock
 
 		government = {
@@ -3762,25 +3744,19 @@ countries = {
 		tolerated_cultures = { welsh }
 	}
 
-	POS = { # Powis Marcher Lordship
+	POS = { # Powis
 		include = "catholic_monarchy_english_lordship_welsh_marcher_lord_no_coast"
-		own_control_core = {
-			machynlleth montgomery
-		}
 		capital = machynlleth
 
 		government = {
-			ruler_term = { character = eng_john_de_charlton_1st_baron_charlton start_date = 1309.1.1 regnal_number = 1 }	
-			ruler = eng_john_de_charlton_1st_baron_charlton
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
 		}
-		tolerated_cultures = { welsh }
 	}
 
 	EWY = { # Ewyas Marcher Lordship
 		include = "catholic_monarchy_english_lordship_welsh_marcher_lord_no_coast"
-		own_control_core = {
-			ewyas
-		}
 		capital = ewyas
 
 		government = {
@@ -3792,9 +3768,6 @@ countries = {
 
 	CMS = { # Cemais Marcher Lordship
 		include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-		own_control_core = {
-			fishguard
-		}
 		capital = fishguard
 
 		government = {
@@ -3806,9 +3779,6 @@ countries = {
 
 	PMB = { # Pembroke Marcher Lordship
 		include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-		own_control_core = {
-			pembroke
-		}
 		capital = pembroke
 
 		government = {		
@@ -3824,9 +3794,6 @@ countries = {
 
 	DEN = { # Denbigh Marcher Lordship
 		include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-		own_control_core = {
-			denbigh
-		}
 		capital = denbigh
 
 		government = {
@@ -3837,9 +3804,6 @@ countries = {
 	}
 
 	DHM = { #Palatinate of Durham
-		own_control_core = {
-			durham darlington stockton
-		}
 
 		include = "catholic_bishopric"
 		include = "expl_western_europe"
@@ -3859,14 +3823,6 @@ countries = {
 
 
 	LAN = { #Palatinate of Lancaster
-		own_control_core = {			
-			lancaster blackburn liverpool preston manchester
-		}
-
-		own_control_conquered = {
-			monmouth
-			kidwelly
-		}
 
 		include = "catholic_monarchy_english_lordship"
 		include = "expl_western_europe"
@@ -3890,13 +3846,6 @@ countries = {
 
 
 	CET = { #Palatinate of Chester
-		own_control_core = {
-			chester macclesfield nantwich
-		}
-
-		own_control_conquered = {
-			flint
-		}
 
 		include = "catholic_monarchy_english_lordship"
 		include = "expl_western_europe"
@@ -3917,16 +3866,6 @@ countries = {
 	}
 
 	WLS = { # Wales
-		own_control_core = {
-			# Principality of Wales
-			aberystwyth anglesey cardigan carnarvon harlech conwy carmarthen penllyn
-		}
-		our_cores_conquered_by_others = {
-			# Earldom of Chester
-
-			# Marcher Lordships
-			brecknock cardiff caerphilly swansea monmouth montgomery builth denbigh llangollen ewyas kidwelly machynlleth radnor
-		}
 
 		include = "catholic_monarchy_english_lordship"
 
@@ -3977,49 +3916,477 @@ countries = {
 	}
 
 	GDD = { # Gwynedd
-		our_cores_conquered_by_others = {
-			carnarvon anglesey conwy harlech flint denbigh
+		own_control_core = {
+			carnarvon anglesey conwy harlech flint denbigh penllyn
 		}
-		include = "catholic_monarchy_welsh_releasable"
+		include = "catholic_monarchy"
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_duchy
 		capital = anglesey
 	}
 
 	PWS = { # Powys
-		our_cores_conquered_by_others = {
-			montgomery machynlleth llangollen penllyn
+		own_control_core = {
+			machynlleth montgomery radnor builth newport wigmore ludlow brecknock ewyas monmouth
+			cardiff caerphilly neath gloucester hereford worcester kidderminster stafford tamworth
+			birmingham stratford coventry
 		}
-		include = "catholic_monarchy_welsh_releasable"
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_kingdom
 		capital = llangollen
 	}
 
-	DHB = { # Deheubarth
-		our_cores_conquered_by_others = {
-			carmarthen pembroke fishguard kidwelly cardigan aberystwyth
+	DYF = { # Dyfed
+		own_control_core = {
+			pembroke fishguard
 		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = pembroke
+	}
+
+	SLW = { #Seisyllwg 
+		own_control_core = {
+			cardigan aberystwyth carmarthen kidwelly swansea
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_duchy
+		capital = cardigan
+	}
+
+	PGW = { #Pengwern 
+		own_control_core = {
+			shrewsbury oswestry llangollen
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = shrewsbury
+	}
+
+	DUMN = { #Dumnonia 
+		own_control_core = {
+			exeter plymouth okehampton launceston truro bodmin bideford barnstaple bampton
+			minehead taunton
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_kingdom
+		capital = exeter
+	}
+
+	CRLG = { #Cair Legion 
+		own_control_core = {
+			chester macclesfield nantwich stoke
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = chester
+	}
+
+	YMDW = { #Y Mers Ddwyreiniog 
+		own_control_core = {
+			leicester buckingham daventry rutland bosworth loughborough newark nottingham
+			derby retford chesterfield glossop
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = leicester
+	}
+
+	GRAW = { #Gorhydd Awon
+		own_control_core = {
+			bristol
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = bristol
+	}
+
+	CREM = { #Cair Embrann
+		own_control_core = {
+			chippenham amesbury
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = chippenham
+	}
+
+	CRDF= { #Cair Dwfr
+		own_control_core = {
+			henley
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = henley
+	}
+
+	CRNI = { #Corinion
+		own_control_core = {
+			cirencester cheltenham banbury
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = cirencester
+	}
+
+	CRAL = { #Cair Alawn
+		own_control_core = {
+			oxford abingdon
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = oxford
+	}
+
+	DRNV = { #Durnovarion
+		own_control_core = {
+			dorchester shaftesbury weymouth poole
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = dorchester
+	}
+
+	CRLN = { #Caer Lenndin
+		own_control_core = {
+			bath wells portishead
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = bath
+	}
+
+	CRSA = { #Sarbuddin
+		own_control_core = {
+			salisbury trowbridge
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = salisbury
+	}
+
+	LYND = { #Lyndon
+		own_control_core = {
+			lincoln grantham boston louth grimsby
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = lincoln
+	}
+
+	ELFD = { #Elfed
+		own_control_core = {
+			leeds ripon pontefract wakefield doncaster
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = leeds
+	}
+
+	EBRC = { #Ebrauc
+		own_control_core = {
+			york bedale whitby scarborough stockton richmond darlington appleby norton bridlington selby hull 
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_duchy
+		capital = york
+	}
+
+	RGHD = { #Reghed
+		own_control_core = {
+			lancaster liverpool manchester blackburn preston skipton kendal egremont cockermouth penrith
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_duchy
+		capital = lancaster
+	}
+
+	GDDN = { #Gododdin
+		own_control_core = {
+			berwick durham hexham newcastle billingham morpeth alnwick roxburgh duns selkirk
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = berwick
+	}
+
+	SLGW = { #Selgow
+		own_control_core = {
+			dumfries carlisle
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = dumfries
+	}
+
+	EDYN = { #Eidyn
+		own_control_core = {
+			edinburgh dunbar 
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = edinburgh
+	}
+
+	NVNT = { #Novant
+		own_control_core = {
+			stranraer kirkcudbright kenmure 
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = stranraer
+	}
+
+	AERN = { #Aeron
+		own_control_core = {
+			ayr irvine
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = ayr
+	}
+
+	ALTC = { #Alt Clut
+		own_control_core = {
+			glasgow paisley lanark linlithgow stirling clackmannan dunfermline cupar st_andrews
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_duchy
+		capital = glasgow
+	}
+
+	UKRN = { #Ukrani
+		own_control_core = {
+			norwich lowestoft ipswich colchester hedingham lavenham bury thetford yarmouth fakenham lynn
+			walden hertford royston cambridge ely spalding kettering huntingdon northampton bedford
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_kingdom
+		capital = norwich
+	}
+
+	VLDN = { #Veladun
+		own_control_core = {
+			st_albans harrow wycombe aylesbury dunstable
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = st_albans
+	}
+
+	LWZC = { #Lwzniciûn
+		own_control_core = {
+			london barking chelmsford prittlewell
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_county
+		capital = london
+	}
+
+	SBVT = { #Sefed Bodravelit
+		own_control_core = {
+			canterbury dover rochester tonbridge hythe hastings lewes reigate kingston woking guildford
+			shoreham chichester windsor basingstoke portsmouth winchester southampton lymington wight reading
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_kingdom
+		capital = canterbury
+	}
+
+	DHB = { # Deheubarth
 		include = "catholic_monarchy_welsh_releasable"
 		capital = pembroke
 	}
 
 	MWG = { # Morgannwg
-		our_cores_conquered_by_others = {
-			cardiff neath caerphilly swansea
-		}
 		include = "catholic_monarchy_welsh_releasable"
 		capital = cardiff
 	}
 
 	GWT = { # Gwent
-		our_cores_conquered_by_others = { 
-			monmouth newport 
-		}
 		include = "catholic_monarchy_welsh_releasable"
 		capital = monmouth
 	}
 
 	BCN = { # Brycheiniog
-		our_cores_conquered_by_others = {
-			brecknock builth radnor
-		}
 		include = "catholic_monarchy_welsh_releasable"
 		capital = brecknock
 	}
@@ -4044,9 +4411,6 @@ countries = {
 	}
 
 	MOY = { # Moray
-		own_control_core = {
-			inverness elgin badenoch lochaber
-		}
 		government = {
 			heir_selection = cognatic_primogeniture
 			ruler_term = { character = moy_john_randolph start_date = 1333.8.9 regnal_number = 1 }
@@ -4113,12 +4477,6 @@ countries = {
 	}
 
 	ORK = { # Orkney
-		own_control_core = {
-			orkney shetland
-		}
-		our_cores_conquered_by_others = {
-			strathearn thurso
-		}
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -4132,23 +4490,6 @@ countries = {
 	}
 
 	SCO = { # Scotland
-		own_control_core = {
-			glasgow paisley dumbarton aberdeen dunbar banff dunfermline st_andrews dundee buchan mar inverurie stonehaven clackmannan aberfeldy irvine
-			oban inverary cowal forfar arbroath arran selkirk scone
-			dornoch durness tongue	
-		}	
-		own_control_conquered = {
-			thurso
-		}
-
-		our_cores_conquered_by_others = {
-			berwick
-			perth kirkcudbright kenmure stranraer
-			edinburgh stirling roxburgh dumfries lanark ayr
-			strathearn cupar
-			#ross
-			dingwall gairloch ullapool
-		}
 
 		include = "expl_northern_europe"
 		starting_technology_level = 3
@@ -4269,17 +4610,6 @@ countries = {
 	}
 
 	SBL = { # Balliol Pretender
-		own_control_core = {
-			kirkcudbright kenmure stranraer ayr perth edinburgh stirling roxburgh linlithgow duns dumfries lanark
-			strathearn cupar
-		}
-		our_cores_conquered_by_others = {
-			glasgow paisley dumbarton aberdeen dunbar elgin banff dunfermline st_andrews dundee buchan mar inverurie stonehaven clackmannan aberfeldy irvine dornoch durness tongue
-			oban inverary cowal forfar arbroath arran selkirk scone
-
-			#Ross
-			dingwall gairloch ullapool 
-		}
 
 		include = "expl_northern_europe"
 		starting_technology_level = 3
@@ -4352,18 +4682,6 @@ countries = {
 	}
 
 	LOI = { # The Isles
-		own_control_core = {
-			# Western Isles
-			uist lewis mull islay harris
-		}
-		own_control_conquered = {
-			# Scotland
-			ardtornish kintyre
-		}
-
-		our_cores_conquered_by_others = {
-			mann skye
-		}
 
 		tolerated_cultures = { highland }
 
@@ -4395,13 +4713,6 @@ countries = {
 	}
 
 	ROS = { # Ross
-		own_control_core = {
-			dingwall gairloch ullapool urquhart
-		}
-		own_control_conquered = {
-			# Bishop of the Isles
-			skye
-		}
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
