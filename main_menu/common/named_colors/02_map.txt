@@ -931,9 +931,14 @@ colors = {
 	color_strigolniki = rgb { 255 252 184 }
 	religion_waldensian = rgb { 102 51 128 } #same as in CK3
 	religion_african_catholic = rgb { 123 143 78 }
+	religion_celtic_christianity = rgb { 141 165 23 }
+	religion_vulgar_catholic = rgb { 107 98 135 }
 	religion_arian = rgb { 74 86 47 }
 	map_mithraic_zalmoxis = rgb { 76 0 26 }
 	map_jayayan_zalmukh = rgb { 165 0 58 }
+	map_celtic_paganism = rgb { 198 163 93 }
+	map_gallo_roman = rgb { 168 14 5 }
+	map_senchred = rgb { 44 55 66 }
 	#Indian Religions
 	color_hindu = hsv360 { 24 84 100 }
 	color_jain = rgb { 231 169 20 }
@@ -4238,5 +4243,10 @@ colors = {
 	map_romano_briton = rgb { 47 51 10 }
 	map_pict = rgb { 45 55 81 }
 	map_highland = rgb { 63 174 23}
+	#Brito-Slavs
+	map_ukranavie = rgb { 206 203 6}
+	map_polabe = rgb { 186 27 45 }
+	map_luzdenie = rgb { 186 27 154 }
+	map_gwletydunie = rgb { 157 27 176 }
 }
 

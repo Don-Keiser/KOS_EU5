@@ -500,31 +500,31 @@ GDD = {
 	color2 = hsv { 0 0 0.38 }
 
 	culture_definition = welsh
-	religion_definition = catholic
+	religion_definition = celtic_christianity
 }
 PWS = {
 	color = rgb { 48 70 62 }
 
 	culture_definition = welsh
-	religion_definition = african_catholic
+	religion_definition = celtic_christianity
 }
 DYF = {
 	color = rgb { 76 235 32 }
 
 	culture_definition = welsh
-	religion_definition = african_catholic
+	religion_definition = celtic_christianity
 }
 SLW = {
 	color = rgb { 236 245 132 }
 
 	culture_definition = welsh
-	religion_definition = african_catholic
+	religion_definition = celtic_christianity
 }
 PGW = {
 	color = rgb { 63 139 185 }
 
 	culture_definition = welsh
-	religion_definition = african_catholic
+	religion_definition = celtic_christianity
 }
 DUMN = {
 	color = rgb { 105 52 145 }
@@ -536,196 +536,196 @@ CRLG = {
 	color = rgb { 163 142 235 }
 
 	culture_definition = romano_briton
-	religion_definition = african_catholic
+	religion_definition = gallo_roman
 }
 YMDW = {
 	color = rgb { 38 56 49 }
 
 	culture_definition = welsh
-	religion_definition = african_catholic
+	religion_definition = celtic_christianity
 }
 GRAW = {
 	color = rgb { 85 119 198 }
 
 	culture_definition = dobunni
-	religion_definition = african_catholic
+	religion_definition = celtic_christianity
 }
 CREM = {
 	color = rgb { 63 128 168 }
 
 	culture_definition = dobunni
-	religion_definition = african_catholic
+	religion_definition = gallo_roman
 }
 CRDF = {
 	color = rgb { 69 152 165 }
 
 	culture_definition = dobunni
-	religion_definition = african_catholic
+	religion_definition = celtic_christianity
 }
 CRNI = {
 	color = rgb { 116 152 165 }
 
 	culture_definition = romano_briton
-	religion_definition = african_catholic
+	religion_definition = gallo_roman
 }
 CRAL = {
 	color = rgb { 75 86 130 }
 
 	culture_definition = dobunni
-	religion_definition = african_catholic
+	religion_definition = celtic_christianity
 }
 DRNV = {
 	color = rgb { 196 133 92 }
 
 	culture_definition = romano_briton
-	religion_definition = african_catholic
+	religion_definition = gallo_roman
 }
 CRLN = {
 	color = rgb { 196 76 48 }
 
 	culture_definition = dumnonian
-	religion_definition = african_catholic
+	religion_definition = celtic_christianity
 }
 CRSA = {
 	color = rgb { 196 88 122 }
 
 	culture_definition = dumnonian
-	religion_definition = african_catholic
+	religion_definition = celtic_christianity
 }
 LYND = {
 	color = rgb { 215 250 173 }
 
 	culture_definition = welsh
-	religion_definition = african_catholic
+	religion_definition = celtic_christianity
 }
 ELFD = {
 	color = rgb { 229 219 248 }
 
 	culture_definition = cumbrian
-	religion_definition = african_catholic
+	religion_definition = celtic_christianity
 }
 EBRC = {
 	color = rgb { 238 184 175 }
 
 	culture_definition = cumbrian
-	religion_definition = african_catholic
+	religion_definition = celtic_christianity
 }
 RGHD = {
 	color = rgb { 118 224 230 }
 
 	culture_definition = cumbrian
-	religion_definition = african_catholic
+	religion_definition = celtic_christianity
 }
 
 GDDN = {
 	color = rgb { 222 189 103 }
 
 	culture_definition = cumbrian
-	religion_definition = african_catholic
+	religion_definition = celtic_paganism
 }
 SLGW = {
 	color = rgb { 222 179 118 }
 
 	culture_definition = cumbrian
-	religion_definition = african_catholic
+	religion_definition = celtic_paganism
 }
 EDYN = {
 	color = rgb { 210 185 112 }
 
 	culture_definition = cumbrian
-	religion_definition = african_catholic
+	religion_definition = celtic_paganism
 }
 NVNT = {
 	color = rgb { 94 75 145 }
 
 	culture_definition = cumbrian
-	religion_definition = african_catholic
+	religion_definition = celtic_paganism
 }
 AERN = {
 	color = rgb { 145 68 100 }
 
 	culture_definition = cumbrian
-	religion_definition = african_catholic
+	religion_definition = celtic_paganism
 }
 ALTC = {
 	color = rgb { 98 142 120 }
 
 	culture_definition = cumbrian
-	religion_definition = african_catholic
+	religion_definition = celtic_paganism
 }
 
 UKRN = {
 	color = rgb { 206 203 6 }
 
-	culture_definition = polabian
-	religion_definition = catholic
+	culture_definition = ukranavie
+	religion_definition = vulgar_catholic
 }
 VLDN = {
 	color = rgb { 157 27 176 }
 
-	culture_definition = polabian
-	religion_definition = catholic
+	culture_definition = gwletydunie
+	religion_definition = vulgar_catholic
 }
 LWZC = {
 	color = rgb { 186 27 154 }
 
-	culture_definition = polabian
-	religion_definition = catholic
+	culture_definition = luzdenie
+	religion_definition = vulgar_catholic
 }
 SBVT = {
 	color = rgb { 186 27 45 }
 
-	culture_definition = polabian
-	religion_definition = catholic
+	culture_definition = polabe
+	religion_definition = vulgar_catholic
 }
 
 PCCE = {
 	color = rgb { 12 75 114 }
 
 	culture_definition = pict
-	religion_definition = african_catholic
+	religion_definition = senchred
 }
 
 FTLA = {
 	color = rgb { 39 96 107 }
 
 	culture_definition = pict
-	religion_definition = african_catholic
+	religion_definition = senchred
 }
 
 URTR = {
 	color = rgb { 54 149 175 }
 
 	culture_definition = pict
-	religion_definition = african_catholic
+	religion_definition = senchred
 }
 
 CAIT = {
 	color = rgb { 58 90 99 }
 
 	culture_definition = pict
-	religion_definition = african_catholic
+	religion_definition = senchred
 }
 
 FDCH = {
 	color = rgb { 44 119 119 }
 
 	culture_definition = pict
-	religion_definition = african_catholic
+	religion_definition = senchred
 }
 
 ISCT = {
 	color = rgb { 37 57 86 }
 
 	culture_definition = pict
-	religion_definition = african_catholic
+	religion_definition = senchred
 }
 
 DLRT = {
 	color = rgb { 87 168 87 }
 
 	culture_definition = highland
-	religion_definition = african_catholic
+	religion_definition = celtic_paganism
 }
 
 DHB = {

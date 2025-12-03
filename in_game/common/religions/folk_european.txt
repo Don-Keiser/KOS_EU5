@@ -76,6 +76,60 @@ hellenism_religion = { #https://en.wikipedia.org/wiki/Hellenism_(modern_religion
 	}
 }
 
+celtic_paganism = {
+    color = map_celtic_paganism
+    group = folk_european_group
+
+	religious_aspects = 1
+    definition_modifier = {
+        levy_combat_efficiency_modifier = 0.05
+        skill_of_new_artists = 0.1
+    }
+    
+    opinions = {
+    }
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+gallo_roman = {
+    color = map_gallo_roman
+    group = folk_european_group
+
+	religious_aspects = 1
+    definition_modifier = {
+        levy_combat_efficiency_modifier = 0.05
+        skill_of_new_artists = 0.1
+    }
+    
+    opinions = {
+    }
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+senchred = {
+    color = map_senchred
+    group = folk_european_group
+
+	religious_aspects = 1
+    definition_modifier = {
+        levy_combat_efficiency_modifier = 0.05
+        skill_of_new_artists = 0.1
+    }
+    
+    opinions = {
+    }
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
 karachay_balkar_paganism = { 
 	color = religion_karachay_balkar
 	group = folk_european_group

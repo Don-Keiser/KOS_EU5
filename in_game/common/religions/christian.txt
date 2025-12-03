@@ -269,6 +269,35 @@ african_catholic = {
 	tags = { catholic_gfx western_christian_gfx christian_gfx abrahamic_gfx }
 }
 
+celtic_christianity = { 
+	color = religion_celtic_christianity
+	group = christian
+	
+	language = brythonic_language
+
+	has_religious_influence = yes
+	
+	has_canonization = yes
+	
+	
+	tithe = 0.02		#2% is 20% of the tenth
+	
+	definition_modifier = {
+		clergy_estate_max_tax = -1.0
+		monthly_religious_influence = 0.1
+		global_clergy_max_literacy = 25
+		
+		can_have_monasteries = yes
+		maximum_religious_influence = 900
+	}
+	
+	opinions = {
+		catholic = positive
+	}
+	
+	tags = { catholic_gfx western_christian_gfx christian_gfx abrahamic_gfx }
+}
+
 hussite = { 
 	color = color_hussite
 	group = christian
@@ -509,6 +538,31 @@ orthodox = {
 
 	tags = { orthodox_gfx eastern_christian_gfx christian_gfx abrahamic_gfx }
 
+}
+
+vulgar_catholic = { 
+	color = religion_vulgar_catholic
+	group = christian
+	
+	has_patriarchs = yes	
+	has_canonization = yes
+	has_autocephalous_patriarchates = yes
+	has_religious_influence = yes
+	
+	tithe = 0.02		#2% is 20% of the tenth
+	
+	definition_modifier = {
+		stability_cost = -0.1
+		global_max_literacy = 5
+
+		maximum_religious_influence = 400
+	}
+	
+	opinions = {
+		catholic = kindred
+	}
+	
+	tags = { catholic_gfx western_christian_gfx christian_gfx abrahamic_gfx }
 }
 
 paulicianism = { 

@@ -15,6 +15,10 @@ slavic_language_family = {
 	color = map_slavic_language_family
 }
 
+brito_slavic_language_family = {	
+	color = map_brito_slavic_language_family
+}
+
 semitic_language_family = {
 	color = map_semitic_language_family
 }

@@ -1,0 +1,75 @@
+﻿ukranavie = {
+	language = ukranavie_dialect
+
+	color = map_ukranavie
+
+	tags = { celtic_gfx british_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		polabe = kindred
+		luzdenie = kindred
+		gwletydunie = kindred
+	}
+	culture_groups = {
+		slavic_group
+		celtic_group
+		british_group
+	}
+}
+
+polabe = {
+	language = polabe_language
+
+	color = map_polabe
+
+	tags = { celtic_gfx british_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		ukranavie = kindred
+		luzdenie = kindred
+		gwletydunie = kindred
+	}
+	culture_groups = {
+		slavic_group
+		celtic_group
+		british_group
+	}
+}
+
+luzdenie = {
+	language = luzdenie_dialect
+
+	color = map_luzdenie
+
+	tags = { celtic_gfx british_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		ukranavie = kindred
+		polabe = kindred
+		gwletydunie = kindred
+	}
+	culture_groups = {
+		slavic_group
+		celtic_group
+		british_group
+	}
+}
+
+gwletydunie = {
+	language = gwletydunie_dialect
+
+	color = map_gwletydunie
+
+	tags = { celtic_gfx british_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		ukranavie = kindred
+		polabe = kindred
+		luzdenie = kindred
+	}
+	culture_groups = {
+		slavic_group
+		celtic_group
+		british_group
+	}
+}
