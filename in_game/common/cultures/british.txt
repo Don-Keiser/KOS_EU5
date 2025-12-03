@@ -104,13 +104,36 @@ irish = {
 welsh = {
 	language = welsh_dialect
 	
-	color = map_WLS
+	color = map_welsh
 	
 	tags = { welsh_gfx celtic_gfx british_gfx western_european_gfx european_gfx }
 
 	opinions = {
-		cornish = kindred
-		english = negative
+		breton = positive
+		cumbrian = kindred
+		dobunni = kindred
+		dumnonian = positive
+	}
+
+	culture_groups = {
+		celtic_group
+		british_group
+	}
+
+	use_patronym = yes
+}
+
+cumbrian = {
+	language = cumbric_dialect
+	
+	color = map_cumbrian
+	
+	tags = { welsh_gfx celtic_gfx british_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		welsh = kindred
+		dobunni = kindred
+		dumnonian = positive
 		breton = positive
 	}
 
@@ -120,6 +143,92 @@ welsh = {
 	}
 
 	use_patronym = yes
+}
+
+dumnonian = {
+	language = dumnonian_dialect
+	
+	color = map_dumnonian
+	
+	tags = { welsh_gfx celtic_gfx british_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		welsh = positive
+		cumbrian = positive
+		dobunni = positive
+		breton = kindred
+	}
+
+	culture_groups = {
+		celtic_group
+		british_group
+	}
+
+	use_patronym = yes
+}
+
+dobunni = {
+	language = dobunnic_dialect
+	
+	color = map_dobunni
+	
+	tags = { welsh_gfx celtic_gfx british_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		welsh = kindred
+		cumbrian = kindred
+		dumnonian = kindred
+		breton = positive
+	}
+
+	culture_groups = {
+		celtic_group
+		british_group
+	}
+
+	use_patronym = yes
+}
+
+romano_briton = {
+	language = romano_briton_dialect
+	
+	color = map_romano_briton
+	
+	tags = { welsh_gfx celtic_gfx british_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		welsh = positive
+		cumbrian = positive
+		dumnonian = positive
+		breton = positive
+	}
+
+	culture_groups = {
+		celtic_group
+		britain_latin_group
+		british_group
+	}
+
+	use_patronym = yes
+}
+
+pict = {
+	language = pictish_language
+	
+	color = map_pict
+	
+	tags = { scottish_highland_gfx gaelic_gfx scottish_gfx celtic_gfx north_british_gfx british_gfx western_european_gfx european_gfx }
+
+	opinions = {
+	}
+
+	culture_groups = {
+		pictish_group
+	}
+
+	use_patronym = yes
+
+	dynasty_name_type = patronym
 }
 
 cornish = {
@@ -157,7 +266,6 @@ highland = {
 	culture_groups = {
 		celtic_group
 		scottish_group
-		british_group
 	}
 
 	use_patronym = yes

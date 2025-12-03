@@ -335,26 +335,13 @@ countries = {
 	}
 
 	ICE = {
-		own_control_core = {
-			holar husavik akureyri blonduos torshofn
-			vopnafjordur egilsstadir seydisfjordur reydarfjordur holmur kirkjubaejar
-			borgarnes olavsvik isafjordur hvamstangi
-			skalholt selfoss keflavik reikjavik thingvellir hvolsvollur
-		}
 		capital = thingvellir
 
 		include = "catholic_monarchy_limited"
 		include = "expl_scandinavia"
 
 		government = {
-			ruler = swe_magnus_eriksson
-
-			ruler_term = { character = nor_hakan_magnusson start_date = 1299.11.1 end_date = 1319.5.8 regnal_number = 5	}
-			ruler_term = { character = swe_magnus_eriksson start_date = 1319.5.8 regnal_number = 7	}
-
-			reforms = {
-				family_sagas_reform
-			}
+			
 		}
 
 
@@ -4230,7 +4217,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 			ruler = random
 		}
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = berwick
 	}
 
@@ -4369,6 +4356,111 @@ countries = {
 		}
 		country_rank = rank_kingdom
 		capital = canterbury
+	}
+
+	PCCE = { #Cé
+		own_control_core = {
+			aberdeen buchan stonehaven arbroath forfar dundee perth
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_kingdom
+		capital = aberdeen
+	}
+
+	FTLA = { #Fotla
+		own_control_core = {
+			scone aberfeldy strathearn badenoch lochaber mar inverurie
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_duchy
+		capital = scone
+	}
+
+	URTR = { #Fortriu Uerteru
+		own_control_core = {
+			inverness elgin banff urquhart dingwall dornoch
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_duchy
+		capital = inverness
+	}
+
+	CAIT = { #Cait CAT
+		own_control_core = {
+			thurso tongue durness ullapool 
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_duchy
+		capital = thurso
+	}
+
+	FDCH = { #Fidach
+		own_control_core = {
+			ardtornish mull gairloch skye
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_duchy
+		capital = ardtornish
+	}
+
+	ISCT = { #Inse Cét
+		own_control_core = {
+			lewis harris uist
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_duchy
+		capital = lewis
+	}
+
+	DLRT = { #Dal Raita
+		own_control_core = {
+			inverary kintyre arran cowal dumbarton oban islay
+		}
+		include = "catholic_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		country_rank = rank_duchy
+		capital = inverary
 	}
 
 	DHB = { # Deheubarth
