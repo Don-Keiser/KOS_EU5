@@ -68,4 +68,10 @@ diplomacy_manager = {
     dependency = { first = GDDN second = EDYN subject_type = vassal }
     dependency = { first = GDDN second = SLGW subject_type = vassal }
 
+    #Gododdin
+    dependency = { first = PCCE second = FTLA subject_type = vassal }
+    dependency = { first = PCCE second = URTR subject_type = vassal }
+    dependency = { first = PCCE second = CAIT subject_type = vassal }
+    dependency = { first = PCCE second = FDCH subject_type = vassal }
+
 }

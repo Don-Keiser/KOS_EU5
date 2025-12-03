@@ -24,7 +24,6 @@ colors = {
 	map_karelian = rgb { 209 252 22 }
 	map_ingrian = rgb { 239 252 22 }
 	map_friulian = rgb { 34 30 174 }
-	map_highland = hsv360 { 222 70 60 }
 	map_IRE = hsv360 { 114 74 55 }
 	map_EUR = hsv360 { 220 100 60 }
 	map_ROM = hsv360 { 350 60 50 }
@@ -4231,5 +4230,13 @@ colors = {
 	#Goths
 	map_moesogothic = rgb { 74 74 74 }
 	map_thuringian_gothic = rgb { 74 74 113 }
+	#Britain
+	map_welsh = rgb { 106 164 85 }
+	map_cumbrian = rgb { 114 193 89 }
+	map_dumnonian = rgb { 42 129 10 }
+	map_dobunni = rgb { 88 137 109 }
+	map_romano_briton = rgb { 47 51 10 }
+	map_pict = rgb { 45 55 81 }
+	map_highland = rgb { 63 174 23}
 }
 
