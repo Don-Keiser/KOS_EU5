@@ -73,5 +73,14 @@ diplomacy_manager = {
     dependency = { first = PCCE second = URTR subject_type = vassal }
     dependency = { first = PCCE second = CAIT subject_type = vassal }
     dependency = { first = PCCE second = FDCH subject_type = vassal }
+	
+	#Thai
+    dependency = { first = SRTR second = KZLK subject_type = vassal }
+    dependency = { first = SRTR second = NLLI subject_type = vassal }
+    dependency = { first = SRTR second = HARG subject_type = vassal }
+    dependency = { first = SRTR second = KAPA subject_type = vassal }
+    dependency = { first = SRTR second = AFSI subject_type = vassal }
+    dependency = { first = SRTR second = PAPH subject_type = vassal }
+	
 
 }

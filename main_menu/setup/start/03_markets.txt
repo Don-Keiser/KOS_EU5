@@ -1,6 +1,6 @@
 market_manager = {
 	#europe
-	add_market = lubeck
+	add_market = lund
 	add_market = riga
 	add_market = venice
 	add_market = novgorod
@@ -12,7 +12,7 @@ market_manager = {
 	add_market = constantinople
 	add_market = auxerre
 	add_market = rouen
-	add_market = barcelona
+	add_market = tarragona
 	add_market = sevilla
 	add_market = cologne
 	add_market = kyiv
@@ -26,11 +26,8 @@ market_manager = {
 	add_market = skalholt	
 	add_market = gardr
 	add_market = naples
-
-	add_market = oslo #should be Bergen but too low access
-	add_market = stockholm
 	add_market = burgos
-	add_market = tbilisi
+	add_market = yerevan
 	add_market = nuremberg
 	add_market = lisbon 
 
@@ -61,7 +58,7 @@ market_manager = {
 	# Middle East
 	add_market = baghdad
 	add_market = damascus
-	add_market = trebizond
+	add_market = kayseri
 	add_market = tabriz
 	add_market = isfahan
 	add_market = nishapur
