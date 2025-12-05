@@ -33252,7 +33252,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		capital = groningen
+		capital = dordrecht
 		government = {
 			type = republic
 			heir_selection = oligarchic_elective
