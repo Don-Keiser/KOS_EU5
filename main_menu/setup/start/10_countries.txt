@@ -4309,7 +4309,7 @@ countries = {
 			ruler = random
 		}
 		country_rank = rank_kingdom
-		capital = norwich
+		capital = colchester
 	}
 
 	VLDN = { #Veladun
