@@ -26979,6 +26979,7 @@ countries = {
 		include = "expl_indian_trade_route"
 
 		capital = Kayseri
+		starting_technology_level = 3
 		}
 		
 		NLLI = { #Nalli
