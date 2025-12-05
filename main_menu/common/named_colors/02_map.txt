@@ -4243,6 +4243,7 @@ colors = {
 	map_romano_briton = rgb { 47 51 10 }
 	map_pict = rgb { 45 55 81 }
 	map_highland = rgb { 63 174 23}
+	map_hiberno_roman = rgb { 166 183 67 }
 	#Brito-Slavs
 	map_ukranavie = rgb { 206 203 6}
 	map_polabe = rgb { 186 27 45 }

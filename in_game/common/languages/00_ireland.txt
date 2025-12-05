@@ -140,6 +140,9 @@ gaelic_language = {
 		irish_dialect = {
 
 		}
+		hiberno_roman_dialect = {
+
+		}
 		scottish_gaelic_dialect = {
 			male_names = {		
 				# Scottish

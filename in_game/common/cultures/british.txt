@@ -212,6 +212,28 @@ romano_briton = {
 	use_patronym = yes
 }
 
+hiberno_roman = {
+	language = hiberno_roman_dialect
+	
+	color = map_hiberno_roman
+	
+	tags = { irish_gfx gaelic_gfx celtic_gfx british_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		irish = positive
+	}
+
+	culture_groups = {
+		britain_latin_group
+		celtic_group
+		hibernian_group
+	}
+
+	use_patronym = yes
+
+	dynasty_name_type = descendant
+}
+
 pict = {
 	language = pictish_language
 	
