@@ -193,7 +193,7 @@ colors = {
 	#Germany
 	map_HES = rgb { 114 171 184 } #same as in EU4
 	map_FRI = rgb { 156 96 100 } # hsv360 { 27 67 45 }
-	map_SOR = rgb { 67 80 128 } #same as in EU4
+	map_SOR = rgb { 216 108 108 }
 	map_PRU = hsv360 { 229 80 30 }
 	map_BRA = rgb { 123 90 90 } #same as in EU4
 	map_BAV = rgb { 17 116 193 } #same as in EU4

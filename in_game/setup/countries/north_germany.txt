@@ -169,10 +169,10 @@ SAA = {
 }
 
 STE = {
-	color = rgb { 33 119 58 }
+	color = rgb { 204 102 102 }
 	
-	culture_definition = markish
-	religion_definition = catholic
+	culture_definition = western_pomeranian
+	religion_definition = vulgar_catholic
 }
 
 HPL = {
@@ -243,10 +243,9 @@ GLA = {
 
 SOR = {
 	color = map_SOR
-	color2 = rgb { 67 80 128 }
 
 	culture_definition = sorbian
-	religion_definition = catholic
+	religion_definition = vulgar_catholic
 }
 
 SPB = {
@@ -321,17 +320,17 @@ GSW = {
 }
 
 WOL = {
-	color = rgb { 235 178 18 }
+	color = rgb { 86 116 82 }
 
 	culture_definition = western_pomeranian
-	religion_definition = catholic
+	religion_definition = vulgar_catholic
 }
 
 KMM = {
-	color = rgb { 190 15 15 }
+	color = rgb { 158 79 146 }
 
-	culture_definition = eastern_pomeranian
-	religion_definition = catholic
+	culture_definition = kashubian
+	religion_definition = vulgar_catholic
 }
 
 NWG = {

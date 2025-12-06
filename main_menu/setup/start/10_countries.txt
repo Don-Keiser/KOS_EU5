@@ -643,32 +643,23 @@ countries = {
 		}
 	}
 
-	ERM = { #Ermland / Warmia
+	ERM = { #Warmia
 		own_control_core = {
-			lidzbark olsztyn frombork
+			lidzbark olsztyn frombork balga morag dzierzgon ostroda ryn_poland szczytno
 		}
 
-		include = "catholic_bishopric"
 		include = "expl_northern_europe"
 		include = "eastern_european_catholic"
 
 		government = {
-			type = theocracy
-
-			ruler = erm_hermann_of_prague
-			ruler_term = {	character = erm_hermann_of_prague start_date = 1337.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_herman = 1
-			}
+			type = tribe
+			ruler = random
 		}
-		tolerated_cultures = { pruthenian }
 		capital = lidzbark
+		country_rank = rank_county
 	}
 
 	CHL = { #Kulm / Chełmno
-		own_control_core = {
-			lubawa chelmno
-		}
 
 		include = "catholic_bishopric_no_coast"
 		include = "expl_northern_europe"
@@ -684,57 +675,22 @@ countries = {
 			}
 		}
 
-		tolerated_cultures = {
-			greater_polish
-		}
-
 		country_rank = rank_county
 		capital = lubawa
 	}
 
 	PMS = { #Pomesania
 		own_control_core = {
-			kwidzyn
+			kwidzyn grudziadz
 		}
-
-		include = "catholic_bishopric_no_coast"
 		include = "expl_northern_europe"
 		include = "eastern_european_catholic"
 
 		government = {
-			type = theocracy
-
-			ruler = pms_bertold_von_riesenburg
-			ruler_term = {	character = pms_bertold_von_riesenburg start_date = 1332.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_berthold = 1
-			}
+			type = tribe
 		}
 		country_rank = rank_county
 		capital = kwidzyn
-	}
-
-	SMD = { #Samland / Samia
-		own_control_core = {
-			fischhausen
-		}
-
-		include = "catholic_bishopric"
-		include = "expl_northern_europe"
-		include = "eastern_european_catholic"
-
-		government = {
-			type = theocracy
-
-			ruler = sms_johann_clare
-			ruler_term = {	character = sms_johann_clare start_date = 1320.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_john = 1
-			}
-		}
-		tolerated_cultures = { pruthenian }
-		country_rank = rank_county
-		capital = fischhausen
 	}
 
 	#CTV = { # Order of Calatrava
@@ -1409,8 +1365,8 @@ countries = {
 
 	STE = {	#Stettin
 		own_control_core = {
-			stettin ueckermunde gryfow pyrzyce
-			demmin anklam
+			stettin ueckermunde gryfow gryfia_gora resko szadzko
+			demmin swinousjcie goleniow kamien nowogard pyrzyce
 		}
 
 		starting_technology_level = 3
@@ -30215,30 +30171,25 @@ countries = {
 
 	SOR = { #Lusatia
 		own_control_core = {
-			cottbus guben lubben luckau calau zossen
+			pirna decin zittau litomerice frydlant mlada_boleslav turnov podebrady
+			jicin nachod hradec_kralove chrudim klodzko litomysl sumperk fryvaldov 
+			krnov glubczyce hlucin zabreh
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy"
 		include = "expl_northern_europe"
-		include = "german_principality"
-		capital = cottbus
 		government = {
-			ruler = bra_ludwig_v_wittelsbach
-
-			reforms = {
-				margraviate
-			}
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
 
 			laws = {
 				mining_law = nobles_mining_law
 			}
 		}
-
-		tolerated_cultures = {
-			brandenburgish
-		}
-		country_rank = rank_county
+		capital = hradec_kralove
+		country_rank = rank_duchy
 	}
 
 	SPB = { #Spremberg
@@ -30397,9 +30348,6 @@ countries = {
 	}
 
 	MKL = { #Mecklenburg
-		own_control_core = {
-			wismar strelitz neubrandenburg grabow hagenow grevesmuhlen doberan ribnitz rostock
-		}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy"
@@ -30521,117 +30469,23 @@ countries = {
 		country_rank = rank_county
 	}
 
-	RST = { #Rostock
-		our_cores_conquered_by_others = {
-			rostock
+	WOL = { #Ranis
+		own_control_core = {
+			wolgast stralsund rugen grimmen ribnitz anklam
 		}
 
 		starting_technology_level = 3
+		include = "eastern_european_catholic"
+		include = "eastern_european_catholic_monarchy"
 		include = "expl_northern_europe"
-		include = "catholic_republic_not_present"
-
-		capital = rostock
+		country_rank = rank_county
 		government = {
-			type = republic
-			heir_selection = oligarchic_elective
+			type = monarchy
+			heir_selection = cognatic_primogeniture
 			ruler = random
 		}
 
-		tolerated_cultures = {
-			polabian
-		}
-
-	}
-
-	GSW = { #Gustrow
-
-		starting_technology_level = 3
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = gsw_johann_ii_the_bald
-
-			ruler_term = { character = gsw_nikolaus_i_werle start_date = 1234.1.1 end_date = 1277.5.14 regnal_number = 1 }
-			ruler_term = {
-				character = gsw_bernhard_i_werle start_date = 1277.5.14 end_date = 1281.1.1 regnal_number = 1
-				character = gsw_heinrich_i_werle start_date = 1277.5.14 end_date = 1281.1.1 regnal_number = 1
-				character = gsw_johann_i_werle start_date = 1277.5.14 end_date = 1281.1.1 regnal_number = 1
-			}
-			ruler_term = {
-				character = gsw_heinrich_i_werle start_date = 1281.1.1 end_date = 1283.10.15 regnal_number = 1
-				character = gsw_johann_i_werle start_date = 1281.1.1 end_date = 1283.10.15 regnal_number = 1
-			}
-			ruler_term = {
-				character = gsw_heinrich_i_werle start_date = 1283.10.15 end_date = 1291.10.8 regnal_number = 1
-				character = gsw_nikolaus_ii_werle start_date = 1283.10.15 end_date = 1291.10.8 regnal_number = 2
-			}
-			ruler_term = {
-				character = gsw_nikolaus_ii_werle start_date = 1291.10.8 end_date = 1298.1.1 regnal_number = 2
-				character = gsw_heinrich_ii_werle start_date = 1291.10.8 end_date = 1298.1.1 regnal_number = 2
-				character = gsw_nikolaus_werle start_date = 1291.10.8 end_date = 1298.1.1 regnal_number = 0
-			}
-			ruler_term = {
-				character = gsw_nikolaus_ii_werle start_date = 1298.1.1 end_date = 1308.1.1 regnal_number = 2
-				character = gsw_heinrich_ii_werle start_date = 1298.1.1 end_date = 1308.1.1 regnal_number = 2
-			}
-			ruler_term = { character = gsw_nikolaus_ii_werle start_date = 1308.1.1 end_date = 1316.2.18 regnal_number = 2 }			
-			ruler_term = {
-				character = gsw_johann_ii_the_bald start_date = 1316.2.18 regnal_number = 2
-				#character = gsw_johann_iii_werle_goldberg start_date = 1316.2.18 regnal_number = 3 # As Co-Ruler
-			}
-
-			regnal_numbers = {
-				name_nicholas = 2
-				name_bernard = 1
-				name_henry = 2
-				name_john = 3
-			}
-		}
-
-		tolerated_cultures = {
-			polabian
-		}
-
-		country_rank = rank_county
-		capital = gustrow
-		dynasty = mecklenburg_dynasty
-	}
-
-	WOL = { #Wolgast
-		own_control_core = {
-			wolgast stralsund rugen grimmen swinousjcie miastko szadzko
-			nowoszczecin gryfia_gora bialogard slawno slupsk
-			goleniow kamien resko
-		}
-
-		starting_technology_level = 3
-		include = "catholic_monarchy"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		country_rank = rank_duchy
-		government = {
-
-			ruler = wol_bogislaw_v_wolgast
-			ruler_term = {	character = pom_barnim_i_the_good start_date = 1233.1.1 end_date = 1278.1.1 regnal_number = 1	}
-			ruler_term = {	character = wol_wartislaw_iv_wolgast start_date = 1309.1.1 end_date = 1326.8.1 regnal_number = 4	}
-			ruler_term = {	character = wol_bogislaw_v_wolgast start_date = 1326.8.1 regnal_number = 5	}
-
-			regnal_numbers = {
-				Wartislaw = 4
-				Bogislaw = 5
-				Barnim = 3
-			}
-		}
-
-		tolerated_cultures = {
-			eastern_pomeranian
-			kashubian
-		}
-
 		capital = wolgast
-		dynasty = gryf_dynasty
 	}
 
 	KMM = {	#Cammin
@@ -33286,46 +33140,26 @@ countries = {
 
 	POL = {	#Poland
 		own_control_core = {
-			#Lesser Poland
-			krakow chrzanow ksiaz_wielki proszowice
-			kielce opoczno przedborz zarnow
-			czestochowa lelow mstow
-			lublin janow_lubelski kazimierz lukow lubartow urzedow
-			nowy_sacz biecz czchow jaslo nowy_targ
-			pilzno busko_zdroj debica tarnow wislica
-			radom ilza stezyca szydlowiec zwolen
-			sandomierz kunow opatow rudnik_poland
-			wieliczka myslenice
 			#Greater Poland
 			gniezno mogilno trzemeszno
 			kalisz ostrow_wielkopolski pleszew
 			konin kolo lad_konin
 			koscian babimost grodzisk_wielkopolski rawicz srem
-			naklo wyrzysk zlotow
+			wyrzysk czlopa santok gorzow soltyn chojna angermunde freienwalde
 			poznan buk czarnkow miedzyrzecz oborniki skwierzyna szamotuly wielen
 			pyzdry kozmin sroda_wielkopolska
 			znin chodziez szubin
 
-			# own_control_integrated, but culture accepted
-			#Wielun
-			wielun ostrzeszow wieruszow
-			
-			#Actually Occupied
-			#Dobrzyń Land
-			dobrzyn lipno rypin
-			#Kujavia
-			wloclawek kowal radziejow
-		}
-		our_cores_conquered_by_others = {
-			#Chełmno Land
-			chelmno brodnica grudziadz lubawa torun
-			#Kuyavia
-			bydgoszcz inowroclaw
-			#Pomerelia
-			gdansk gniew koscierzyna mirochowo puck tczew
-			tuchola bialobork czluchow nowe swiecie
-		}
-		own_core = {
+			ostrzeszow wieruszow wielun kluczbork olesno sieradz turek
+			dobrzyn lipno torun chelmno leczyca uniejow
+			wloclawek kowal radziejow kozle
+
+			inowroclaw bydgoszcz lebus torzym liebenwerda luckau calau annaburg meissen
+			dresden marienstern hoyerswerda bautzen cottbus lubben beeskow guben spremberg
+			krosno_odrzanskie sulechow zielona_gora kozuchow zary zagan rothenburg_oberlausitz
+			gorlitz szprotawa glogow wschowa gora wolow legnica boleslawiec zlotoryja jawor
+			kamienna_gora swidnica rychbach ziebice niemcza sroda_slaska milicz trzebnica sycow
+			olesnica namyslow wroclaw olawa brzeg grodkow nysa niemodlin prudnik opole 
 		}
 
 		starting_technology_level = 3
@@ -33336,13 +33170,7 @@ countries = {
 			type = monarchy
 			heir_selection = semi_salic_law
 
-			ruler = pol_casimir_iii_piast
-			ruler_term = {	character = pol_wladislaw_i_piast start_date = 1320.1.20 end_date = 1333.3.2 regnal_number = 1	}
-			ruler_term = {	character = pol_casimir_iii_piast start_date = 1333.4.25 regnal_number = 3	}
-			regnal_numbers = {
-				name_vladislav = 1
-				name_casimir = 3
-			}
+			ruler = random
 
 			centralization_vs_decentralization = 80
 			traditionalist_vs_innovative = 20
@@ -33393,8 +33221,8 @@ countries = {
 			}
 
 		}
-		capital = krakow
-		dynasty = piast_dynasty
+		capital = wroclaw
+		#dynasty = piast_dynasty
 		country_rank = rank_kingdom
 		court_language = latin_language
 
@@ -33405,481 +33233,56 @@ countries = {
 			size = 1
 		}
 
-		accepted_cultures = {
-			greater_polish
-			silesian
-		}
-
 		tolerated_cultures = {
 			kashubian
-			ashkenazi
-		}
-
-		#Setup to accurately portray the starting situation
-		currency_data = {
-			war_exhaustion = 5
 		}
 
 	}
-
-	SDZ = {	#Sieradz - Vassal of Poland
+	
+	KSHB = {	#Kashubia - Vassal of Poland
+		own_control_core = {
+			gdansk puck lebork tczew koscierzyna mirochowo gniew
+			choszczno drawsko swidwin bialogard
+			czaplinek walcz nowoszczecin slawno slupsk miastko bytow czluchow
+			zlotow naklo tuchola swiecie nowe bialobork
+		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
-		include = "eastern_european_catholic_monarchy_no_coast"
+		include = "eastern_european_catholic_monarchy"
 		include = "eastern_european_catholic"
 		government = {
 			type = monarchy
 			heir_selection = semi_salic_law
+			ruler = random
 
-			ruler = sdz_przemysl_i_piast
-			ruler_term = {	character = sdz_przemysl_i_piast start_date = 1327.4.25 regnal_number = 1	}
-			regnal_numbers = {
-				Przemysl = 1
-			}
-
-			centralization_vs_decentralization = 80
-			traditionalist_vs_innovative = 20
-			spiritualist_vs_humanist = 10
-			aristocracy_vs_plutocracy = -90
-			serfdom_vs_free_subjects = -70
-			mercantilism_vs_free_trade = -70
-			belligerent_vs_conciliatory = 0
-			quality_vs_quantity = 0
-			offensive_vs_defensive = -70
-			land_vs_naval = -60
-			capital_economy_vs_traditional_economy = 90
-			individualism_vs_communalism = -20
-			outward_vs_inward = 0
-
-			privilege = {
-				#Burghers
-				novi_fori
-				urban_development_grants
-
-				#Commoners
-				peasants_free_peasantry
-			}
 		}
-
-		tolerated_cultures = {
-			ruthenian
-		}
-
+		capital = gdansk
 		country_rank = rank_duchy
-		capital = sieradz
-		dynasty = piast_dynasty
 	}
 
-	LCZ = {	#ŝęczyca - Vassal of Poland
+	STDR = {	#Stodoranie
+		own_control_core = {
+			brandenburg schweinitz zerbst burg belzig juterbog zossen teltow
+			treuenbrietzen jerichow potsdam berlin herzfelde ruppin wittenberge
+			havelberg pritzwalk wittstock waren strelitz templin prenzlau neubrandenburg
+			demmin malchin gustrow malchow parchim grabow hagenow lauenburg stormarn segeberg
+			plon eutin heiligenhafen lubeck ratzeburg grevesmuhlen schwerin wismar butzow doberan
+			rostock
+		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
-		include = "eastern_european_catholic_monarchy_no_coast"
+		include = "eastern_european_catholic_monarchy"
 		include = "eastern_european_catholic"
 		government = {
 			type = monarchy
 			heir_selection = semi_salic_law
+			ruler = random
 
-			ruler = lcz_wladyslaw_i_piast
-			ruler_term = {	character = lcz_wladyslaw_i_piast start_date = 1312.1.1 regnal_number = 3	}
-			regnal_numbers = {
-				name_vladislav = 1
-				name_siemowit = 1
-			}
-
-			centralization_vs_decentralization = 80
-			traditionalist_vs_innovative = 20
-			spiritualist_vs_humanist = 10
-			aristocracy_vs_plutocracy = -90
-			serfdom_vs_free_subjects = -70
-			mercantilism_vs_free_trade = -70
-			belligerent_vs_conciliatory = 0
-			quality_vs_quantity = 0
-			offensive_vs_defensive = -70
-			land_vs_naval = -60
-			capital_economy_vs_traditional_economy = 90
-			individualism_vs_communalism = -20
-			outward_vs_inward = 0
-
-			privilege = {
-				#Burghers
-				novi_fori
-				urban_development_grants
-
-				#Commoners
-				peasants_free_peasantry
-			}
 		}
-
-		tolerated_cultures = {
-			mazovian
-		}
-
+		capital = brandenburg
 		country_rank = rank_duchy
-		capital = leczyca
-		dynasty = piast_dynasty
-	}
-
-	#Płock
-	PLK = {	#https://en.wikipedia.org/wiki/Duchy_of_Masovia
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_catholic_monarchy_no_coast"
-		include = "eastern_european_catholic"
-		government = {
-			type = monarchy
-			heir_selection = semi_salic_law
-
-			regency = subject_regency
-			active_regent = raw_siemowit_ii_piast
-			start_regency_date = 1336.5.23
-			end_regency_date = 1340.1.1
-			heir = plk_boleslaw_iii_piast
-
-			ruler_term = {	character = czk_boleslaw_ii_piast start_date = 1275.1.20 end_date = 1313.4.20 regnal_number = 2	}
-			ruler_term = {	character = plk_waclaw_piast start_date = 1313.4.20 end_date = 1336.5.23 regnal_number = 1	}
-			regnal_numbers = {
-				name_boleslav = 2
-				name_siemowit = 1
-				name_wenceslas = 1
-			}
-
-			centralization_vs_decentralization = 80
-			traditionalist_vs_innovative = 20
-			spiritualist_vs_humanist = 10
-			aristocracy_vs_plutocracy = -90
-			serfdom_vs_free_subjects = -70
-			mercantilism_vs_free_trade = -70
-			belligerent_vs_conciliatory = 0
-			quality_vs_quantity = 0
-			offensive_vs_defensive = -70
-			land_vs_naval = -60
-			capital_economy_vs_traditional_economy = 90
-			individualism_vs_communalism = -20
-			outward_vs_inward = 0
-
-			privilege = {
-				#Burghers
-				novi_fori
-				urban_development_grants
-
-				#Commoners
-				peasants_free_peasantry
-			}
-		}
-		country_rank = rank_duchy
-		capital = plock
-		dynasty = piast_dynasty
-	}
-
-	#Rawa
-	RAW = {	#https://en.wikipedia.org/wiki/Duchy_of_Masovia
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_catholic_monarchy_no_coast"
-		include = "eastern_european_catholic"
-		government = {
-			type = monarchy
-			heir_selection = youngest_son_of_ruler
-
-			ruler = raw_siemowit_ii_piast
-			ruler_term = {	character = czk_boleslaw_ii_piast start_date = 1275.1.20 end_date = 1313.4.20 regnal_number = 2	}
-			ruler_term = {	character = raw_siemowit_ii_piast start_date = 1313.4.20 regnal_number = 2	}
-			regnal_numbers = {
-				name_boleslav = 2
-				name_siemowit = 2
-			}
-
-			centralization_vs_decentralization = 80
-			traditionalist_vs_innovative = 20
-			spiritualist_vs_humanist = 10
-			aristocracy_vs_plutocracy = -90
-			serfdom_vs_free_subjects = -70
-			mercantilism_vs_free_trade = -70
-			belligerent_vs_conciliatory = 0
-			quality_vs_quantity = 0
-			offensive_vs_defensive = -70
-			land_vs_naval = -60
-			capital_economy_vs_traditional_economy = 90
-			individualism_vs_communalism = -20
-			outward_vs_inward = 0
-
-			privilege = {
-				#Burghers
-				novi_fori
-				urban_development_grants
-
-				#Commoners
-				peasants_free_peasantry
-			}
-		}
-
-		tolerated_cultures = {
-			westphalian
-			sudovian
-		}
-
-		country_rank = rank_duchy
-		capital = rawa
-		dynasty = piast_dynasty
-	}
-
-	#Czersk
-	CZK = {
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_catholic_monarchy_no_coast"
-		include = "eastern_european_catholic"
-		government = {
-			type = monarchy
-			heir_selection = semi_salic_law
-
-			ruler = czk_trojden_i_piast
-			ruler_term = {	character = czk_boleslaw_ii_piast start_date = 1275.1.20 end_date = 1313.4.20 regnal_number = 2	}
-			ruler_term = {	character = czk_trojden_i_piast start_date = 1313.4.20 regnal_number = 1	}
-			regnal_numbers = {
-				name_boleslav = 2
-				Trojden = 1
-			}
-
-			centralization_vs_decentralization = 80
-			traditionalist_vs_innovative = 20
-			spiritualist_vs_humanist = 10
-			aristocracy_vs_plutocracy = -90
-			serfdom_vs_free_subjects = -70
-			mercantilism_vs_free_trade = -70
-			belligerent_vs_conciliatory = 0
-			quality_vs_quantity = 0
-			offensive_vs_defensive = -70
-			land_vs_naval = -60
-			capital_economy_vs_traditional_economy = 90
-			individualism_vs_communalism = -20
-			outward_vs_inward = 0
-
-			privilege = {
-				#Burghers
-				novi_fori
-				urban_development_grants
-
-				#Commoners
-				peasants_free_peasantry
-			}
-		}
-
-		tolerated_cultures = {
-			low_franconian
-		}
-
-		country_rank = rank_duchy
-		capital = warsaw
-		dynasty = piast_dynasty
-	}
-
-	INO = {	#Inowrocław - PU under Poland
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_catholic_monarchy_no_coast"
-		include = "eastern_european_catholic"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = pol_casimir_iii_piast
-
-			ruler_term = {	character = pol_wladislaw_i_piast start_date = 1320.1.20 end_date = 1333.3.2 regnal_number = 1	}
-			ruler_term = {	character = pol_casimir_iii_piast start_date = 1333.4.25 regnal_number = 3	}
-		}
-
-		tolerated_cultures = {
-			prussian
-		}
-
-		country_rank = rank_duchy
-		capital = inowroclaw
-		dynasty = piast_dynasty
-	}
-
-	HAL = {	#Halych
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = vol_boleslaw_jerzy_ii_piast
-
-			ruler_term = {
-				character = hal_rurik_rostislavich_rurikovich start_date = 1085.1.1 end_date = 1092.1.1 regnal_number = 1
-				character = hal_volodar_rostislavich_rurikovich start_date = 1085.1.1 end_date = 1092.1.1 regnal_number = 1
-				character = hal_vasilko_rostislavich_rurikovich start_date = 1085.1.1 end_date = 1092.1.1 regnal_number = 1
-			}
-			ruler_term = {
-				character = hal_volodar_rostislavich_rurikovich start_date = 1092.1.1 end_date = 1124.1.1 regnal_number = 1
-				character = hal_vasilko_rostislavich_rurikovich start_date = 1092.1.1 end_date = 1124.1.1 regnal_number = 1
-			}
-			ruler_term = {
-				character = hal_volodar_rostislavich_rurikovich start_date = 1124.1.1 end_date = 1124.3.19 regnal_number = 1
-				character = hal_ivan_igor_rurikovich start_date = 1124.1.1 end_date = 1124.3.19 regnal_number = 1
-				character = hal_rostislav_grigoriy_rurikovich start_date = 1124.1.1 end_date = 1124.3.19 regnal_number = 1
-			}
-			ruler_term = {
-				character = hal_ivan_igor_rurikovich start_date = 1124.3.19 end_date = 1126.1.1 regnal_number = 1
-				character = hal_rostislav_grigoriy_rurikovich start_date = 1124.3.19 end_date = 1126.1.1 regnal_number = 1
-				character = hal_vladimirko_volodarovich_rurikovich start_date = 1124.3.19 end_date = 1126.1.1 regnal_number = 1
-				character = hal_rostislav_volodarovich_rurikovich start_date = 1124.3.19 end_date = 1126.1.1 regnal_number = 1
-				character = byz_ivan_berladnik_rurikovich start_date = 1124.3.19 end_date = 1126.1.1 regnal_number = 1
-			}
-			ruler_term = {
-				character = hal_ivan_igor_rurikovich start_date = 1126.1.1 end_date = 1129.1.1 regnal_number = 1
-				character = hal_vladimirko_volodarovich_rurikovich start_date = 1126.1.1 end_date = 1129.1.1 regnal_number = 1
-				character = hal_rostislav_volodarovich_rurikovich start_date = 1126.1.1 end_date = 1129.1.1 regnal_number = 1
-				character = byz_ivan_berladnik_rurikovich start_date = 1126.1.1 end_date = 1129.1.1 regnal_number = 1
-			}
-			ruler_term = {
-				character = hal_ivan_igor_rurikovich start_date = 1129.1.1 end_date = 1141.1.1 regnal_number = 1
-				character = hal_vladimirko_volodarovich_rurikovich start_date = 1129.1.1 end_date = 1141.1.1 regnal_number = 1
-				character = byz_ivan_berladnik_rurikovich start_date = 1129.1.1 end_date = 1141.1.1 regnal_number = 1
-			}
-			ruler_term = {
-				character = hal_vladimirko_volodarovich_rurikovich start_date = 1141.1.1 end_date = 1145.6.1 regnal_number = 1
-				character = byz_ivan_berladnik_rurikovich start_date = 1141.1.1 end_date = 1145.6.1 regnal_number = 1
-			}
-			ruler_term = { character = hal_vladimirko_volodarovich_rurikovich start_date = 1145.6.1 end_date = 1153.2.1 regnal_number = 1 }
-			ruler_term = { character = hal_yaroslav_osmomysl_rurikovich start_date = 1153.2.1 end_date = 1187.10.1 regnal_number = 1 }
-			ruler_term = {
-				character = hal_oleg_nastasich_rurikovich start_date = 1187.10.1 end_date = 1188.1.1 regnal_number = 1
-				character = hal_vladimir_yaroslavich_rurikovich start_date = 1187.10.1 end_date = 1188.1.1 regnal_number = 2
-			}
-
-			ruler_term = { character = hal_vladimir_yaroslavich_rurikovich start_date = 1188.1.1 end_date = 1188.6.1 regnal_number = 2 }
-			ruler_term = {
-				character = hal_oleg_nastasich_rurikovich start_date = 1188.6.1 end_date = 1189.1.1 regnal_number = 1
-				character = hal_vladimir_yaroslavich_rurikovich start_date = 1188.6.1 end_date = 1189.1.1 regnal_number = 2
-				# Andras II of Hungary
-				character = vol_roman_rurikovich start_date = 1188.6.1 end_date = 1189.1.1 regnal_number = 1
-			}
-
-			# Andras II of Hungary alone 1189-1190
-
-			ruler_term = { character = hal_vladimir_yaroslavich_rurikovich start_date = 1190.1.1 end_date = 1199.1.1 regnal_number = 2 }
-			ruler_term = {	character = vol_roman_rurikovich start_date = 1199.1.1 end_date = 1205.6.19 regnal_number = 1	}
-			ruler_term = {	character = vol_daniel_rurikovich start_date = 1253.1.1 end_date = 1264.1.1 regnal_number = 1	} #Start date as the date of the coronation
-			ruler_term = {	character = vol_leo_i_rurikovich start_date = 1264.1.1 end_date = 1301.1.1 regnal_number = 1	}
-			ruler_term = {	character = vol_yuri_i_rurikovich start_date = 1301.1.1 end_date = 1308.1.1 regnal_number = 1	}
-			ruler_term = {	character = vol_andrii_rurikovich start_date = 1308.1.1 end_date = 1323.1.1 regnal_number = 1	}
-			ruler_term = {	character = vol_boleslaw_jerzy_ii_piast start_date = 1323.1.1 regnal_number = 2	regnal_name = name_george }
-
-			privilege = {
-				#Burghers
-				novi_fori
-				market_fairs
-			}
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			lesser_polish
-			volhynian_culture
-			moldovan
-		}
-
-		capital = lviv
-		country_rank = rank_kingdom
-	}
-
-	VOL = {	#Volhynia
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = vol_boleslaw_jerzy_ii_piast
-
-			ruler_term = {
-				character = rso_boris_vladimirovich_rurikovich start_date = 987.1.1 end_date = 1010.1.1 regnal_number = 1
-				character = vol_vsevolod_vladimirovich_rurikovich start_date = 987.1.1 end_date = 1010.1.1 regnal_number = 1
-			}
-			ruler_term = { character = vol_vsevolod_vladimirovich_rurikovich start_date = 1010.1.1 end_date = 1013.1.1 regnal_number = 1 }
-			ruler_term = { character = kie_sviatoslav_ii_rurikovich start_date = 1036.1.1 end_date = 1054.2.20 regnal_number = 1 }
-			ruler_term = { character = smo_igor_yaroslavich_rurikovich start_date = 1054.2.20 end_date = 1057.1.1 regnal_number = 1 }
-			ruler_term = { character = vol_rostislav_vladimirovich_rurikovich start_date = 1057.1.1 end_date = 1064.1.1 regnal_number = 1 }
-			ruler_term = { character = tuv_yaropolk_izyaslavich_rurikovich start_date = 1078.10.3 end_date = 1086.11.22 regnal_number = 1 }
-			ruler_term = { character = smo_davyd_igorevich_rurikovich start_date = 1086.11.22 end_date = 1097.1.1 regnal_number = 1 }
-			ruler_term = { character = vol_mstislav_sviatopolkovich_rurikovich start_date = 1097.1.1 end_date = 1099.7.12 regnal_number = 1 }
-			ruler_term = { character = pol_yaroslav_sviatopolkovich_rurikovich start_date = 1100.8.30 end_date = 1118.1.1 regnal_number = 1 }
-
-			ruler_term = {	character = vol_roman_rurikovich start_date = 1199.1.1 end_date = 1205.6.19 regnal_number = 1	}
-			ruler_term = { character = kie_mikhail_ii_vsevolodovich_rurikovich start_date = 1235.1.1 end_date = 1238.1.1  regnal_number = 1 }
-			ruler_term = {	character = vol_daniel_rurikovich start_date = 1253.1.1 end_date = 1264.1.1 regnal_number = 1	} #Start date as the date of the coronation
-			ruler_term = {	character = vol_leo_i_rurikovich start_date = 1264.1.1 end_date = 1301.1.1 regnal_number = 1	}
-			ruler_term = {	character = vol_yuri_i_rurikovich start_date = 1301.1.1 end_date = 1308.1.1 regnal_number = 1	}
-			ruler_term = {	character = vol_andrii_rurikovich start_date = 1308.1.1 end_date = 1323.1.1 regnal_number = 1	}
-			ruler_term = {	character = vol_boleslaw_jerzy_ii_piast start_date = 1323.1.1 regnal_number = 2	regnal_name = name_george }
-
-			privilege = {
-				#Burghers
-				novi_fori
-				market_fairs
-			}
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			lesser_polish
-			polesian_culture
-		}
-
-		capital = lviv
-		country_rank = rank_kingdom
-	}
-
-	LIT = {	#Lithuania
-
-		include = "expl_eastern_europe"
-		include = "lithuanian_monarchy"
-		government = {
-
-			outward_vs_inward = -90
-
-			ruler = lit_gediminas_gediminids
-			ruler_term = {	character = lit_butigeidis_gediminids start_date = 1285.1.1 end_date = 1291.1.1 regnal_number = 1	}
-			ruler_term = {	character = lit_butvydas start_date = 1291.1.1 end_date = 1295.1.1 regnal_number = 1	}
-			ruler_term = {	character = lit_vytenis_gediminids start_date = 1295.1.1 end_date = 1316.1.1 regnal_number = 1	}
-			ruler_term = {	character = lit_gediminas_gediminids start_date = 1316.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_vytenis = 1
-				name_gediminas = 1
-			}
-
-			reforms = {
-				patrimonialism
-			}
-		}
-
-		tolerated_cultures = {
-			polatskian_culture
-			polesian_culture
-			samogitian
-			sudovian
-			curonian
-		}
-
-		capital = vilnius
-		dynasty = gediminid_dynasty
-		country_rank = rank_duchy
-		#Setup to accurately portray the starting situation
-		currency_data = {
-			war_exhaustion = 5
-		}
 	}
 
 	SXM = {	#Samogitia - Revolter of LIT
