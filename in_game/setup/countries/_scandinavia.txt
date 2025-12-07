@@ -41,8 +41,62 @@ SKE = {
 
 	culture_definition = danish
 	religion_definition = catholic
+}
 
-	
+GTSW = {
+	color = rgb { 151 145 216 }
+
+	culture_definition = swedish
+	religion_definition = catholic
+}
+
+SGET = {
+	color = rgb { 87 78 183 }
+
+	culture_definition = swedish
+	religion_definition = catholic
+}
+
+WGET = {
+	color = rgb { 119 113 183}
+
+	culture_definition = swedish
+	religion_definition = catholic
+}
+
+ANSL = {
+	color = rgb { 177 150 132 }
+
+	culture_definition = norwegian
+	religion_definition = catholic
+}
+
+AGDR = {
+	color = rgb { 119 64 137 }
+
+	culture_definition = norwegian
+	religion_definition = catholic
+}
+
+BJGV = {
+	color = rgb { 88 122 156 }
+
+	culture_definition = norwegian
+	religion_definition = catholic
+}
+
+NDRS = {
+	color = rgb { 91 64 137 }
+
+	culture_definition = norwegian
+	religion_definition = catholic
+}
+
+KVNC = {
+	color = rgb { 103 200 224 }
+
+	culture_definition = kvens
+	religion_definition = catholic
 }
 
 

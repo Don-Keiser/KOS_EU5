@@ -35,6 +35,34 @@ ERM = {
 	religion_definition = romuva
 }
 
+DRUS = {
+	color = rgb { 109 165 109 }
+
+	culture_definition = pruthenian
+	religion_definition = romuva
+}
+
+GLND = {
+	color = rgb { 112 144 112 }
+
+	culture_definition = pruthenian
+	religion_definition = romuva
+}
+
+SDVA = {
+	color = rgb { 153 167 90 }
+
+	culture_definition = pruthenian
+	religion_definition = romuva
+}
+
+NDRV = {
+	color = rgb { 109 122 45 }
+
+	culture_definition = pruthenian
+	religion_definition = romuva
+}
+
 CHL = {
 	color = rgb { 181 17 16 }
 

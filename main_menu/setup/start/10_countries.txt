@@ -21,103 +21,185 @@ countries = {
 		include = "expl_scandinavia"
 		include = "catholic_monarchy"
 
-		country_rank = rank_kingdom
-
 		starting_technology_level = 3
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-
-			ruler = swe_magnus_eriksson
-			consort = swe_blanka
-
-			ruler_term = { character = swe_erik_vii start_date = 970.1.1 end_date = 995.1.1 regnal_number = 7 }
-			ruler_term = { character = swe_olof_i start_date = 995.1.1 end_date = 1022.1.1 regnal_number = 1 }
-			ruler_term = { character = swe_anund_jacob start_date = 1022.1.1 end_date = 1050.1.1 regnal_number = 1 }
-			ruler_term = { character = swe_emund start_date = 1050.1.1 end_date = 1060.1.1 regnal_number = 1 }
-
-			ruler_term = { character = swe_stenkil start_date = 1060.1.1 end_date = 1066.1.1 regnal_number = 1 }
-			ruler_term = { character = swe_halsten start_date = 1066.1.1 end_date = 1068.1.1 regnal_number = 1 }
-			ruler_term = { character = swe_anund_garderike start_date = 1068.1.1 end_date = 1076.1.1 regnal_number = 2 }
-			ruler_term = { character = swe_haakon_the_red start_date = 1076.1.1 end_date = 1078.1.1 regnal_number = 1 }
-			ruler_term = { character = swe_inge_elder start_date = 1079.1.1 end_date = 1083.1.1 regnal_number = 1 }
-			ruler_term = { character = swe_erik_viii start_date = 1083.1.1 end_date = 1084.1.1 regnal_number = 8 }
-			ruler_term = { character = swe_inge_elder start_date = 1084.1.1 end_date = 1110.1.1 regnal_number = 1 }
-			ruler_term = { character = swe_philip start_date = 1110.1.1 end_date = 1118.1.1 regnal_number = 1 }
-			ruler_term = { character = swe_inge_younger start_date = 1118.1.1 end_date = 1125.1.1 regnal_number = 2 }
-			ruler_term = { character = swe_magnus_i start_date = 1125.1.1 end_date = 1130.1.1 regnal_number = 1 }
-			ruler_term = { character = swe_sverker_elder start_date = 1130.1.1 end_date = 1156.12.25 regnal_number = 1 }
-			ruler_term = { character = swe_erik_ix_the_holy start_date = 1157.1.1 end_date = 1160.5.18 regnal_number = 9 }
-			ruler_term = { character = swe_magnus_ii start_date = 1160.5.18 end_date = 1161.1.1 regnal_number = 2 }
-			ruler_term = { character = swe_charles_vii start_date = 1161.1.1 end_date = 1167.4.12 regnal_number = 7 }
-			ruler_term = { character = swe_canute_i start_date = 1167.4.12 end_date = 1196.1.1 regnal_number = 1 }
-			ruler_term = { character = swe_sverker_younger start_date = 1196.1.1 end_date = 1208.1.1 regnal_number = 2 }
-			ruler_term = { character = swe_erik_x start_date = 1208.1.1 end_date = 1216.1.1 regnal_number = 10 }
-			ruler_term = { character = swe_john start_date = 1216.1.1 end_date = 1222.3.10 regnal_number = 1 }
-			ruler_term = { character = swe_erik_xi start_date = 1222.3.10 end_date = 1229.1.1 regnal_number = 11 }
-			ruler_term = { character = swe_canute_ii start_date = 1229.1.1 end_date = 1234.1.1 regnal_number = 2 }
-			ruler_term = { character = swe_erik_xi start_date = 1234.1.1 end_date = 1250.2.2 regnal_number = 11 }
-
-			ruler_term = { character = swe_valdemar_birgersson start_date = 1250.2.2 end_date = 1275.7.22 regnal_number = 3	}
-			ruler_term = { character = swe_magnus_ladulas start_date = 1275.7.22 end_date = 1290.12.18 regnal_number = 3	}
-			ruler_term = { character = swe_birger_magnusson start_date = 1290.12.18 end_date = 1319.1.1 regnal_number = 2	}
-			ruler_term = { character = swe_magnus_eriksson start_date = 1319.7.8 regnal_number = 4	}
-
-			regnal_numbers = {
-				name_john = 2
-				name_birger = 2
-				name_eric = 11
-				name_charles = 7
-			}
-
-			laws = {
-				marriage_law = monogamous_marriage
-				heir_religion_law = heir_same_religion
-			}
-
-
-			centralization_vs_decentralization = 25
-			traditionalist_vs_innovative = 30
-			spiritualist_vs_humanist = -50
-			aristocracy_vs_plutocracy = -30
-			serfdom_vs_free_subjects = 50
-			mercantilism_vs_free_trade = -10
-			belligerent_vs_conciliatory = 10
-			quality_vs_quantity = -5
-			offensive_vs_defensive = -20
-			land_vs_naval = -10
-			capital_economy_vs_traditional_economy = 90
-			individualism_vs_communalism = -20
-			outward_vs_inward = -30
-
-			privilege = {
-				#nobles
-				auxilium_et_consilium
-				nobles_land_rights
-				noble_marriage_rights
-				noble_fortification_licenses
-
-				#clergy
-				clergy_literacy_rights
-				clergy_enforced_unity
-
-				#burghers
-				market_fairs
-
-				#peasants
-				peasants_free_peasantry
-				peasants_represented_in_parliament
-				land_owning_farmers
-			}
+			ruler = random
 
 		}
 
+		country_rank = rank_kingdom
 		capital = stockholm
-		dynasty = bjalbo_atten_dynasty
-		dynasty = aspenas_atten_dynasty
+	}
 
-		accepted_cultures = { finnish gutnish }
-		tolerated_cultures = { tavastian karelian kvens }
+	GTSW = { #Geats and Swedes
+		own_control_core = {
+			stockholm uppsala norrtalje enkoping tierp heby gefle vasteras sala hamrange
+			soderala ockelbo hedesunda avesta hedemora falun alfta orsa leksand stora_tuna
+			arboga mora skinskatteberg soderbarke orebro grythyttan linde grange floda
+			sodertalje nykoping strangnas kolmarden oppunda soderkoping norrkoping linkoping
+			goksholm alvastra vadstena riseberga sveg malung varnum farnebo nora
+		}
+
+		include = "expl_scandinavia"
+		include = "catholic_monarchy"
+
+		starting_technology_level = 3
+		government = {
+			type = tribe
+			ruler = random
+
+		}
+		
+		country_rank = rank_kingdom
+		capital = stockholm
+	}
+
+	SGET = { #South Geats
+		own_control_core = {
+			skara tiveden hjo vartofta falkoping allingsas lodose konghalla ekholm lidkoping
+		}
+
+		include = "expl_scandinavia"
+		include = "catholic_monarchy"
+
+		starting_technology_level = 3
+		government = {
+			type = tribe
+			ruler = random
+
+		}
+		
+		country_rank = rank_duchy
+		capital = skara
+	}
+
+	WGET = { #West Geats
+		own_control_core = {
+			tingvalla josse nas gillberg amal dalaborg vedbo nordmark halden trogstad
+			kongsvinger glommadal fryksdal elverum 
+		}
+
+		include = "expl_scandinavia"
+		include = "catholic_monarchy"
+
+		starting_technology_level = 3
+		government = {
+			type = tribe
+			ruler = random
+
+		}
+		
+		country_rank = rank_duchy
+		capital = tingvalla
+	}
+
+	ANSL = { #Anslo
+		own_control_core = {
+			oslo uddevalla hornborg stromstad borg moss ski eidsvoll hamar
+			hedmarksvidda vardal lillehammer ringerike sigdal bragernes
+			flesberg kongsberg sande tonsberg skien valdres hallingdal
+		}
+
+		include = "expl_scandinavia"
+		include = "catholic_monarchy"
+
+		starting_technology_level = 3
+		government = {
+			type = tribe
+			ruler = random
+
+		}
+		
+		country_rank = rank_duchy
+		capital = oslo
+	}
+
+	AGDR = { #Adgir
+		own_control_core = {
+			oddernes suledal haugalandet ryfylke stavanger sirudal jaeren flekkefjord
+			lindesnes otredal oyestad amli grenland sondeled
+		}
+
+		include = "expl_scandinavia"
+		include = "catholic_monarchy"
+
+		starting_technology_level = 3
+		government = {
+			type = tribe
+			ruler = random
+
+		}
+		
+		country_rank = rank_duchy
+		capital = oddernes
+	}
+
+	BJGV = { #Bjorgvin
+		own_control_core = {
+			bergen fosna molde sunndal rauma borgund stordal sunnmore eid stryn
+			sunnfjord sogndal laerdal aurland vik nordhordland fana voss eidfjord
+			moster ullensvang kvinnherad
+		}
+
+		include = "expl_scandinavia"
+		include = "catholic_monarchy"
+
+		starting_technology_level = 3
+		government = {
+			type = tribe
+			ruler = random
+
+		}
+		
+		country_rank = rank_duchy
+		capital = bergen
+	}
+
+	NDRS = { #Nidaros
+		own_control_core = {
+			nidaros bodo gildeskal rana alstahaug hattfjelldal birndal lierne namdal
+			steinkjer orland levanger snasa meraker stjordal skaun orkdal 
+		}
+
+		include = "expl_scandinavia"
+		include = "catholic_monarchy"
+
+		starting_technology_level = 3
+		government = {
+			type = tribe
+			ruler = random
+
+		}
+		
+		country_rank = rank_duchy
+		capital = nidaros
+	}
+
+	KVNC = { #Kvanni Confederation
+		own_control_core = {
+			selanger hudiksvall hogdal havero berg oviken hede idre trysil roros
+			tynset alvdal oppdal ragunda froso offerdal ramsele solatunum harnosand
+			sjalevad anundsjo grundsunda asele ortrask stensele sorsele arvidsjaur
+			lycksele vindeln umea bygdea skelleftea gratesk byske pitea alvsby jokkmokk
+			lulea bodebyn socksjock porjus gellivaara branna ranea akkajaur arjeplog
+
+			amot storen holtalen
+		}
+
+		include = "expl_scandinavia"
+		include = "catholic_monarchy"
+
+		starting_technology_level = 3
+		government = {
+			type = tribe
+			ruler = random
+
+		}
+		
+		country_rank = rank_kingdom
+		capital = selanger
 	}
 
 	DAN = {
@@ -656,7 +738,72 @@ countries = {
 			ruler = random
 		}
 		capital = lidzbark
+		country_rank = rank_duchy
+	}
+
+	DRUS = { #Drusuo
+		own_control_core = {
+			malbork elblag
+		}
+
+		include = "expl_northern_europe"
+		include = "eastern_european_catholic"
+
+		government = {
+			type = republic
+			ruler = random
+		}
+		capital = elblag
 		country_rank = rank_county
+	}
+
+	GLND = { #Galindia
+		own_control_core = {
+			brodnica lubawa rypin nibork szrensk sierpc plonsk
+			przasnysz rozan ostroleka
+		}
+
+		include = "expl_northern_europe"
+		include = "eastern_european_catholic"
+
+		government = {
+			type = tribe
+			ruler = random
+		}
+		capital = rypin
+		country_rank = rank_duchy
+	}
+
+	SDVA = { #Sudovia
+		own_control_core = {
+			kolno elk wizna barten goniadz
+		}
+
+		include = "expl_northern_europe"
+		include = "eastern_european_catholic"
+
+		government = {
+			type = tribe
+			ruler = random
+		}
+		capital = kolno
+		country_rank = rank_county
+	}
+
+	NDRV = { #Nadruvia
+		own_control_core = {
+			grodno lipsk sokolka grodnek tykocin
+		}
+
+		include = "expl_northern_europe"
+		include = "eastern_european_catholic"
+
+		government = {
+			type = tribe
+			ruler = random
+		}
+		capital = grodno
+		country_rank = rank_duchy
 	}
 
 	CHL = { #Kulm / Chełmno
@@ -2787,32 +2934,6 @@ countries = {
 		capital = yuryev_polsky
 		include = "russian_principality_no_coast"
 		include = "expl_novgorod"
-	}
-
-	ORE = {
-		own_control_core = {
-			oreshek toksovo korela konevets neva
-		}
-		starting_technology_level = 3
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = pok_narimantas_gediminds
-			ruler_term = {	 character = pok_narimantas_gediminds start_date = 1333.1.1 regnal_number = 1	}
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			ingrian
-			karelian
-		}
-
-		country_rank = rank_duchy
-		capital = oreshek
-		include = "russian_principality"
-		include = "expl_novgorod"
-
 	}
 
 	VYT = {
@@ -52411,6 +52532,11 @@ countries = {
 			porkhov dubronjo soltsy dolchinyo staraya_russa svinort plyussa zaplyusye kosichkoj
 			golino pribuzh lyady staropolye gorodets_luga izori tesov chudovo ivangorod yama
 			soikino moloskovitsa khotchino koporye martyshkino lisino lyuban markovo staraya_ladoga
+
+			oreshek neva toksovo konevets valkeasaari kyyrola beryozovskoye heinjoki vyborg jaskis
+			korela kurkijoki vederlax villmanstrand veckelax elimaki liljendal kymi_fi porvoo
+			janakkala helsinge lohja sjundea ekenas sauvo abo poytis nystad raumo bjorneborg sastmola
+			koppo korsholm storkyro vora kastelholm
 		}
 
 		starting_technology_level = 3
