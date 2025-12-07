@@ -857,8 +857,10 @@ mootka;rybachy_peninsula;9172;7714;x
 trieste;gulf_venice;8312;6004;x
 pola;cape_kamenjak;8318;5951;x
 pazin;kvarner_gulf;8338;5959;x
-rovinj;gulf_venice;8308;5977;x
-senj;kvarner_gulf;8368;5947;x
+rovinj;gulf_venice;8309;5966;x
+parenso;gulf_venice;8307;5975;x
+senj;kvarner_gulf;8368;5955;x
+kisito;kvarner_gulf;8368;5947;x
 crikvenica;kvarner_gulf;8355;5972;x
 kaseg;zadar_strait;8379;5922;x
 krk;kvarner_gulf;8356;5954;x
@@ -868,7 +870,9 @@ novigrad;zadar_strait;8403;5900;x
 sibenik;gulf_kastela;8415;5870;x
 zadar;murter_strait;8384;5897;x
 dubrovnik;bay_kotor;8517;5803;x
-brac;gulf_kastela;8440;5846;x
+brac;gulf_kastela;8445;5843;x
+lesina;gulf_kastela;8445;5835;x
+corsira;gulf_kastela;8446;5821;x
 makarska;korcula_strait;8464;5848;x
 metkovic;korcula_strait;8480;5834;x
 slano;korcula_strait;8459;5825;x

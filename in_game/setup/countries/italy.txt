@@ -632,11 +632,38 @@ religion_definition = catholic
 
 
 TTE	= { #trieste
-color = rgb { 100 40 50 }
+	color = rgb { 100 40 50 }
 
-culture_definition = venetian
-religion_definition = catholic
+	culture_definition = istriota
+	religion_definition = catholic
+}
 
+PULA	= { #Puola
+	color = rgb { 145 58 72 }
+
+	culture_definition = istriota
+	religion_definition = catholic
+}
+
+PRNS	= { #Parenso
+	color = rgb { 76 51 20 }
+
+	culture_definition = istriota
+	religion_definition = catholic
+}
+
+RVGN	= { #Ruvèigno
+	color = rgb { 120 45 35 }
+
+	culture_definition = istriota
+	religion_definition = catholic
+}
+
+FIUM	= { #Fiume
+	color = rgb { 145 50 42 }
+
+	culture_definition = istriota
+	religion_definition = orthodox
 }
 
 

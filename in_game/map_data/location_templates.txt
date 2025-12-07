@@ -5661,7 +5661,9 @@ pola = { topography = flatland vegetation = woods climate = subtropical religion
 buzet = { topography = hills vegetation = woods climate = oceanic religion = catholic culture = croatian raw_material = fruit}
 pazin = { topography = hills vegetation = woods climate = oceanic religion = catholic culture = croatian raw_material = olives natural_harbor_suitability = 0.20}
 rovinj = { topography = flatland vegetation = woods climate = subtropical religion = catholic culture = croatian raw_material = fish natural_harbor_suitability = 0.00}
-senj = { topography = hills vegetation = farmland climate = continental religion = catholic culture = croatian raw_material = legumes natural_harbor_suitability = 0.25}
+parenso = { topography = flatland vegetation = woods climate = subtropical religion = catholic culture = croatian raw_material = wine natural_harbor_suitability = 0.25}
+senj = { topography = hills vegetation = farmland climate = continental religion = catholic culture = croatian raw_material = olives natural_harbor_suitability = 0.75}
+kisito = { topography = hills vegetation = farmland climate = continental religion = catholic culture = croatian raw_material = legumes natural_harbor_suitability = 0.20}
 crikvenica = { topography = hills vegetation = forest climate = oceanic religion = catholic culture = croatian raw_material = fish natural_harbor_suitability = 0.20}
 kaseg = { topography = plateau vegetation = grasslands climate = continental religion = catholic culture = croatian raw_material = beeswax natural_harbor_suitability = 0.20}
 krk = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = dalmatian raw_material = salt natural_harbor_suitability = 0.20}
@@ -5676,7 +5678,9 @@ sinj = { topography = hills vegetation = woods climate = oceanic religion = cath
 zadar = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = dalmatian raw_material = salt natural_harbor_suitability = 0.00}
 dinaric_alps1 = { topography = mountain_wasteland vegetation = sparse climate = arctic}
 dubrovnik = { topography = hills vegetation = grasslands climate = mediterranean religion = catholic culture = dalmatian raw_material = salt natural_harbor_suitability = 0.60}
-brac = { topography = plateau vegetation = woods climate = mediterranean religion = catholic culture = dalmatian raw_material = marble natural_harbor_suitability = 0.00}
+brac = { topography = plateau vegetation = woods climate = mediterranean religion = catholic culture = dalmatian raw_material = marble natural_harbor_suitability = 0.10}
+lesina = { topography = plateau vegetation = woods climate = mediterranean religion = catholic culture = dalmatian raw_material = marble natural_harbor_suitability = 0.20}
+corsira = { topography = plateau vegetation = woods climate = mediterranean religion = catholic culture = dalmatian raw_material = marble natural_harbor_suitability = 0.20}
 makarska = { topography = hills vegetation = woods climate = mediterranean religion = catholic culture = bosnian raw_material = wool natural_harbor_suitability = 0.00}
 metkovic = { topography = hills vegetation = woods climate = mediterranean religion = catholic culture = bosnian raw_material = livestock natural_harbor_suitability = 0.00}
 lastovo_island_wasteland = { topography = hills vegetation = forest climate = mediterranean}

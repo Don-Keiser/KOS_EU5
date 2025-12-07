@@ -1807,10 +1807,10 @@
 				zagreb_province = { zagreb karlovac petrinja sisak slunj varazdin }
 			}
 			croatia_area = {
-				istria_province = { pola buzet pazin rovinj }
-				lika_province = { senj crikvenica kaseg krk otocac pag rijeka dinaric_alps9 }
+				istria_province = { pola buzet pazin rovinj parenso }
+				lika_province = { senj crikvenica kaseg krk otocac pag rijeka kisito dinaric_alps9 }
 				north_dalmatia_province = { knin novigrad sibenik sinj zadar dinaric_alps1 }
-				south_dalmatia_province = { dubrovnik brac makarska metkovic lastovo_island_wasteland slano split }
+				south_dalmatia_province = { dubrovnik brac makarska metkovic lastovo_island_wasteland slano split lesina corsira }
 			}
 			bosnia_area = {
 				bosnia_province = { vrhbosna borac konjic olovo srebrenica zenica dinaric_alps2 dinaric_alps3 }

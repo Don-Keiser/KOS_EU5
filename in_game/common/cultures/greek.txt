@@ -57,6 +57,25 @@ griko_culture = {
 	}
 }
 
+dalmatoi = {
+	language = dalmatoi_dialect
+	
+	color = rgb { 75 164 155 }
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		greek_culture = positive
+		griko_culture = positive
+		dalmatian = kindred
+	}	
+	
+	culture_groups = {
+		greek_group
+		balkan_group
+	}
+}
+
 pontic_greek_culture = {
 	
 	language = greek_language

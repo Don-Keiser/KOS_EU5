@@ -40918,10 +40918,10 @@ ozero_bustakh = 66b5ab				#LAKE
 munduyskoye_lake = 00b7a6
 
 #UNUSED = 					#
-#UNUSED = ee618d					#
-#UNUSED = 3345ec					#
-#UNUSED = 66da29					#
-#UNUSED = 55934c					#
+kisito = ee618d					#Kisitó
+parenso = 3345ec					#Parenso
+lesina = 66da29					#Lesina / Hvar
+corsira = 55934c					#Corsira / Curzola
 #UNUSED = 99a3ec					#
 #UNUSED = bb7d97					#
 #UNUSED = 5553ba					#

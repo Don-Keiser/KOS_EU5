@@ -287,3 +287,53 @@ KUNS = {
 	culture_definition = kunsag
 	religion_definition = orthodox
 }
+
+#Dalmatia
+JADR = {
+	color = rgb { 198 135 147 }
+	
+	culture_definition = dalmatian
+	religion_definition = catholic
+}
+
+KLNT = {
+	color = rgb { 85 182 147 }
+	
+	culture_definition = dalmatoi
+	religion_definition = orthodox
+}
+
+SPLT = {
+	color = rgb { 95 162 137 }
+	
+	culture_definition = dalmatoi
+	religion_definition = orthodox
+}
+
+LESN = {
+	color = rgb { 185 41 66  }
+	
+	culture_definition = dalmatian
+	religion_definition = catholic
+}
+
+CRSR = {
+	color = rgb { 175 55 76  }
+	
+	culture_definition = dalmatian
+	religion_definition = catholic
+}
+
+NRON = {
+	color = rgb { 55 162 147 }
+	
+	culture_definition = dalmatoi
+	religion_definition = orthodox
+}
+
+ASKV = {
+	color = rgb { 95 172 127 }
+	
+	culture_definition = dalmatoi
+	religion_definition = orthodox
+}

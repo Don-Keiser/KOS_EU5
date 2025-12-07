@@ -140,13 +140,11 @@ dalmatian = {
 	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
 
 	opinions = {
-		venetian = negative
-		greek_culture = positive
-		bosnian = positive
-		turkish_culture = positive
+		dalmatoi = kindred
 	}
 	
 	culture_groups = {
 		italian_group
+		balkan_group
 	}
 }

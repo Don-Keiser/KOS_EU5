@@ -52,7 +52,7 @@ patzinak = {
 }
 
 bechensk = { 
-	language = bechensk_dialect
+	language = bechensk_language
 	
 	color = map_bechensk
 	

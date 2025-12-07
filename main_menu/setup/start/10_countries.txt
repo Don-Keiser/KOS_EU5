@@ -9575,7 +9575,7 @@ countries = {
 			corneto orte orvietano viterbo assisi narni rieti spoleto todi venafro gaeta
 			vergato bologna medicina comacchio ferrara ficarolo rovigo argenta
 			sora celano cittaducale aquila marsciano perugia gubbio cittacastello rimini
-			cesena modigliana faenza imola ravenna
+			cesena modigliana faenza imola ravenna chioggia
 		}
 
 		include = "catholic_bishopric"
@@ -10459,7 +10459,7 @@ countries = {
 
 	TTE = {
 		own_control_core = {
-			trieste
+			trieste buzet pazin
 		}
 
 		starting_technology_level = 3
@@ -10471,18 +10471,451 @@ countries = {
 		include = "catholic_republic"
 		government = {
 			type = republic
-			heir_selection = podesta_elective
+			heir_selection = lottery_election
+
+			ruler = random
 
 			reforms = {
-				signoria_reform
+				merchant_republic
 			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
+		capital = trieste
+	}
+
+	PULA = { #Puola
+		own_control_core = {
+			pola
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
 			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
 		}
 
-		tolerated_cultures = {
-			slovene
+		country_rank = rank_county
+		capital = pola
+	}
+
+	PRNS = { #Parenso
+		own_control_core = {
+			parenso
 		}
 
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
+		capital = parenso
+	}
+
+	RVGN = { #Ruvèigno
+		own_control_core = {
+			rovinj
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
+		capital = rovinj
+	}
+
+	FIUM = { #Fiume
+		own_control_core = {
+			rijeka
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
+		capital = rijeka
+	}
+
+	SZEN = { #Szenia
+		own_control_core = {
+			senj crikvenica krk
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
+		capital = senj
+	}
+
+	JADR = { #Jadra
+		own_control_core = {
+			zadar
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
+		capital = zadar
+	}
+
+	KLNT = { #Kolénto / Sibenik
+		own_control_core = {
+			sibenik
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
+		capital = sibenik
+	}
+
+	SPLT = { #Spálathos
+		own_control_core = {
+			split brac
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
+		capital = split
+	}
+
+	LESN = { #Lesina
+		own_control_core = {
+			lesina
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
+		capital = lesina
+	}
+
+	CRSR = { #Corsira
+		own_control_core = {
+			corsira
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
+		capital = corsira
+	}
+
+	NRON = { #Naróna
+		own_control_core = {
+			slano
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
+		capital = slano
+	}
+
+	ASKV = { #Askrīvion
+		own_control_core = {
+			kotor
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
+		capital = kotor
+	}
+
+	TTE = {
+		own_control_core = {
+			trieste buzet pazin
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
 		capital = trieste
 	}
 
@@ -10557,7 +10990,7 @@ countries = {
 	#Venice https://en.wikipedia.org/wiki/Venice
 	VEN = {
 		own_control_core = {
-			chioggia venice mestre
+			venice mestre
 		}
 
 		include = "expl_mediterranean"
@@ -11394,7 +11827,7 @@ countries = {
 	ALB = {
 		own_control_core = {
 			durres kavaje tirana kruje elbasan debar dukagjini lezha shkoder koman has
-			prizren gjakova peja pristina mitrovica
+			prizren gjakova peja pristina mitrovica bar_cg
 		}
 
 		starting_technology_level = 3
@@ -11604,6 +12037,9 @@ countries = {
 	}
 
 	RAG = {
+		own_control_core = {
+			dubrovnik
+		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -11616,9 +12052,7 @@ countries = {
 			type = republic
 			heir_selection = lottery_election
 
-			ruler = rag_filippo_belegno
-
-			ruler_term = {	 character = rag_filippo_belegno start_date = 1337.1.1 }
+			ruler = random
 
 			reforms = {
 				merchant_republic
@@ -11647,8 +12081,6 @@ countries = {
 		}
 
 		capital = dubrovnik
-
-		tolerated_cultures = { venetian }
 	}
 
 	GOR = {
@@ -13203,12 +13635,12 @@ countries = {
 			#Banate of Croatia
 			bjelovar koprivnica kutina pakrac vaska virovitica
 			vukovar ilok pozega sremska_mitrovica petrovaradin
-			cakovec petrinja ototac slunj karlovac sisak
+			cakovec petrinja otocac slunj karlovac sisak
 
 			cozia poenari vatra_dornei hangu_romania
-			senj pag kaseg novigrad knin sinj makarska metkovic
+			pag kaseg novigrad knin sinj makarska metkovic
 			srb bihac kozara kljuc glaz doboj
-			feldbach 
+			feldbach kisito
 		}
 
 		own_control_integrated = {
@@ -13217,8 +13649,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
-		include = "eastern_european_catholic_monarchy_no_auxilium_no_coast"
-		include = "eastern_european_catholic"
+		include = "eastern_european_monarchy"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -13266,12 +13697,12 @@ countries = {
 		own_control_core = {
 			ljubljana murau judenburg voitsberg wolfsberg friesach feldkirchen st_veit volkermarkt
 			klagenfurt leibnitz slovenj_gradec maribor ptuj varazdin lasko celje kranj bled tolmin
-			gorizia postojna skofja_loka novo_mesto ilirska_bistrica kocevje metlika zagreb
+			gorizia postojna skofja_loka novo_mesto ilirska_bistrica kocevje metlika zagreb 
 		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_bishopric_no_coast"
+		include = "eastern_european_monarchy"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -13280,6 +13711,29 @@ countries = {
 
 		country_rank = rank_duchy
 		capital = ljubljana
+	}
+
+	#Pechenegs
+	PTZK = {
+		own_control_core = {
+			uzice smederevo belgrad rudnik jagodina sabac debrc valjevo krupanj gradac
+			zica brvenik arilje visegrad trgoviste_SER sjenica prijepolje budimlja pljevlja
+			brskovo soko_grad podgorica gradina onogost gacko trebinje srebrenik teocak soli
+			srebrenica zenica vrhbosna olovo borac glamoc jajce livno konjic ustikolina nevesinje
+			drijeva mostar 
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "eastern_european_monarchy"
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_kingdom
+		capital = uzice
 	}
 
 	WAL = {	#Wallachia

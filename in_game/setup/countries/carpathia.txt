@@ -19,6 +19,18 @@ ISTR = {
    religion_definition = orthodox
 }
 
+SZEN = {
+	color = rgb { 129  163  75 }
+   culture_definition = hungarian
+   religion_definition = orthodox
+}
+
+PTZK = {
+	color = rgb { 214  186  139 }
+   culture_definition = patzinak
+   religion_definition = orthodox
+}
+
 WAL = {
 	color = map_wallachian
 	color2 = rgb { 82 160 242 }
