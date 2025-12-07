@@ -24,6 +24,13 @@ BOH = {
 	difficulty = 1
 }
 
+WSAV = {
+	color = rgb { 91 127 5 }
+	
+	culture_definition = sorbian
+	religion_definition = catholic
+}
+
 MVA = {
 	color = map_MVA
 	color2 = rgb { 232 149 18 }

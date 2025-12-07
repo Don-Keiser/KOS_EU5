@@ -1727,6 +1727,30 @@ countries = {
 		}
 	}
 
+	WSAV = {	#White Serbs and Avars
+		own_control_core = {
+			vienna weiz graz leoben rottenmann kapfenberg pitten murzzuschlag scheibbs
+			lilienfeld wiener_neustadt melk st_polten austria_baden tulln bruck_leitha
+			krems zwettl waidhofen_an_der_thaya horn korneuburg hollabrunn ganserndorf
+			mistelbach bratislava holic trnava nitra hlohovec trencin povazska_bystrica
+			jihlava dacice bitov znojmo pernstejn brno hodonin prostejov vyskov olomouc
+			prerov hradiste opava pribor vizovice furstenfeld
+		}
+
+		starting_technology_level = 3
+		include = "catholic_monarchy_no_coast"
+		include = "expl_northern_europe"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_kingdom
+		capital = vienna
+	}
+
 	MVA = {	#Moravia
 
 		government = {
@@ -13151,19 +13175,18 @@ countries = {
 			gonc mukachevo satoraljaujhely velikyi_bereznyi
 			bardejov podmuran roznava
 			kremnica krupina nograd salgotarjan zvolen
-			prievidza trnava
-			povazska_bystrica zilina
+			prievidza
+			zilina
 			kikinda titel
-			belgrad debrc sabac
 			gradiski_brod dubica
 			buda pest kalocsa felegyhaza
 			sopron vasvar magyarovar zalavar
 			veszprem gyor komarom fehervar esztergom
 			somogyvar tolna pecs segesd
 			bacs zenta bodrog halas
-			bratislava samorin nitra hlohovec holic
+			samorin
 			hont balassagyarmat stary_tekov banska_bystrica
-			trencin oravsky_podzamok turciansky_svaty_martin liptovsky_mikulas
+			oravsky_podzamok turciansky_svaty_martin liptovsky_mikulas
 			gemer rimavska_sobota levoca lubica presov turna
 			zemplin kosice humenne uzhorod beregovo
 			miercurea_cluc chezdi_osorheiu covasna odorhei gheorgheni
@@ -13180,9 +13203,12 @@ countries = {
 			#Banate of Croatia
 			bjelovar koprivnica kutina pakrac vaska virovitica
 			vukovar ilok pozega sremska_mitrovica petrovaradin
-			zagreb cakovec karlovac petrinja sisak slunj varazdin
+			cakovec petrinja ototac slunj karlovac sisak
 
 			cozia poenari vatra_dornei hangu_romania
+			senj pag kaseg novigrad knin sinj makarska metkovic
+			srb bihac kozara kljuc glaz doboj
+			feldbach 
 		}
 
 		own_control_integrated = {
@@ -13197,28 +13223,7 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 
-			ruler = hun_karoly_robert
-			consort = pol_elzbieta_piast
-
-			ruler_term = { character = hun_bela_iv_arpad start_date = 1235.9.21 end_date = 1270.5.3 }
-			ruler_term = { character = hun_stephen_v_arpad start_date = 1270.5.3 end_date = 1272.1.1 }
-			ruler_term = { character = hun_ladislaus_iv_arpad start_date = 1272.1.1 end_date = 1290.1.1 }
-			ruler_term = { character = hun_andrew_iii_arpad start_date = 1290.1.1 end_date = 1301.1.14 }
-			ruler_term = { character = lbv_otto_iii_wittelsbach start_date = 1305.10.9 end_date = 1307.6.1 regnal_number = 1 }
-			ruler_term = { character = hun_karoly_robert start_date = 1308.11.17 regnal_number = 1 }
-			regnal_numbers = {
-				name_bela = 4
-				name_stephen = 5
-				name_vladislav = 4
-				name_andrew = 3
-				name_charles = 1
-			}
-			laws = {
-				legal_code_law = civil_law_policy
-				marriage_law = monogamous_marriage
-				heir_religion_law = heir_same_religion
-				precious_metal_distribution_law = gold_export_ban
-			}
+			ruler = random
 			reforms = {
 				autocracy
 			}
@@ -13249,22 +13254,32 @@ countries = {
 			offensive_vs_defensive = 35
 		}
 		capital = buda
-		dynasty = anjou_dynasty
-		#dynasty = anjou_hungary_dynasty
 		country_rank = rank_kingdom
-		court_language = latin_language
 
 		tolerated_cultures = {
-			croatian
-			cuman_culture
-			german_carpathian
-			german_transylvanian
-			slovak
 			szekely_culture
-			transylvanian
-			serbian
-			rusyn_culture
 		}
+	}
+
+	#Istria
+	ISTR = {
+		own_control_core = {
+			ljubljana murau judenburg voitsberg wolfsberg friesach feldkirchen st_veit volkermarkt
+			klagenfurt leibnitz slovenj_gradec maribor ptuj varazdin lasko celje kranj bled tolmin
+			gorizia postojna skofja_loka novo_mesto ilirska_bistrica kocevje metlika zagreb
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_bishopric_no_coast"
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_duchy
+		capital = ljubljana
 	}
 
 	WAL = {	#Wallachia

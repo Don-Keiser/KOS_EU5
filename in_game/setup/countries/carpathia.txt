@@ -7,10 +7,16 @@
 	unit_color2 = rgb {	239 239 242 }
 
 	culture_definition = hungarian
-	religion_definition = catholic
+	religion_definition = orthodox
 
 	description_category = diplomatic
 	difficulty = 1
+}
+
+ISTR = {
+	color = rgb { 99  75  72 }
+   culture_definition = istriota
+   religion_definition = orthodox
 }
 
 WAL = {

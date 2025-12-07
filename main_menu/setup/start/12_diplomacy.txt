@@ -53,6 +53,7 @@ diplomacy_manager = {
 
     #Hungary
     dependency = { first = HUN second = KUNS subject_type = vassal }
+    dependency = { first = HUN second = ISTR subject_type = vassal }
 
     #Rughan Empire
     dependency = { first = ERRB second = MSGT subject_type = vassal }
