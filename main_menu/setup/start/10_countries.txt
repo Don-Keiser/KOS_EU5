@@ -53196,7 +53196,7 @@ countries = {
 		}
 		accepted_cultures = { sicilian }
 		tolerated_cultures = { median }
-		capital = naples
+		capital = syracuse
 		country_rank = rank_kingdom
 	}
 
@@ -53214,7 +53214,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 			ruler = random
 		}
-		capital = syracuse
+		capital = tarragona
 		country_rank = rank_duchy
 	}
 
