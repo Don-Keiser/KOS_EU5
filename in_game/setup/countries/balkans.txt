@@ -337,3 +337,73 @@ ASKV = {
 	culture_definition = dalmatoi
 	religion_definition = orthodox
 }
+
+SHKR = {
+	color = rgb { 165 8 5 }
+	
+	culture_definition = albanian
+	religion_definition = orthodox
+}
+
+LESH = {
+	color = rgb { 135 18 5 }
+	
+	culture_definition = albanian
+	religion_definition = orthodox
+}
+
+DURS = {
+	color = rgb { 175 28 5 }
+	
+	culture_definition = albanian
+	religion_definition = orthodox
+}
+
+VLON = {
+	color = rgb { 155 18 15 }
+	
+	culture_definition = albanian
+	religion_definition = orthodox
+}
+
+BUTR = {
+	color = rgb { 135 28 15 }
+	
+	culture_definition = albanian
+	religion_definition = orthodox
+}
+
+KORK = {
+	color = rgb { 80 133 183 }
+	
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+PRGA = {
+	color = rgb { 95 113 183 }
+	
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+NKPL = {
+	color = rgb { 120 133 153 }
+	
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+VNTS = {
+	color = rgb { 90 143 163 }
+	
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+KFLN = {
+	color = rgb { 90 143 193 }
+	
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}

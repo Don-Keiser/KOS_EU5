@@ -10886,9 +10886,9 @@ countries = {
 		capital = kotor
 	}
 
-	TTE = {
+	SHKR = { #Shkodër
 		own_control_core = {
-			trieste buzet pazin
+			shkoder bar_cg
 		}
 
 		starting_technology_level = 3
@@ -10916,7 +10916,280 @@ countries = {
 		}
 
 		country_rank = rank_county
-		capital = trieste
+		capital = shkoder
+	}
+
+	LESH = { #Leshë
+		own_control_core = {
+			lezha
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
+		capital = lezha
+	}
+
+	DURS = { #Durrës
+		own_control_core = {
+			durres
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
+		capital = durres
+	}
+
+	VLON = { #Vlonë
+		own_control_core = {
+			avlonya
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = avlonya
+	}
+
+	BUTR = { #Butrint
+		own_control_core = {
+			butrint
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+
+
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		country_rank = rank_county
+		capital = butrint
+	}
+
+	KORK = { #Korkyra
+		own_control_core = {
+			corfu
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = corfu
+	}
+
+	PRGA = { #Párga
+		own_control_core = {
+			parga
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = parga
+	}
+
+	NKPL = { #Nikópolis
+		own_control_core = {
+			preveza
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = preveza
+	}
+
+	VNTS = { #Vónitsa
+		own_control_core = {
+			vonitsa
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = vonitsa
+	}
+
+	KFLN = { #Kefallinia
+		own_control_core = {
+			cephalonia leukas zakynthos
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = cephalonia
 	}
 
 	TTN = {
@@ -11826,8 +12099,8 @@ countries = {
 
 	ALB = {
 		own_control_core = {
-			durres kavaje tirana kruje elbasan debar dukagjini lezha shkoder koman has
-			prizren gjakova peja pristina mitrovica bar_cg
+			kavaje tirana kruje elbasan debar dukagjini koman has
+			prizren gjakova peja pristina mitrovica
 		}
 
 		starting_technology_level = 3
@@ -11840,10 +12113,11 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
+			ruler = random
 		}
 
-		country_rank = rank_kingdom
-		capital = durres
+		country_rank = rank_duchy
+		capital = tirana
 	}
 
 	THP = {
@@ -53229,11 +53503,11 @@ countries = {
 			tryavna hotalich lovech pleven bozhenitsa svoge zemlungrad kratovo archar kutlovitsa vratsa lom oryahovo dobrolak
 			gigen nikopol tarnovo cherven ruse razgrad targoviste_BUL shumen drastar kladentsi karvuna cernavoda kaliakra pangalia
 			constanta harsova babadag isaccea enisala boruy tutrakan kumanovo skopje vranje novo_brdo tetovo kicevo prilep bitola
-			ohrid edessa devol berat ballsh kastoria florina ostrovo veria avlonya kleisoura_epirus konitsa siatista servia hatera
-			argyrokastro corfu butrint parga ioannina grevena trikala elassona tyrnavos stomio preveza arta pyli karditsa farsala
-			larissa demetrias leukas cephalonia zakynthos vonitsa angelokastron karpenisi neopatras loidoriki nafpaktos salona
-			zetounion bodonitsa gravia atalanti livadeia thebes negroponte megara athens corinth damala nafplio ermioni argos
-			xylokastro vostitsa patras kalavryta chalandritsa andravida pontikokastro andritsaina karytaina tripolitsa kyparissia
+			ohrid edessa devol berat ballsh kastoria florina ostrovo veria kleisoura_epirus konitsa siatista servia hatera
+			argyrokastro ioannina grevena trikala elassona tyrnavos stomio arta pyli karditsa farsala
+			larissa demetrias angelokastron karpenisi neopatras loidoriki
+			zetounion bodonitsa gravia atalanti livadeia thebes negroponte athens damala nafplio ermioni argos
+			xylokastro kalavryta chalandritsa andravida pontikokastro andritsaina karytaina tripolitsa kyparissia
 			modon kalamata veligosti astros mystras leuktron oitylo monemvasia kythira tsaribrod pirot svrljig
 
 			orhei tuzara ungheni iasi cotnari targu_neamt piatra_lui_craciun bacau targu_trotus roman vaslui husi targu_lapusnei
