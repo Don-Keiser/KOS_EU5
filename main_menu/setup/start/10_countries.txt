@@ -11192,6 +11192,151 @@ countries = {
 		capital = cephalonia
 	}
 
+	EPKT = { #Epaktos
+		own_control_core = {
+			nafpaktos
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = nafpaktos
+	}
+
+	GLXD = { #Galaxidi
+		own_control_core = {
+			salona
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = salona
+	}
+
+	PATR = { #Pátra
+		own_control_core = {
+			patras
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = patras
+	}
+
+	AIGI = { #Aígio
+		own_control_core = {
+			vostitsa
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = vostitsa
+	}
+
+	KRTH = { #Kórinthos
+		own_control_core = {
+			corinth megara
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = corinth
+	}
+
 	TTN = {
 
 		starting_technology_level = 3
@@ -17606,13 +17751,6 @@ countries = {
 
 	#Makuria - MAK
 	MAK = {
-		own_control_core = {
-			ed_debba al_jeblien korti shemkhiya #bayuda_province
-			wadi_el_melik #kordofan_province
-			dongola abu_hamed berber kerma karima #makuria_province
-			faras daw_sud kalabsha qasr_ibrim sai #nobatia_province
-			selima #oasis_province
-		}
 
 		starting_technology_level = 3
 		include = "expl_horn_of_africa_no_coast"
@@ -27297,22 +27435,23 @@ countries = {
 		}
 		
 		SMY = { #Smyrna
-		own_control_core = {
-			smyrna ayasuluk cesme menemen urla #Smyrna
-			tire alasehir balat birgi cine guzelhisar milas nazilli #Aydin
-			manisa demirci foca gordes kula #Saruhan
-			mugla bodrum gokabat golhisar marmaris megri tavas yuksekkum #Mugla
+			own_control_core = {
+				smyrna ayasuluk cesme menemen urla #Smyrna
+				tire alasehir balat birgi cine guzelhisar milas nazilli #Aydin
+				manisa demirci foca gordes kula #Saruhan
+				mugla bodrum gokabat golhisar marmaris megri tavas yuksekkum #Mugla
+				chios samos ikaria kos rodos
 			}
 
-		country_rank = rank_kingdom
+			country_rank = rank_kingdom
 
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
 
-		capital = smyrna
+			capital = smyrna
 		}
 		
 		OPSI = { #Opsikion
@@ -27350,17 +27489,19 @@ countries = {
 		}
 		
 		AIGA = { #Aigaiou Pelagou
-		own_control_core = {
-			biga lapseki canakkale ayvacik bayramic can
+			own_control_core = {
+				biga lapseki canakkale ayvacik bayramic can karystos
+				imbros lemnos sporades oreos kleisoura eretreia kymi
+				andros mykonos kythnos naxos milos amorgos
 			}
 
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
 
-		capital = canakkale
+			capital = canakkale
 		}
 		
 		OPTI = { #Optimatoi
@@ -53605,6 +53746,62 @@ countries = {
 
 		capital = constantinople
 		country_rank = rank_empire
+	}
+
+	KHMT = {
+		own_control_core = {
+			el_bahnasa beni_suef faiyum sharuna #Bahnasa
+			asyut el_balyana el_buwit akhmim #Asyut
+			minya ashmunayn manfalut tahna #Minya
+			qus aswan edfu esna qena hiw kom_ombo #Qusiyya
+			el_qoseir ras_gharib safaga saint_anthony saint_paul_anchorite #Red Sea Coast
+			kharga bahariyya baris el_qasr qasr_farafra siwa #Oases
+			faras daw_sud kalabsha qasr_ibrim sai #Nobatia
+			selima kerma dongola karima abu_hamed daraheib aydhab
+			alexandria el_alamein matruh sallum
+			damanhur ramsis kharibta rashid tarrana wadi_el_natrun
+			dakahla damietta mansoura tinnis ushmum_tannah
+			el_mahalla al_mima el_burullus fuwa samanoud tidah
+			cairo atfih giza menouf qalyub
+			bilbeis faqus kafr_saqr suez
+			el_arish nekhel qatya warrada
+			el_tor el_jundi faran nuweiba saint_katrine
+			benghazi al_khuimat mechili barca al_bayda suluntah derna tmimi tobruk
+
+			#Cyprus
+			kyrenia famagusta nicosia_cyp larnaca morphou limassol paphos
+
+			#Crete
+			karpathos siteia elounda viannos gergeri candia rethymno hagios_pavlos chania
+		}
+
+		starting_technology_level = 3
+		include = "expl_muslim_mediterranean"
+		include = "expl_horn_of_africa"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		discovered_areas = {
+			red_sea_area
+			persian_gulf_sea_zones_area
+			upper_egypt_area
+			nubia_proper_area
+		}
+		include = "catholic_monarchy"
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		accepted_cultures = {
+			greek_culture
+		}
+
+		capital = faiyum
+		country_rank = rank_kingdom
+		dynasty = arsinoe_dynasty
 	}
 
 	#Moesogothia

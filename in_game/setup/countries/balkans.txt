@@ -407,3 +407,38 @@ KFLN = {
 	culture_definition = greek_culture
 	religion_definition = orthodox
 }
+
+EPKT = {
+	color = rgb { 122 123 163 }
+	
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+GLXD = {
+	color = rgb { 98 183 123 }
+	
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+PATR = {
+	color = rgb { 55 113 153 }
+	
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+AIGI = {
+	color = rgb { 120 123 173 }
+	
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+KRTH = {
+	color = rgb { 70 123 133 }
+	
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}

@@ -45,3 +45,9 @@ TRP = {
 	culture_definition = libyan_arabic_culture
 	religion_definition = sunni
 }
+
+KHMT = {
+	color = rgb { 38 38 38 }
+	culture_definition = coptic_culture
+	religion_definition = miaphysite
+}
