@@ -139,6 +139,13 @@ TRGN = {
 	religion_definition = catholic
 }
 
+CNTB = {
+	color = rgb { 163 174 97 }
+
+	culture_definition = asturian
+	religion_definition = arian
+}
+
 #CTV = {
 #	color = map_CTV
 #	color2 = rgb { 16 41 202 }

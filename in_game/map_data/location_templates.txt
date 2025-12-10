@@ -2985,6 +2985,7 @@ lucera = { topography = flatland vegetation = grasslands climate = cold_arid rel
 manfredonia = { topography = wetlands vegetation = grasslands climate = cold_arid religion = catholic culture = neapolitan raw_material = salt natural_harbor_suitability = 0.25}
 rotondo = { topography = hills vegetation = woods climate = cold_arid religion = catholic culture = neapolitan raw_material = alum natural_harbor_suitability = 0.00}
 sansevero = { topography = flatland vegetation = grasslands climate = cold_arid religion = catholic culture = neapolitan raw_material = wine natural_harbor_suitability = 0.00}
+termoli = { topography = flatland vegetation = grasslands climate = cold_arid religion = catholic culture = neapolitan raw_material = wine natural_harbor_suitability = 0.20}
 lake_varano = { topography = lakes climate = cold_arid}
 lecce = { topography = flatland vegetation = grasslands climate = mediterranean religion = catholic culture = sicilian raw_material = saffron natural_harbor_suitability = 0.00}
 brindisi = { topography = flatland vegetation = grasslands climate = mediterranean religion = catholic culture = sicilian raw_material = fruit natural_harbor_suitability = 0.75}

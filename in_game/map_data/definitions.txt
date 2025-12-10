@@ -1124,7 +1124,7 @@
 			abruzzo_area = {
 				abruzzo_citra_province = { chieti lanciano vasto central_apennines7}
 				abruzzo_ultra_province = { aquila atri celano cittaducale csantangelo sulmona teramo lake_fucine central_apennines2 central_apennines3 central_apennines4 central_apennines5 central_apennines6 }
-				molise_province = { bojano isernia larino trivento }
+				molise_province = { bojano isernia larino trivento termoli }
 			}
 			apulia_area = {
 				bari_province = { bari altamura andria barletta monopoli }

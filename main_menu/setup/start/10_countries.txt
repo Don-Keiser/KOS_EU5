@@ -9574,7 +9574,7 @@ countries = {
 			anagni palestrina sabina tivoli rome terracina velletri bracciano civitavecchia
 			corneto orte orvietano viterbo assisi narni rieti spoleto todi venafro gaeta
 			vergato bologna medicina comacchio ferrara ficarolo rovigo argenta
-			sora celano cittaducale aquila marsciano perugia gubbio cittacastello rimini
+			sora celano cittaducale aquila marsciano perugia gubbio cittacastello
 			cesena modigliana faenza imola ravenna chioggia
 		}
 
@@ -9776,7 +9776,7 @@ countries = {
 
 	ATN = {
 		own_control_core = {
-			atri teramo csantangelo chieti sulmona lanciano
+			atri teramo csantangelo sulmona lanciano
 		}
 
 		starting_technology_level = 3
@@ -9803,7 +9803,7 @@ countries = {
 		own_control_core = {
 			benevento caserta piedimonte nola avellino isernia bojano
 			trivento vasto larino ariano sansevero lucera bovino foggia
-			rotondo manfredonia santangelo melfi andria barletta
+			rotondo santangelo melfi andria
 		}
 
 		starting_technology_level = 3
@@ -11335,6 +11335,210 @@ countries = {
 		}
 		country_rank = rank_county
 		capital = corinth
+	}
+
+	LUPP = { #Luppìu
+		own_control_core = {
+			lecce
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = lecce
+	}
+
+	BARI = { #Bárion
+		own_control_core = {
+			bari
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = bari
+	}
+
+	BRDL = { #Bardulos
+		own_control_core = {
+			barletta
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = barletta
+	}
+
+	SIPT = { #Siponto
+		own_control_core = {
+			manfredonia
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = manfredonia
+	}
+
+	TRML = { #Termoli
+		own_control_core = {
+			termoli
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = termoli
+	}
+
+	PSCR = { #Piscàrë
+		own_control_core = {
+			chieti
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+		country_rank = rank_county
+		capital = chieti
+	}
+
+	RIM = { #Rémne
+		own_control_core = {
+			rimini
+		}
+
+		starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_republic"
+		government = {
+			type = republic
+			heir_selection = lottery_election
+			ruler = random
+
+			reforms = {
+				merchant_republic
+			}
+			laws = {
+				republican_foundation_law = republicanism_policy
+				heir_religion_law = heir_same_religion
+			}
+		}
+
+		capital = rimini
+		country_rank = rank_county
 	}
 
 	TTN = {
@@ -53505,11 +53709,10 @@ countries = {
 			malaga antequera velez_malaga
 
 			avila adrada arevalo las_navas oropesa villatoro
-			burgos aranda_de_duero briviesca castrojeriz lerma miranda_de_ebro sto_domingo_silos villadiego villarcayo
-			palencia aguilar_de_campoo carrion_de_los_condes monzon_campos palenzuela saldana reinosa
+			burgos aranda_de_duero briviesca castrojeriz lerma miranda_de_ebro sto_domingo_silos villadiego
+			palencia carrion_de_los_condes monzon_campos palenzuela saldana
 			segovia cuellar fuentiduena pedraza sepulveda
 			soria agreda almazan berlanga burgo_de_osma calatanazor medinaceli
-			santander laredo potes san_vicente_barquera
 			valladolid medina_de_rioseco medina_del_campo penafiel tordesillas
 			cuenca alarcon belmonte beteta canete huete iniesta jorquera molina_de_aragon moya pareja san_clemente requena torralba
 			madrid alcala_de_henares brihuega buitrago_de_lozoya cobeta colmenar el_escorial guadalajara maqueda siguenza zorita
@@ -53522,8 +53725,7 @@ countries = {
 			lugo monforte_de_lemos navia_de_suarna sarria villalba
 			ourense barco_de_valdeorras ginzo_de_limia monterrey ribadavia viana_bolo
 			santiago_compostela finisterre lalin mellid noya pontevedra tuy
-			oviedo aviles cangas castropol llanes mieres tineo villaviciosa
-			leon astorga castrocalbon mansilla ponferrada riano sahagun villablino villafranca_bierzo
+			leon astorga castrocalbon mansilla ponferrada sahagun villafranca_bierzo
 			salamanca alba_de_tormes bejar ciudad_rodrigo coria ledesma matilla_de_canos piedrahita san_felices yecla_de_yeltes
 			zamora alba_de_aliste alcanices benavente fermoselle puebla_de_sanabria toro villalpando
 			cordoba baena carpio espiel fuenteovejuna lucena palma_del_rio pedroche santa_eufemia
@@ -53579,7 +53781,7 @@ countries = {
 	BZIT = {
 		own_control_core = {
 			naples salerno campagna vallo salacon potenza acerenza lagonegro montepeloso altamura
-			bari monopoli martinafr brindisi francavilla taranto lecce gallipoliita santarcangelo
+			monopoli martinafr brindisi francavilla taranto gallipoliita santarcangelo
 			scalea castrovillari cassano paola cosenza rossano cotrone catanzaro nicastro monteleone
 			gerace palmi reggiocal gerace matera
 
@@ -53630,6 +53832,22 @@ countries = {
 			ruler = random
 		}
 		capital = tarragona
+		country_rank = rank_duchy
+	}
+
+	#Cantabria
+	CNTB = {
+		own_control_core = {
+			santander laredo villarcayo reinosa san_vicente_barquera potes llanes cangas
+			riano villablino villaviciosa mieres oviedo aviles castropol tineo aguilar_de_campoo
+		}
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		capital = santander
 		country_rank = rank_duchy
 	}
 

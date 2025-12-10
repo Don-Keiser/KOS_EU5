@@ -516,7 +516,7 @@ religion_definition = catholic
 RIM	= { #rimini
 color = rgb { 255 186 82 }
 
-culture_definition = emilian
+culture_definition = venetian
 religion_definition = catholic
 
 }
@@ -666,6 +666,48 @@ FIUM	= { #Fiume
 	religion_definition = orthodox
 }
 
+LUPP	= { #Luppìu
+	color = rgb { 100 75 90 }
+
+	culture_definition = griko_culture
+	religion_definition = orthodox
+}
+
+BARI	= { #Bárion
+	color = rgb { 95 45 60 }
+
+	culture_definition = griko_culture
+	religion_definition = orthodox
+}
+
+BRDL	= { #Bardulos
+	color = rgb { 80 55 70 }
+
+	culture_definition = griko_culture
+	religion_definition = orthodox
+}
+
+SIPT	= { #Siponto
+	color = rgb { 195 126 132 }
+
+	culture_definition = median
+	religion_definition = catholic
+}
+
+TRML	= { #Termoli
+	color = rgb { 215 156 112 }
+
+	culture_definition = median
+	religion_definition = catholic
+}
+
+PSCR	= { #Piscàrë
+	color = rgb { 225 156 82 }
+
+	culture_definition = median
+	religion_definition = catholic
+}
+
 
 TTN	= { #tortona
 color = rgb { 255 240 240 }
@@ -720,7 +762,6 @@ color = rgb { 191 137 168 }
 
 culture_definition = median
 religion_definition = catholic
-
 
 }
 
