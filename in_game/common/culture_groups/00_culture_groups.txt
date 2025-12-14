@@ -36,6 +36,9 @@ british_group = {
 carpathian_group = {
 }
 
+avar_group = {
+}
+
 caucasian_group = {
 }
 
@@ -73,6 +76,9 @@ western_alan = {
 }
 
 eastern_alan = {
+}
+
+scythian_group = {
 }
 
 balkan_group = {

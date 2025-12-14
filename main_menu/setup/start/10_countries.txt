@@ -1747,8 +1747,38 @@ countries = {
 			ruler = random
 		}
 
+		accepted_cultures = {
+			ezusteszak
+		}
+
 		country_rank = rank_kingdom
 		capital = vienna
+	}
+
+	OSZG = { #Őshonország
+		own_control_core = {
+			rzeszow tesin bielsko zywiec oswiecim myslenice wieliczka raciborz pszczyna
+			chrzanow krakow proszowice toszek strzelce_opolskie lubliniec bytom siewierz
+			mstow lelow ksiaz_wielki czchow nowy_sacz tarnow biecz jaslo debica pilzno
+			wislica busko_zdroj kielce sandomierz opatow kunow ilza zwolen kazimierz
+		}
+
+		starting_technology_level = 3
+		include = "catholic_monarchy_no_coast"
+		include = "expl_northern_europe"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		accepted_cultures = {
+			black_serb
+		}
+
+		country_rank = rank_kingdom
+		capital = rzeszow
 	}
 
 	MVA = {	#Moravia
@@ -3718,177 +3748,6 @@ countries = {
 				heir_religion_law = heir_same_religion
 			}
 		}
-	}
-
-
-	FEO = {	# Theodoro
-
-		starting_technology_level = 3
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = feo_demetrios_gabras
-			ruler_term = { character = feo_demetrios_gabras start_date = 1337.1.1 regnal_number = 1 }
-		}
-		country_rank = rank_duchy
-		capital = theodoro
-
-		tolerated_cultures = {
-			pontic_greek_culture
-		}
-
-		include = "expl_western_europe"
-		include = "eastern_european_monarchy"
-	}
-
-	GAZ = {	# Gazaria
-		own_control_core = {
-			kaffa vosporo #Black Sea
-		}
-
-		own_control_integrated = {
-			tana 
-		}
-
-		starting_technology_level = 3
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = random
-		}
-		capital = kaffa
-
-		accepted_cultures = {
-			pontic_greek_culture
-		}
-
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic"
-	}
-
-	GWR = { # Gower Marcher Lordship
-		include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-		capital = swansea
-
-		government = {
-			ruler_term = { character = eng_john_mowbray start_date = 1331.1.1 regnal_number = 1 }
-			ruler = eng_john_mowbray
-		}
-		tolerated_cultures = { welsh }
-	}
-
-	GMG = { # Glamorgan Marcher Lordship
-		include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-		capital = cardiff
-
-		government = {
-			ruler_term = { character = eng_hugh_le_despenser start_date = 1337.1.1 regnal_number = 1 }
-
-			ruler = eng_hugh_le_despenser
-		}
-		tolerated_cultures = { welsh }
-	}
-
-	MAC = { # March Marcher Lordship
-		include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-		capital = wigmore
-		government = {
-			ruler_term = { character = eng_roger_mortimer_1st_earl_of_march start_date = 1330.11.29 end_date = 1330.11.29 regnal_number = 1 }			
-
-			regency = overlord_regency
-			active_regent = eng_edward_iii
-			start_regency_date = 1330.11.29 
-			end_regency_date = 1350.3.5
-			heir = eng_roger_mortimer_2nd_earl_of_march
-		}
-		tolerated_cultures = { welsh }
-	}
-
-	AUD = { # Arundel Marcher Lordship
-		include = "catholic_monarchy_english_lordship_welsh_marcher_lord_no_coast"
-		capital = oswestry
-
-		government = {
-			ruler_term = { character = eng_richard_fitzalan_ii start_date = 1331.1.1 regnal_number = 1 }
-
-			ruler = eng_richard_fitzalan_ii
-		}
-		tolerated_cultures = { welsh }
-	}
-
-	BRO = { # Brecknock Brecon Marcher Lordship
-		include = "catholic_monarchy_english_lordship_welsh_marcher_lord_no_coast"
-		capital = brecknock
-
-		government = {
-			ruler_term = { character = eng_humphrey_de_bohun_6th_earl_of_hereford start_date = 1336.1.20 regnal_number = 1 }
-
-			ruler = eng_humphrey_de_bohun_6th_earl_of_hereford
-		}
-		tolerated_cultures = { welsh }
-	}
-
-	POS = { # Powis
-		include = "catholic_monarchy_english_lordship_welsh_marcher_lord_no_coast"
-		capital = machynlleth
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-		}
-	}
-
-	EWY = { # Ewyas Marcher Lordship
-		include = "catholic_monarchy_english_lordship_welsh_marcher_lord_no_coast"
-		capital = ewyas
-
-		government = {
-			ruler_term = { character = eng_bartholomew_burghersh_the_elder start_date = 1316.1.1 regnal_number = 1 }
-			ruler = eng_bartholomew_burghersh_the_elder
-		}
-		tolerated_cultures = { welsh }
-	}
-
-	CMS = { # Cemais Marcher Lordship
-		include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-		capital = fishguard
-
-		government = {
-			ruler_term = { character = eng_james_audley_2nd_baron_audley start_date = 1331.1.1 regnal_number = 1 }
-			ruler = eng_james_audley_2nd_baron_audley
-		}
-		tolerated_cultures = { welsh }
-	}
-
-	PMB = { # Pembroke Marcher Lordship
-		include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-		capital = pembroke
-
-		government = {		
-
-			regency = overlord_regency
-			active_regent = eng_edward_iii
-			start_regency_date = 1327.1.25
-			end_regency_date = 1339.3.20
-			heir = eng_laurence_hastings_1st_earl_of_pembroke
-		}
-		tolerated_cultures = { welsh }
-	}
-
-	DEN = { # Denbigh Marcher Lordship
-		include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-		capital = denbigh
-
-		government = {
-			ruler_term = { character = eng_william_montague start_date = 1331.1.1 regnal_number = 1 }
-			ruler = eng_william_montague
-		}
-		tolerated_cultures = { welsh }
 	}
 
 	WLS = { # Wales
@@ -11934,6 +11793,11 @@ countries = {
 
 
 	ACH = { #https://en.wikipedia.org/wiki/Principality_of_Achaea
+		own_control_core = {
+			kalamata andravida chalandritsa pontikokastro andritsaina karytaina kyparissia
+			modon kalavryta tripolitsa veligosti mystras leuktron oitylo monemvasia astros
+			argos xylokastro nafplio ermioni damala kythira
+		}
 		starting_technology_level = 3
 		include = "expl_mediterranean"
 		include = "expl_silk_road_west"
@@ -11944,54 +11808,7 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-
-			ruler = ach_catherine_valois
-
-			ruler_term = { character = ach_guillaume_i_champlitte start_date = 1205.1.1 end_date = 1209.1.1 regnal_number = 1 }
-
-			ruler_term = { character = nap_charles_i_anjou start_date = 1278.5.1 end_date = 1285.1.7 regnal_number = 1 }
-			ruler_term = { character = nap_carlo_ii_anjou start_date = 1285.1.7 end_date = 1289.9.16 regnal_number = 2 }
-			ruler_term = { character = ach_florent_avesnes start_date = 1289.9.16 end_date = 1297.1.23 regnal_number = 1 }
-			ruler_term = { character = sav_philippe_i_savoy_achaia start_date = 1301.2.12 end_date = 1307.1.1 regnal_number = 1 } #Marital Co-Ruler
-
-			ruler_term = { character = alb_filippo_i_taranto start_date = 1307.5.11 end_date = 1313.7.29 regnal_number = 2 }
-
-			ruler_term = {
-				character = ach_mathilde_avesnes start_date = 1313.7.29 end_date = 1315.6.1 regnal_number = 1
-				character = ach_louis_burgundy start_date = 1313.7.29 end_date = 1315.6.1 regnal_number = 1 # As Marital Co-Ruler
-			}
-
-			ruler_term = { character = mll_ferdinand_mallorca start_date = 1315.6.1 end_date = 1316.7.5 regnal_number = 1 }
-
-			ruler_term = {
-				character = ach_mathilde_avesnes start_date = 1316.7.5 end_date = 1316.8.2 regnal_number = 1 # Restored
-				character = ach_louis_burgundy start_date = 1316.7.5 end_date = 1316.8.2 regnal_number = 1 # Restored as Marital Co-Ruler
-			}
-			ruler_term = { character = ach_mathilde_avesnes start_date = 1316.8.2 end_date = 1318.1.1 regnal_number = 1 } # Restored
-			ruler_term = {
-				character = ach_mathilde_avesnes start_date = 1318.1.1 end_date = 1331.1.1 regnal_number = 1 # Restored
-				character = alb_john_gravina start_date = 1318.1.1 end_date = 1331.1.1 regnal_number = 1
-			}
-
-			ruler_term = { character = alb_john_gravina start_date = 1331.1.1 end_date = 1333.1.1 regnal_number = 1 }
-
-			ruler_term = { character = ach_catherine_valois start_date = 1333.1.1 regnal_number = 1 }
-			#ruler_term = { character = ach_robert_taranto start_date = 1333.1.1 regnal_number = 1 } # As Co-Ruler with his mother
-
-			regnal_numbers = {
-				name_william = 2
-				name_godfrey = 2
-				name_charles = 2
-				name_elizabeth = 1
-				name_florence = 1
-				name_philip = 2
-				name_ferdinand = 1
-				name_matilda = 1
-				name_louis = 1
-				name_catherine = 1
-				name_john = 1
-				name_robert = 0 # Should be 1 if Co-Rulers are added
-			}
+			ruler = random
 		}
 
 		tolerated_cultures = {
@@ -11999,10 +11816,7 @@ countries = {
 		}
 
 		country_rank = rank_duchy
-		court_language = french_language
-		capital = andravida
-		dynasty = anjou_dynasty
-		#dynasty = anjou_taranto_dynasty
+		capital = kalamata
 	}
 
 	CEP = {
@@ -14216,7 +14030,7 @@ countries = {
 
 	HUN = {	#Hungary
 		own_control_core = {
-			osijek
+			osijek nowy_targ
 			aiud hunedoara cincu
 			cristuru_secuiesc reghin
 			mezhorje sighet
@@ -27644,7 +27458,7 @@ countries = {
 				tire alasehir balat birgi cine guzelhisar milas nazilli #Aydin
 				manisa demirci foca gordes kula #Saruhan
 				mugla bodrum gokabat golhisar marmaris megri tavas yuksekkum #Mugla
-				chios samos ikaria kos rodos
+				chios samos ikaria kos rodos akhisar
 			}
 
 			country_rank = rank_kingdom
@@ -27665,7 +27479,6 @@ countries = {
 			domanic emet simav
 			mihalic susurluk bigadic balikesir manyas balya soma
 			bandirma gonen
-			akhisar
 			}
 
 		include = "expl_mediterranean"
@@ -53865,9 +53678,8 @@ countries = {
 			ohrid edessa devol berat ballsh kastoria florina ostrovo veria kleisoura_epirus konitsa siatista servia hatera
 			argyrokastro ioannina grevena trikala elassona tyrnavos stomio arta pyli karditsa farsala
 			larissa demetrias angelokastron karpenisi neopatras loidoriki
-			zetounion bodonitsa gravia atalanti livadeia thebes negroponte athens damala nafplio ermioni argos
-			xylokastro kalavryta chalandritsa andravida pontikokastro andritsaina karytaina tripolitsa kyparissia
-			modon kalamata veligosti astros mystras leuktron oitylo monemvasia kythira tsaribrod pirot svrljig
+			zetounion bodonitsa gravia atalanti livadeia thebes negroponte athens
+			tsaribrod pirot svrljig
 
 			orhei tuzara ungheni iasi cotnari targu_neamt piatra_lui_craciun bacau targu_trotus roman vaslui husi targu_lapusnei
 			chisinau tighina gura_galbenei targul_saratii tutova barlad oancea tecuci adjud focsani tulnici cudalbi galati cahul

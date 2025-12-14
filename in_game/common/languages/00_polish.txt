@@ -80,6 +80,8 @@
 	dialects = {
 		kashubian_dialect = {}
 		polabian_dialect = {}
+		prissani_dialect = {}
+		rani_dialect = {}
 		polish_dialect = {}
 		silesian_dialect = {}
 	}

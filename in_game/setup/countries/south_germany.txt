@@ -28,7 +28,7 @@ WSAV = {
 	color = rgb { 91 127 5 }
 	
 	culture_definition = sorbian
-	religion_definition = catholic
+	religion_definition = vulgar_catholic
 }
 
 MVA = {

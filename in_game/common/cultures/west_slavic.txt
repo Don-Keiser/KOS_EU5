@@ -115,6 +115,44 @@ polabian = {
 	opinions = {
 		kashubian = kindred
 		sorbian = kindred
+		prissani = kindred
+		rani = kindred
+	}
+	culture_groups = {
+		slavic_group
+	}
+}
+
+prissani = {
+	language = prissani_dialect
+
+	color = map_prissani
+
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		kashubian = kindred
+		sorbian = kindred
+		polabian = kindred
+		rani = kindred
+	}
+	culture_groups = {
+		slavic_group
+	}
+}
+
+rani = {
+	language = rani_dialect
+
+	color = map_rani
+
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		kashubian = kindred
+		sorbian = kindred
+		polabian = kindred
+		prissani = kindred
 	}
 	culture_groups = {
 		slavic_group

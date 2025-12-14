@@ -6,7 +6,7 @@
 	unit_color1 = rgb {	252 248 245 }
 	unit_color2 = rgb {	52 137 213 }
 
-	culture_definition = lesser_polish
+	culture_definition = greater_polish
 	religion_definition = vulgar_catholic
 
 	description_category = military
@@ -279,4 +279,11 @@ OPV = {
 	
 	culture_definition = silesian
 	religion_definition = catholic
+}
+
+OSZG = {
+	color = rgb { 191 118 76 }
+	
+	culture_definition = osmagyar
+	religion_definition = vulgar_catholic
 }

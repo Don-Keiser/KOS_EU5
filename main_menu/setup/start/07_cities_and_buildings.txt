@@ -370,6 +370,7 @@ locations={
 	kaunas = { rank = town	 	town_setup = baltic_town }
 	konigsberg = { rank = town	town_setup = german_coastal_town }
 	krakow = { rank = city 		town_setup = polish_town }
+	rzeszow = { rank = city 		town_setup = polish_town }
 	plock = 	{ rank = town	town_setup = polish_town }
 	poznan = 	{ rank = town	town_setup = polish_town }
 	torun = 	{ rank = town	town_setup = baltic_town	prosperity = -0.5}

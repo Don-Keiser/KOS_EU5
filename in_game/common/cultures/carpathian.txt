@@ -71,7 +71,7 @@ moldovan = { #MOL /romanian in EU4
 	}
 }
 
-hungarian = { #HUN
+hungarian = { #Hungarians / Southern Magyars
 	language = hungarian_language
 	
 	color = map_hungarian
@@ -81,11 +81,110 @@ hungarian = { #HUN
 	opinions = { 
 		chiyalik_culture = kindred
 		szekely_culture = kindred
+		ezusteszak = kindred
+		aranydeli = kindred
 		kunsag = positive
+		osmagyar = negative
 	}	
 	culture_groups = {
 		hungarian_group
 		carpathian_group
+	}
+}
+
+osmagyar = { #Old Magyars / Northern Magyars
+	language = osmagyar_dialect
+	
+	color = map_osmagyar
+	
+	tags = { hungarian_gfx eastern_european_gfx european_gfx }
+
+	opinions = { 
+		hungarian = negative
+		kunsag = positive
+		ezusteszak = kindred
+		black_serb = kindred
+	}	
+	culture_groups = {
+		hungarian_group
+		carpathian_group
+	}
+}
+
+csango = { #Csangos
+	language = csango_dialect
+	
+	color = map_csango
+	
+	tags = { hungarian_gfx eastern_european_gfx european_gfx }
+
+	opinions = { 
+		chiyalik_culture = kindred
+		szekely_culture = kindred
+		hungarian = kindred
+		etelkozi = kindred
+	}	
+	culture_groups = {
+		hungarian_group
+		carpathian_group
+	}
+}
+
+etelkozi = { #Etelközi Magyars / Eastern Magyars
+	language = etelkozi_dialect
+	
+	color = map_etelkozi
+	
+	tags = { hungarian_gfx eastern_european_gfx european_gfx }
+
+	opinions = { 
+		chiyalik_culture = kindred
+		szekely_culture = kindred
+		hungarian = kindred
+		csango = kindred
+	}	
+	culture_groups = {
+		hungarian_group
+	}
+}
+
+ezusteszak = { #Silver Avars
+	language = ezusteszak_dialect
+	
+	color = map_ezusteszak
+	
+	tags = { hungarian_gfx eastern_european_gfx european_gfx }
+
+	opinions = { 
+		hungarian = kindred
+		szekely_culture = kindred
+		kunsag = positive
+		aranydeli = kindred
+	}	
+	culture_groups = {
+		hungarian_group
+		carpathian_group
+		avar_group
+	}
+}
+
+aranydeli = { #Golden Avars
+	language = aranydeli_dialect
+	
+	color = map_aranydeli
+	
+	tags = { hungarian_gfx eastern_european_gfx european_gfx }
+
+	opinions = { 
+		hungarian = kindred
+		szekely_culture = kindred
+		kunsag = positive
+		ezusteszak = kindred
+	}	
+	culture_groups = {
+		hungarian_group
+		carpathian_group
+		avar_group
 	}
 }
 

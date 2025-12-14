@@ -62,9 +62,19 @@
 		hungarian_language = {
 			default = yes
 		}
+		osmagyar_dialect = {
+		}
+		csango_dialect = {
+		}
+		etelkozi_dialect = {
+		}
 		kunsag_dialect = {
 		}
 		szekely_dialect = {
+		}
+		ezusteszak_dialect = {
+		}
+		aranydeli_dialect = {
 		}
 	}
 

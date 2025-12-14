@@ -72,7 +72,7 @@ THU = {
 OST = {
 	color = rgb { 116 147 116 }
 	
-	culture_definition = saxon
+	culture_definition = dieringisch
 	religion_definition = catholic
 }
 
@@ -484,7 +484,7 @@ HSF = {
 HES = {
 	color = rgb { 114 171 184 }
 
-	culture_definition = dieringisch
+	culture_definition = angrian
 	religion_definition = catholic
 }
 
@@ -591,7 +591,7 @@ SPO = {
 SYN = {
 	color = rgb { 110 128 84 }
 
-	culture_definition = moselle_franconian
+	culture_definition = ostrisch
 	religion_definition = catholic
 }
 
@@ -654,7 +654,7 @@ GMK = {
 WTG = {
 	color = rgb { 221 37 77 }
 
-	culture_definition = rhine_franconian
+	culture_definition = angrian
 	religion_definition = catholic
 }
 
@@ -917,6 +917,6 @@ JEV = {
 
 WIE = {
     color = rgb { 88 158 44 }
-    culture_definition = moselle_franconian
+    culture_definition = ostrisch
     religion_definition = catholic
 }

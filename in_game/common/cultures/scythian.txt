@@ -1,0 +1,27 @@
+﻿sarmatian = {
+	language = sarmatian_language
+	
+	color = map_sarmatian
+	
+	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+
+	culture_groups = {
+		scythian_group
+	}
+}
+
+black_serb = {
+	language = black_serb_dialect
+	
+	color = map_black_serb
+	
+	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		osmagyar = kidnred
+	}
+	culture_groups = {
+		scythian_group
+	}
+}

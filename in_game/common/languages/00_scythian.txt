@@ -1,0 +1,35 @@
+﻿sarmatian_language = {
+	color = map_sarmatian
+
+	family = iranic_language_family
+
+	male_names = {
+		Aslan Aslanbek Batraz Ibragim Khasan Ruslan Soslan Taymuraz
+		Afako Akhsar Akhsarbek Akhsartag name_alan Alyksandr Aslanbeg Astan Astamaz Bakhva Barysbi Batyradz Bega Besik
+		Dauyt Dudar Dzambeg Dzantemir Dzaug Elbrus Geuaergi Irbek Isaq Kazbek Khetag Lazaer Makharbeg Mikhal Nikala
+		Phaule Sarmat Sauarmag Soslanbek Sozyr Sosyryqo Totraz Tsomak Uyryzmag Vano
+	}
+	female_names = {
+		Agunda Arianae Atsyrukhs Dzerassa Elenae Irinae Mariae Mariamae Monikae Nataliae Olgae Qetevan Roksalana
+		Sarae Veronikae Zalina Zarinae Zinae
+	}
+	dynasty_names = {
+
+	}
+	lowborn = {
+		Bazzaty Bestauty Bibylty Dhzioty Gabaraty Kharebaty
+	}
+
+	dialects = {
+		sarmatian_language = {
+			default = yes
+		}
+		black_serb_dialect = {
+		}
+	}
+	# to override the default adjective and noun database for cultural works
+	#adjective = {
+	#}
+	#noun = {
+	#}
+}
