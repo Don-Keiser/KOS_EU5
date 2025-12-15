@@ -287,3 +287,10 @@ OSZG = {
 	culture_definition = osmagyar
 	religion_definition = vulgar_catholic
 }
+
+BLSB = {
+	color = rgb { 165 102 66 }
+	
+	culture_definition = black_serb
+	religion_definition = vulgar_catholic
+}
