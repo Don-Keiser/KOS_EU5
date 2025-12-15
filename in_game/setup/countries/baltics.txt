@@ -108,11 +108,10 @@ BID = {
 	religion_definition = catholic
 }
 RIG = {
-	color = map_riga
-	color2 = rgb { 16 41 202 }
+	color = rgb { 122 109 242 }
 
-	culture_definition = german_baltic
-	religion_definition = catholic
+	culture_definition = estonian
+	religion_definition = muinaisusko
 }
 
 ARR = {
@@ -154,5 +153,54 @@ EST = {
 	color = rgb { 87 58 145 }
 
 	culture_definition = estonian
+	religion_definition = muinaisusko
+}
+
+LIIV = {
+	color = rgb { 104 125 206 }
+
+	culture_definition = liv
+	religion_definition = muinaisusko
+}
+
+KUOL = {
+	color = rgb { 89 98 175 }
+
+	culture_definition = liv
+	religion_definition = muinaisusko
+}
+
+KRMO = {
+	color = rgb { 76 117 163 }
+
+	culture_definition = liv
+	religion_definition = muinaisusko
+}
+
+VANT = {
+	color = rgb { 119 107 175 }
+
+	culture_definition = liv
+	religion_definition = muinaisusko
+}
+
+LIEP = {
+	color = rgb { 155 125 206 }
+
+	culture_definition = liv
+	religion_definition = muinaisusko
+}
+
+UDMO = {
+	color = rgb { 168 84 166 }
+
+	culture_definition = liv
+	religion_definition = muinaisusko
+}
+
+TVNG = {
+	color = rgb { 106 117 160 }
+
+	culture_definition = liv
 	religion_definition = muinaisusko
 }

@@ -939,12 +939,6 @@ countries = {
 	}
 
 	KUR = { #Courland
-		own_control_core = {
-		}
-
-		own_control_integrated = {
-			dundaga piltene
-		}
 
 		include = "catholic_bishopric"
 		include = "expl_northern_europe"
@@ -52275,13 +52269,13 @@ countries = {
 		}
 
 		starting_technology_level = 3
-		include = "expl_northern_europe"
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy"
 
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-
-			#ruler = ???
+			ruler = random
 
 			centralization_vs_decentralization = 20
 			aristocracy_vs_plutocracy = 15
@@ -52300,6 +52294,146 @@ countries = {
 
 		country_rank = rank_kingdom
 		capital = tallinn
+	}
+
+	
+	LIIV = { #Liivonia
+		own_control_core = {
+			kaunas skuodas mazeikiai papile zagare linkava birzai rokiskis daugavpils
+			rietavas medininkai kraziai siauliai pasvalys silale taurage raseiniai
+			tendziogala upyte panevezys maleisiai utena ezerenai drysvyaty svencionys
+			anyksciai giedraiciai kernave vilnius vilkmerge kedainiai jurbarkas ragnit
+			tilsit panemune vilkaviskis alytus punia trakai lazdijai suwalki veisiejai
+			merkine onushkis medininkai_vilna
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_duchy
+		capital = kaunas
+	}
+
+	KUOL = { #Kūolka
+		own_control_core = {
+			dundaga kandava
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_county
+		capital = dundaga
+	}
+
+	KRMO = { #Kurāmō
+		own_control_core = {
+			kuldiga piltene durbe saldus
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_county
+		capital = kuldiga
+	}
+
+	VANT = { #Vänta
+		own_control_core = {
+			ventspils
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_county
+		capital = ventspils
+	}
+
+	LIEP = { #Līepõ
+		own_control_core = {
+			grobina palanga
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_county
+		capital = grobina
+	}
+
+	UDMO = { #Udmō
+		own_control_core = {
+			windenburg memel
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_county
+		capital = windenburg
+	}
+
+	TVNG = { #Tvingiste
+		own_control_core = {
+			konigsberg fischhausen brandenburg_prussia labiau gumbinnen gerdauen
+			insterburg wegorzewo wehlau
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_county
+		capital = konigsberg
 	}
 
 	#Greater Mauretania
