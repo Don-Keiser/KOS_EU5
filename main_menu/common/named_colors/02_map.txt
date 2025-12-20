@@ -938,6 +938,7 @@ colors = {
 	religion_arian = rgb { 74 86 47 }
 	map_mithraic_zalmoxis = rgb { 76 0 26 }
 	map_jayayan_zalmukh = rgb { 165 0 58 }
+	map_scythian_pantheon = rgb { 184 156 112 }
 	map_celtic_paganism = rgb { 198 163 93 }
 	map_gallo_roman = rgb { 168 14 5 }
 	map_senchred = rgb { 44 55 66 }

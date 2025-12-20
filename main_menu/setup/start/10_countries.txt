@@ -1807,6 +1807,95 @@ countries = {
 		capital = warsaw
 	}
 
+	SRBZ = { #Sarbazhda
+		own_control_core = {
+			pinsk iziaslav polonne novohrad_volynskyi hajnowka kamyenyets dabuchyn
+			zdzitov kobryn motal drahichyn bolshie_krugovichi lakhva zhytkavichy
+			pietrykaw buinovichi kopyshche yemilchyne chortolisy luninets malaryta
+			chernyany ratne shatsk liuboml turiisk kovel kamin liubeshiv nobel melnytsya
+			chortoryisk rozhyshche peremyl lutsk volodymyrets stolin davyd_haradok turov
+			lelchytsy olevsk hlynne dubrovytsia viry stepan kostopil korets rivne peresopnytsya
+			dubno kremenets ostroh
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy_no_coast"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_duchy
+		capital = pinsk
+	}
+
+	SPAL = { #Spalia
+		own_control_core = {
+			chernihiv rudobelka svietlahorsk streshyn chachersk volosovichy gomel
+			popowa_gora klintsy starodub_siverskyi radogosch novhorod_siverskyi verba
+			sosnytsia nizhyn oster kozelets lutava dymer zdvizhen korostyshiv zhytomyr
+			ropsk dobrush tereshkovichy snovsk horodnia liubech rechytsa kholmyech brahin
+			khoiniki kalinkavichy mazyr belaya_soroka chornobyl stodolichi ovruch narodychi
+			bilokorovychi malyn korosten mychesk
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy_no_coast"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_duchy
+		capital = chernihiv
+	}
+
+	TSZH = { #Tsarzhadar
+		own_control_core = {
+			myrhorod desnyanskyi_horodok boryspil yaroslavka pereiaslav yahotyn zolotonosha
+			horoshino horodyshche kremenchuk oril karlivka zmiiv chuhuiv belgorod manturovo_kursk
+			kursk olgov kosozhichi rylsk sevsk trubchevsk
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy_no_coast"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_duchy
+		capital = myrhorod
+	}
+
+	TRGD = { #Targand
+		own_control_core = {
+			kreminna
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy_no_coast"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_duchy
+		capital = kreminna
+	}
+
 	MVA = {	#Moravia
 
 		government = {

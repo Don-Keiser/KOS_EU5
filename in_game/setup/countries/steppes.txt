@@ -81,3 +81,31 @@ GAZ = {
 	culture_definition = ligurian
 	religion_definition = catholic
 }
+
+SRBZ = {
+	color = rgb { 156 178 76 }
+
+	culture_definition = sarmatian
+	religion_definition = scythian_pantheon
+}
+
+SPAL = {
+	color = rgb { 219 104 28 }
+
+	culture_definition = sarmatian
+	religion_definition = scythian_pantheon
+}
+
+TSZH = {
+	color = rgb { 129 198 157 }
+
+	culture_definition = sarmatian
+	religion_definition = scythian_pantheon
+}
+
+TRGD = {
+	color = rgb { 242 135 163 }
+
+	culture_definition = sarmatian
+	religion_definition = scythian_pantheon
+}
