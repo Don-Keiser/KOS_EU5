@@ -1859,8 +1859,11 @@ countries = {
 	TSZH = { #Tsarzhadar
 		own_control_core = {
 			myrhorod desnyanskyi_horodok boryspil yaroslavka pereiaslav yahotyn zolotonosha
-			horoshino horodyshche kremenchuk oril karlivka zmiiv chuhuiv belgorod manturovo_kursk
-			kursk olgov kosozhichi rylsk sevsk trubchevsk
+			horoshino horodyshche kremenchuk oril karlivka manturovo_kursk
+			kursk olgov kosozhichi rylsk sevsk trubchevsk znobov voronizh_chernihiv hlukhiv melnya
+			putyvl bakhmach buryn ichnia romen pryluky pyriatyn chornukhy lypova_dolyna lubny glushkovo
+			sudzha muzhech oboyan vilshana sumy krasnopillia rakitnoye hadiach opishnya okhtyrka khotmyzh
+			kotelva velyki_sorochyntsi hovtva poltava kolomak
 		}
 
 		starting_technology_level = 3
@@ -1879,7 +1882,9 @@ countries = {
 
 	TRGD = { #Targand
 		own_control_core = {
-			kreminna
+			kreminna donets_kharkiv zmiiv chuhuiv belgorod korocha oskol chernyanka ostrogozhsk
+			alexeyevka rossosh vovchansk kupiansk izium valuyki rovenki kalnivka novopskov
+			nyzhnia_duvanka bielska_sloboda novoaidar bilovodsk konstantinovka boguchar chertkovo
 		}
 
 		starting_technology_level = 3
@@ -1894,6 +1899,97 @@ countries = {
 
 		country_rank = rank_duchy
 		capital = kreminna
+	}
+
+	VLGM = { #Völgmyi
+		own_control_core = {
+			vinnytsia zbarazh tykhomel ternopil terebovlia khorostkiv horodok mezhybozhe liubar
+			chudniv khmilnyk letychiv rov bakota ushytsia mohyliv_podilskyi drahushiv soroca balti
+			karabul bratslav buzhskyi berdychiv sokilets teplyk bershad savran
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy_no_coast"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_duchy
+		capital = vinnytsia
+	}
+
+	ETLK = { #Etelköz
+		own_control_core = {
+			korsun kyiv fastiv sherbiv skvyra pohrebyshche bila_tserkva kaharlyk bohuslav kaniv
+			rozkishna tsybuliv zvenyhorodka zavallia uman torhovytsia umanske lebedyn smila cherkasy
+			chyhyryn harbuzynka mala_vyska yelanets usivka ingul petrove myshuryn_rih argamakli_sarai
+			bashtanka bereznehuvate kryvyi_rih sofiivka mykytyn_rih kodak tomakivka vithold_hammami
+			oleshia tavan velyka_oleksandrivka balta aqmecit_prybuzhzhya ananiv balikley dashev teligol
+			kuyanlik iagorlic khadjibey
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_kingdom
+		capital = korsun
+	}
+
+	INWA = { #Inwa
+		own_control_core = {
+			theodoro lusta soldaia qirq_yer kezlev qarasuvbazar solkhat kaffa vosporo aqmecit jurchi
+			or_qapi kalay seyitler ordu_bazar aslan_horod qalancaq rohat_kermen enice
+			kyrylivka melitopol
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_duchy
+		capital = theodoro
+	}
+
+	KARL = { #Karluks
+		type = army
+		own_control_core = {
+			posad velyka_lepetykha kuchugur tokmak berdiansk konski_vody adalaga berestyn barvinkove
+			sloviansk samarchyk ternivka rozdory kichkas pavlohrad hryshyne oleksandrivka bakhmut
+			huliaipole velyka_novosilka domakha shyrokyne taganrog vasylivka lysychansk luhansk
+			rovenky tana krasny_sulin kalmius shakhty kamenskaya mityakinskaya millerovo belaya_kalitva
+			kashary konstantinovsk ust_tsimla tatsinskaya tormosin milyutinskaya oblivskaya nizhny_chir
+			bokovskaya ust_medveditskaya kletskaya kremenskaya
+		}
+
+		starting_technology_level = 3
+		include = "expl_mongols"
+		include = "eurasian_horde"
+
+		government = {
+			type = steppe_horde
+			heir_selection = tribal_oldest_male
+			ruler = random
+		}
+
+		country_rank = rank_kingdom
+		capital = posad
 	}
 
 	MVA = {	#Moravia

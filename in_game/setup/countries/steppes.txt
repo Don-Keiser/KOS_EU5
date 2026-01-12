@@ -109,3 +109,31 @@ TRGD = {
 	culture_definition = sarmatian
 	religion_definition = scythian_pantheon
 }
+
+VLGM = {
+	color = rgb { 204 158 38 }
+
+	culture_definition = csango
+	religion_definition = orthodox
+}
+
+ETLK = {
+	color = rgb { 112 90 86 }
+
+	culture_definition = etelkozi
+	religion_definition = orthodox
+}
+
+INWA = {
+	color = rgb { 110 112 100 }
+
+	culture_definition = burmese_culture
+	religion_definition = orthodox
+}
+
+KARL = {
+	color = rgb { 173 133 60 }
+
+	culture_definition = sarmatian
+	religion_definition = tengri
+}
