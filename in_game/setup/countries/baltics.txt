@@ -204,3 +204,17 @@ TVNG = {
 	culture_definition = liv
 	religion_definition = muinaisusko
 }
+
+ASKR = {
+	color = rgb { 115 188 137 }
+
+	culture_definition = issartian
+	religion_definition = muinaisusko
+}
+
+ISSK = {
+	color = rgb { 149 229 178 }
+
+	culture_definition = issartian
+	religion_definition = muinaisusko
+}

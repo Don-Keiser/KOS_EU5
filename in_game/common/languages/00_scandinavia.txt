@@ -353,6 +353,9 @@ finnish_language = {
 		estonian_dialect = {
 
 		}
+		issartian_dialect = {
+
+		}
 	}
 }
 

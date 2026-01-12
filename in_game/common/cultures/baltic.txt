@@ -49,14 +49,33 @@ estonian = { #https://en.wikipedia.org/wiki/Estonians
 	tags = { finnish_gfx baltic_gfx eastern_european_gfx european_gfx }
 
 	opinions = {
-		german_baltic = negative
-		latvian = positive
+		issartian = positive
 		liv = kindred
 	}
 	
 	culture_groups = {
 		finnic_group
 		baltic_group
+	}
+}
+
+issartian = { #Estonian and Sarmatian mix
+	language = issartian_dialect
+	
+	color = map_issartian
+	
+	tags = { finnish_gfx caucasian_gfx baltic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		estonian = kindred
+		liv = positive
+		sarmatian = kindred
+	}
+	
+	culture_groups = {
+		finnic_group
+		baltic_group
+		scythian_group
 	}
 }
 

@@ -2106,6 +2106,52 @@ countries = {
 		capital = dorohoi
 	}
 
+	ASKR = { #Askarautia
+		own_control_core = {
+			minsk syanno drutsk bobr tyatseryn klichaw luchin bocheikovo ushachy lyepyel
+			lukolm barysaw krupki lyubashany miory braslaw zabore hlybokaye dokshytsy begoml
+			myadzyel svir vileyka ilya lahoysk krasnoe smalyavichy byerazino chervyen marjina_horka
+			svislach babruysk hlusk staryya_darohi slutsk starobin kapyl kletsk ashmyany kreva hieraniony
+			halshany rakau stowbtsy koidanova nyasvizh turets lyakhavichy novogrudok lyubcha eisiskes lida
+			astrina shchuchyn bershty masty dzyatlava slonim vyada vowpa vawkavysk porazava
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy_no_coast"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_duchy
+		capital = minsk
+	}
+
+	ISSK = { #Issarkaita
+		own_control_core = {
+			smolensk pochep knyazhichi vshchizh foshnya pogostishche lyubun shui demensk dorogobuzh yelnya
+			berezhnyany demidov katyn mikulino vydreya orsha rudnya krasny belik pustosel roslavl rognedino
+			izyaslavl zaroy mglin khotsimsk drokov kastsyukovichy shumyachi krychaw monastyrshchina mstsislaw
+			horki chavusy slawharad kopys mogilev novy_bykhaw bykhaw rahachow
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy_no_coast"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_duchy
+		capital = smolensk
+	}
+
 	MVA = {	#Moravia
 
 		government = {
