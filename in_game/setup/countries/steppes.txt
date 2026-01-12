@@ -137,3 +137,45 @@ KARL = {
 	culture_definition = sarmatian
 	religion_definition = tengri
 }
+
+FNYV = {
+	color = rgb { 182 255 5 }
+
+	culture_definition = csango
+	religion_definition = orthodox
+}
+
+SZTP = {
+	color = rgb { 160 230 15 }
+
+	culture_definition = csango
+	religion_definition = orthodox
+}
+
+KOKP = {
+	color = rgb { 195 200 35 }
+
+	culture_definition = csango
+	religion_definition = orthodox
+}
+
+SZLV = {
+	color = rgb { 165 180 45 }
+
+	culture_definition = csango
+	religion_definition = orthodox
+}
+
+ATJR = {
+	color = rgb { 200 200 65 }
+
+	culture_definition = csango
+	religion_definition = orthodox
+}
+
+MGTF = {
+	color = rgb { 165 180 85 }
+
+	culture_definition = csango
+	religion_definition = orthodox
+}

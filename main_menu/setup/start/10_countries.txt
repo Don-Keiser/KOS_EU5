@@ -1992,6 +1992,120 @@ countries = {
 		capital = posad
 	}
 
+	FNYV = { #Fenyővár
+		own_control_core = {
+			suceava campulung_moldovenesc siret
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy_no_coast"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_county
+		capital = suceava
+	}
+
+	SZTP = { #Szentpatak
+		own_control_core = {
+			putna kosiv storozhynets
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy_no_coast"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_county
+		capital = putna
+	}
+
+	KOKP = { #Kőkapu
+		own_control_core = {
+			hotin cernauti cetatea_tetina sniatyn
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy_no_coast"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_county
+		capital = hotin
+	}
+
+	SZLV = { #Szőlővár
+		own_control_core = {
+			kamianets_podilskyi zalishchyky
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy_no_coast"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_county
+		capital = kamianets_podilskyi
+	}
+
+	ATJR = { #Átjáró
+		own_control_core = {
+			viadineti lipnic
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy_no_coast"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_county
+		capital = viadineti
+	}
+
+	MGTF = { #Magtárföld
+		own_control_core = {
+			dorohoi harlau stefanesti
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_monarchy_no_coast"
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+
+		country_rank = rank_county
+		capital = dorohoi
+	}
+
 	MVA = {	#Moravia
 
 		government = {
