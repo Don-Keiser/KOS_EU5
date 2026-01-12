@@ -2152,6 +2152,90 @@ countries = {
 		capital = smolensk
 	}
 
+	HAMA = { #Suomi Tribe (Hämäläiset)
+		own_control_core = {
+			tavastehus hollola jamsa birkala ikalis sastamala hvittis forssa
+		}
+
+		include = "expl_northern_europe"
+		include = "eastern_european_catholic"
+
+		government = {
+			type = tribe
+			ruler = random
+		}
+		capital = tavastehus
+		country_rank = rank_duchy
+	}
+
+	SAVO = { #Savonian Tribe (Savolaeset)
+		own_control_core = {
+			jyvaskyla sysma itis laukas kangasniemi heinola mikkeli ristiina joroinen kuopio
+			olofsborg savonranta rautavaara joensuu juuka idensalmi kajana nurmes sotkamo
+			lieksa repola kuhmo suomussalmi taivalkoski kuusamo
+		}
+
+		include = "expl_northern_europe"
+		include = "eastern_european_catholic"
+
+		government = {
+			type = tribe
+			ruler = random
+		}
+		capital = jyvaskyla
+		country_rank = rank_duchy
+	}
+
+	POHJ = { #Ostrobothnian Tribe (Pohjalaiset)
+		own_control_core = {
+			karleby simo pedersore brahestad uleaborg kuivaniemi ranua pudasjarvi utajarvi paltamo
+			siikalatva kaustby viitasaari lappo saarijarvi orivesi
+		}
+
+		include = "expl_northern_europe"
+		include = "eastern_european_catholic"
+
+		government = {
+			type = tribe
+			ruler = random
+		}
+		capital = karleby
+		country_rank = rank_duchy
+	}
+
+	KRJL = { #Karelian Tribe (Karjalaižet)
+		own_control_core = {
+			kinerma salmi suojarvi mohko sellinkyla pieninka ontajarvi puatane rukajarvi tunkuo
+			suikujarvi kem jyskyjarvi uhtuo paanajarvi kriitina kiestinki keret kovda raivke
+		}
+
+		include = "expl_northern_europe"
+		include = "eastern_european_catholic"
+
+		government = {
+			type = tribe
+			ruler = random
+		}
+		capital = kinerma
+		country_rank = rank_kingdom
+	}
+
+	IZRT = { #Izhorian Tribe (Ižorat)
+		own_control_core = {
+			sordavala vartsila loimola ilomantsi
+		}
+
+		include = "expl_northern_europe"
+		include = "eastern_european_catholic"
+
+		government = {
+			type = tribe
+			ruler = random
+		}
+		capital = sordavala
+		country_rank = rank_county
+	}
+
 	MVA = {	#Moravia
 
 		government = {

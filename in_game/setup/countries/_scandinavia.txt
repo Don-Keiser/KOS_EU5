@@ -150,6 +150,41 @@ TAV = {
 	
 }
 
+HAMA = {
+	color = rgb { 228 187 228 }
+
+	culture_definition = tavastian
+	religion_definition = muinaisusko
+}
+
+POHJ = {
+	color = rgb { 156 206 206 }
+
+	culture_definition = tavastian
+	religion_definition = muinaisusko
+}
+
+SAVO = {
+	color = rgb { 252 255 211 }
+
+	culture_definition = savonian
+	religion_definition = muinaisusko
+}
+
+KRJL = {
+	color = rgb { 185 173 206 }
+
+	culture_definition = karelian
+	religion_definition = muinaisusko
+}
+
+IZRT = {
+	color = rgb { 150 206 115 }
+
+	culture_definition = ingrian
+	religion_definition = muinaisusko
+}
+
 KVE = {
 	color = map_kvens
 	color2 = rgb { 16 41 202 }
