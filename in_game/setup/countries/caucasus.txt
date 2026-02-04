@@ -12,3 +12,24 @@ SRV = { #Shirvan
 	culture_definition = adhari_culture
 	religion_definition = sunni
 }
+
+GEO = { #Georgia
+	color = rgb { 73 119 38 }
+
+	culture_definition = georgian_culture
+	religion_definition = orthodox
+}
+
+LAZO = { #Lazonia
+	color = rgb { 84 137 44 }
+
+	culture_definition = laz_culture
+	religion_definition = orthodox
+}
+
+CIBR = { #Caucasian Iberia
+	color = rgb { 137 108 55 }
+
+	culture_definition = georgian_culture
+	religion_definition = zoroastrian
+}
