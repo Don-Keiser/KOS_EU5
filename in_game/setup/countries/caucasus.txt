@@ -6,11 +6,10 @@
 	religion_definition = orthodox
 }
 SRV = { #Shirvan
-	color = map_SRV
-	color2 = rgb { 16 41 202 }
+	color = rgb { 107 84 42 }
 
 	culture_definition = adhari_culture
-	religion_definition = sunni
+	religion_definition = zoroastrian
 }
 
 GEO = { #Georgia
@@ -31,5 +30,12 @@ CIBR = { #Caucasian Iberia
 	color = rgb { 137 108 55 }
 
 	culture_definition = georgian_culture
+	religion_definition = zoroastrian
+}
+
+ARRN = { #Caucasian Albania
+	color = rgb { 89 70 33 }
+
+	culture_definition = armenian_culture
 	religion_definition = zoroastrian
 }

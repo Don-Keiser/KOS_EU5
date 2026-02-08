@@ -26612,7 +26612,7 @@ countries = {
 			tarsus candir_cil corycus molevon #Tarsus
 			sis anavarza caxud #Sis
 			amasya ladik_pontus merzifon sonisa #Amasya
-			giresun akkus bayramlu mesudiye terme unye gorele #Canik
+			akkus bayramlu mesudiye terme unye #Canik
 			sebinkarahisar keban harput sivrice #Erzurum
 			adana ayas kars_armenia iskenderun #Adana
 			divrigi arapgir arguvan egin #Arguvan
@@ -49098,8 +49098,10 @@ countries = {
 			oltu panaskerti tortum ispir parkhali
 			bayazit siah_cheshmeh maku nazok_olya qarahziaoddin khoy marand hadishahr
 			nakhchivan julfa gladzor tatev kapan_armenia goris
-			kashatagh mus sotk
-			lori gagi kayen khunani spitak
+			kashatagh mus sotk dmanisi kldekari tbilisi gori
+			lori gagi kayen khunani spitak mardanaqom shamkir gardman haterk
+			egil heni kulp hazro mayyafariqin sason kozluk hasankeyf bitlis siirt eruh
+			hizan bahcesaray catak baskale salmas urmia semdinli hakkari
 		}
 
 		include = "expl_christian_caucasus"
@@ -49124,12 +49126,15 @@ countries = {
 		}
 		liturgical_language = armenian_language
 
+		country_rank = rank_kingdom
 		capital = yerevan
 	}
 
 	GEO = { #Georgia
 		own_control_core = {
-			poti_caucasus
+			poti_caucasus pitsunda anacopia sukhumi lata_georgia bedia anaklia tsalenjikha
+			ushguli lentekhi tsageri tsesi kutaisi skande vartsikhe ozurgeti batumi khikhani savsat
+			artanuji akhaltsikhe shorapani tsagvli kasriskari
 		}
 
 		include = "expl_christian_caucasus"
@@ -49147,7 +49152,7 @@ countries = {
 
 	LAZO = { #Lazona
 		own_control_core = {
-			trebizond
+			trebizond khupati rize surmene gumushane gorele giresun
 		}
 
 		include = "expl_christian_caucasus"
@@ -49165,11 +49170,12 @@ countries = {
 
 	CIBR = { #Caucasian Iberia
 		own_control_core = {
-			telavi
+			telavi mtskheta kvenipnevi dusheti alaverdi rustavi omalo gremi bodbe
+			hereti khornabuji balakan qakh shaki shatili
 		}
 
 		include = "expl_christian_caucasus"
-		include = "eastern_european_monarchy"
+		include = "eastern_european_monarchy_no_coast"
 		starting_technology_level = 3
 		government = {
 			type = monarchy
@@ -49179,6 +49185,44 @@ countries = {
 		
 		country_rank = rank_duchy
 		capital = telavi
+	}
+
+	ARRN = { #Caucasian Albania (Arran)
+		own_control_core = {
+			zardab barda ganja gandzasar shusha lemberan goroz beylagan aresh vartashen
+			qabala goychay agsu javad shamakhi varsan aslanduz kaleybar
+		}
+
+		include = "expl_christian_caucasus"
+		include = "eastern_european_monarchy_no_coast"
+		starting_technology_level = 3
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		
+		country_rank = rank_duchy
+		capital = zardab
+	}
+
+	SRV = { #Shirvan
+		own_control_core = {
+			baku shirvan maraza shabran qobustan mahmudabad mughan bilasuvar salyan baciravan
+			lankaran
+		}
+
+		include = "expl_middle_east"
+		include = "eastern_european_monarchy"
+		starting_technology_level = 3
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		
+		capital = baku
+		country_rank = rank_duchy
 	}
 
 	#Arabia
